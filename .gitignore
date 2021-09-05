@@ -1,3 +1,6 @@
 wikidata/
 wp1/
 nanowiki/
+all.ttl
+*.uris
+*.json
