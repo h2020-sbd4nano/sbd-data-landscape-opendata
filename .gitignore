@@ -5,5 +5,8 @@ all.ttl
 *.uris
 *.json
 dataset.rq
-dataset.shex
+database.rq
+model.rq
+assertion.rq
+*.shex
 *_count.rq
