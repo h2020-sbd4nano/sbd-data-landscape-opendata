@@ -4,6 +4,9 @@
 # 2. then create an env variable:
 #    export GH_TOKEN=YOUR_GITHUB_PAT
 
+wget --header "Authorization: token ${GH_TOKEN}" -O dataset.shex https://raw.githubusercontent.com/h2020-sbd4nano/sbd-data-landscape/master/shapes/void.shex
+wget --header "Authorization: token ${GH_TOKEN}" -O dataset.rq https://raw.githubusercontent.com/h2020-sbd4nano/sbd-data-landscape/master/shapes/void.rq
+
 wget --header "Authorization: token ${GH_TOKEN}" -O source.shex https://raw.githubusercontent.com/h2020-sbd4nano/sbd-data-landscape/master/shapes/source.shex
 
 wget --header "Authorization: token ${GH_TOKEN}" -O dataset.shex https://raw.githubusercontent.com/h2020-sbd4nano/sbd-data-landscape/master/shapes/dataset.shex

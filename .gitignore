@@ -4,10 +4,6 @@ nanowiki/
 all.ttl
 *.uris
 *.json
-dataset.rq
-database.rq
-model.rq
-assertion.rq
+*.rq
 *.shex
-*_count.rq
 shexValidation.log
