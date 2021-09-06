@@ -6,4 +6,4 @@ all.ttl
 *.json
 dataset.rq
 dataset.shex
-dataset_count.rq
+*_count.rq

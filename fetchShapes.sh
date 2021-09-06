@@ -7,3 +7,9 @@
 wget --header "Authorization: token ${GH_TOKEN}" -O dataset.shex https://raw.githubusercontent.com/h2020-sbd4nano/sbd-data-landscape/master/shapes/dataset.shex
 wget --header "Authorization: token ${GH_TOKEN}" -O dataset.rq https://raw.githubusercontent.com/h2020-sbd4nano/sbd-data-landscape/master/shapes/dataset.rq
 wget --header "Authorization: token ${GH_TOKEN}" -O dataset_count.rq https://raw.githubusercontent.com/h2020-sbd4nano/sbd-data-landscape/master/shapes/dataset_count.rq
+
+wget --header "Authorization: token ${GH_TOKEN}" -O model_count.rq https://raw.githubusercontent.com/h2020-sbd4nano/sbd-data-landscape/master/shapes/model_count.rq
+
+wget --header "Authorization: token ${GH_TOKEN}" -O database_count.rq https://raw.githubusercontent.com/h2020-sbd4nano/sbd-data-landscape/master/shapes/database_count.rq
+
+wget --header "Authorization: token ${GH_TOKEN}" -O assertion_count.rq https://raw.githubusercontent.com/h2020-sbd4nano/sbd-data-landscape/master/shapes/assertion_count.rq
