@@ -1,6 +1,8 @@
 wikidata/
 wp1/
 nanowiki/
+aop/
+diamonds/
 all.ttl
 *.uris
 *.json
