@@ -29,5 +29,6 @@ Then, run these commands:
 
 ```shell
 sh fetchData.sh
+sh fetchShapes.sh
 make
 ```
