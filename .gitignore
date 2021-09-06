@@ -10,3 +10,4 @@ model.rq
 assertion.rq
 *.shex
 *_count.rq
+shexValidation.log
