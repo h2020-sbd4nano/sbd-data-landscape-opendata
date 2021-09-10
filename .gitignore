@@ -3,6 +3,8 @@ wp1/
 nanowiki/
 aop/
 diamonds/
+assertions/
+nanocommons/
 all.ttl
 *.uris
 *.json
