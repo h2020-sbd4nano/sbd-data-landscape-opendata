@@ -5,6 +5,7 @@ aop/
 diamonds/
 assertions/
 nanocommons/
+nanosolveit/
 all.ttl
 *.uris
 *.json
