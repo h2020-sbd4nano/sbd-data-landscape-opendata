@@ -6,6 +6,7 @@ diamonds/
 assertions/
 nanocommons/
 nanosolveit/
+smartnanotox/
 all.ttl
 *.uris
 *.json
