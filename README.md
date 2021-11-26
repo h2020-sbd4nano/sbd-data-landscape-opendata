@@ -29,6 +29,7 @@ Then, run these commands:
 
 ```shell
 sh fetchData.sh
+make validation
 sh fetchShapes.sh
 make statistics
 make | tee shexValidation.log
