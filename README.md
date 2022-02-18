@@ -16,10 +16,16 @@ A Ubuntu or Debian system, e.g. with the Windows Linux Subsystem.
 * jq
 * npm
 
-Install the npm shex module with:
+Install the Debian/Ubuntu packages with:
 
 ```shell
-npm install shex
+sudo apt install wget rasqal-utils jq npm
+```
+
+Install the npm shexjs module with:
+
+```shell
+npm install @shexjs/cli
 ```
 
 ## How to run
