@@ -8,6 +8,7 @@ assertions/
 nanocommons/
 nanosolveit/
 smartnanotox/
+ambit/
 all.ttl
 *.uris
 *.json
