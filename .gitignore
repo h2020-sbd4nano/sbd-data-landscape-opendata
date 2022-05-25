@@ -1,6 +1,7 @@
 node_modules/
 wikidata/
 wp1/
+wp2/
 nanowiki/
 aop/
 diamonds/
@@ -9,6 +10,7 @@ nanocommons/
 nanosolveit/
 smartnanotox/
 ambit/
+vhp4safety/
 all.ttl
 open.ttl
 open.txt
