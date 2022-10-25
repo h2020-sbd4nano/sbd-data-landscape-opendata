@@ -40,3 +40,11 @@ sh fetchShapes.sh
 make statistics
 make | tee shexValidation.log
 ```
+
+## Make the all.ttl and open.ttl
+Run the `fetchData.sh` file to download all data. This script also defines the files that are "open" and which ones are not. 
+Next, run the following commands to create the `open.ttl` and `all.ttl` respectively:
+```shell
+make open.ttl
+make all.ttl
+```
