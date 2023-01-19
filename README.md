@@ -28,6 +28,20 @@ Install the npm shexjs module with:
 npm install @shexjs/cli
 ```
 
+Install ROBOT:
+
+```shell
+wget https://github.com/ontodev/robot/releases/download/v1.7.0/robot.jar
+curl https://raw.githubusercontent.com/ontodev/robot/master/bin/robot > robot
+```
+
+Get a copy of the eNanoMapper ontology and convert it with ROBOT to Turtle:
+
+```shell
+wget https://github.com/enanomapper/ontologies/releases/download/v9.0/enanomapper-full.owl
+sh ./robot convert --input enanomapper-full.owl --output enanomapper-full.ttl
+```
+
 ## How to run
 
 First, read the `fetchData.sh` file and get a GitHub Personal Access Token (PAT).
