@@ -20,3 +20,6 @@ open.txt
 *.shex
 shexValidation.log
 sbd4nano/
+enanomapper-full.*
+robot
+robot.jar
