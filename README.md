@@ -31,6 +31,12 @@ npm install @shexjs/cli
 ## How to run
 
 First, read the `fetchData.sh` file and get a GitHub Personal Access Token (PAT).
+Set the latter with:
+
+```shell
+export GH_TOKEN=YOUR_GITHUB_PAT
+```
+
 Then, run these commands:
 
 ```shell
