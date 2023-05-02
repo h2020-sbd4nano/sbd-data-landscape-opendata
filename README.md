@@ -1,11 +1,12 @@
-# sbd-data-landscape-data
+# sbd-data-landscape-opendata
 
-CONFIDENTIAL. NEVER TO BE SHARED. CONTAINS PROPRIETARY DATA. NOT EVEN FINAL. 
+This repository is about SbD4Nano Landscape data from openly licensed resources.
+Internally, the project has a larger collection of data, including data that cannot
+be shared. This repository are the tools needed to collect the RDF behind our
+public SPARQL endpoint and the basis of an eBook:
 
-THIS IS JUST A CACHE FOR CONVENIENCE. NOT TO BE SHARED UNDER ANY SITUATION OUTSIDE BIGCAT.
-
-SCREAM. ALERT.
-
+* SPARQL endpoint: https://sbd4nanolandscape.rdf.bigcat-bioinformatics.org/
+* eBook: https://h2020-sbd4nano.github.io/sbd-data-book/
 
 ## Requirements
 
@@ -44,14 +45,7 @@ sh ./robot convert --input enanomapper-full.owl --output enanomapper-full.ttl
 
 ## How to run
 
-First, read the `fetchData.sh` file and get a GitHub Personal Access Token (PAT).
-Set the latter with:
-
-```shell
-export GH_TOKEN=YOUR_GITHUB_PAT
-```
-
-Then, run these commands:
+First, check the `fetchData.sh` file in this repository. Then, run these commands:
 
 ```shell
 sh fetchData.sh
@@ -61,10 +55,11 @@ make statistics
 make | tee shexValidation.log
 ```
 
-## Make the all.ttl and open.ttl
-Run the `fetchData.sh` file to download all data. This script also defines the files that are "open" and which ones are not. 
-Next, run the following commands to create the `open.ttl` and `all.ttl` respectively:
+## Make the open.ttl
+
+Run the `fetchData.sh` file to download all data. This script also defines the files
+that are open-licensed and which ones are not. Next, run the following commands to create the `open.ttl`:
+
 ```shell
 make open.ttl
-make all.ttl
 ```
