@@ -9,6 +9,9 @@ SHEXVALIDATE="./node_modules/@shexjs/cli/bin/validate"
 
 all: open.ttl dataset.json model.json assertion.json database.json void.json
 
+open.txt:
+	@bash fetchData.sh
+
 validation: ${VALIDS}
 
 %.txt: %.ttl
@@ -16,8 +19,9 @@ validation: ${VALIDS}
 	@cat $< | rapper -i turtle -t -q - . > /dev/null
 
 clean:
-	# deletes computed files, but not downloaded files (data, shapes)
-	@rm -f *.json *.uris open.ttl
+	# deletes computed files
+	@rm -f *.json *.uris open.ttl open.txt
+	@rm -Rf sbd4nano nanosolveit smartnanotox wikidata wp1 wp2 assertions diamonds aop nanocommons vhp4safety
 
 distclean: clean
 	# also deletes downloaded files
