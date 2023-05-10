@@ -1,0 +1,181 @@
+{
+  "target": "https://www.sbd4nano.eu/rdf/#Dataset",
+  "conformant": [
+    {
+      "class":  "https://identifiers.org/geo:GSE156660",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://identifiers.org/geo:GSE156573",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://identifiers.org/geo:GSE156587",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://doi.org/10.6084/m9.figshare.10071023.v1",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://identifiers.org/geo:GSE156511",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://identifiers.org/geo:GSE156458",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://doi.org/10.6084/m9.figshare.10071032.v1",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://doi.org/10.5281/zenodo.4713745",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://doi.org/10.5281/zenodo.4986068",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://identifiers.org/geo:GSE99435",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://identifiers.org/geo:GSE156509",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://doi.org/10.5281/zenodo.4146981",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://h2020-sbd4nano.github.io/sbd-data-aopwiki/ke/",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://identifiers.org/geo:GSE97852",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://doi.org/10.5281/zenodo.5744003",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://doi.org/10.5281/zenodo.5744302",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://h2020-sbd4nano.github.io/sbd-data-aopwiki/mie/",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://doi.org/10.5281/zenodo.5743204",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://doi.org/10.5281/zenodo.4421969",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://identifiers.org/geo:GSE156666",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://identifiers.org/geo:GSE156571",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://identifiers.org/geo:GSE156694",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://identifiers.org/geo:GSE156691",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://identifiers.org/geo:GSE156564",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://doi.org/10.5281/zenodo.7602354",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://identifiers.org/geo:GSE156489",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://identifiers.org/geo:GSE156457",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://doi.org/10.5281/zenodo.6473305",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://doi.org/10.5281/zenodo.4609840",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://identifiers.org/geo:GSE99997",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://doi.org/10.5281/zenodo.7335039",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://doi.org/10.6084/m9.figshare.7844594.v1",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://h2020-sbd4nano.github.io/sbd-data-aopwiki/ao/",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://doi.org/10.5281/zenodo.3467015",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://doi.org/10.5281/zenodo.5743788",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://identifiers.org/geo:GSE156659",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://identifiers.org/geo:GSE117487",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://doi.org/10.5281/zenodo.5744082",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://doi.org/10.6084/m9.figshare.11897205.v1",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://identifiers.org/geo:GSE156493",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://doi.org/10.5281/zenodo.35493",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://doi.org/10.6084/m9.figshare.2056095.v1",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://identifiers.org/geo:GSE156695",
+      "status": "conformant"
+    },
+    {}
+  ],
+  "nonconformant": [
+    {}
+  ]
+}

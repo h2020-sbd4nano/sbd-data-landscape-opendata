@@ -1,0 +1,25 @@
+{
+  "target": "https://www.sbd4nano.eu/rdf/#Database",
+  "conformant": [
+    {
+      "class":  "https://search.data.enanomapper.net/about/nanoreg2",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://search.data.enanomapper.net/about/enanomapper",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://search.data.enanomapper.net/about/nanoreg",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://search.data.enanomapper.net/about/calibrate",
+      "status": "conformant"
+    },
+    {}
+  ],
+  "nonconformant": [
+    {}
+  ]
+}

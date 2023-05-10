@@ -1,0 +1,62 @@
+{
+  "target": "http://rdfs.org/ns/void#DatasetDescription",
+  "conformant": [
+    {
+      "class":  "https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/",
+      "status": "conformant"
+    },
+    {}
+  ],
+  "nonconformant": [
+    {
+      "class":  "https://h2020-sbd4nano.github.io/sbd-data-aopwiki/",
+      "status": "nonconformant",
+      "reason": "Cardinality violation (min=1): 0"
+    },
+    {
+      "class":  "https://atena.urv.cat/model/",
+      "status": "nonconformant",
+      "reason": "Cardinality violation (min=1): 0"
+    },
+    {
+      "class":  "https://nanocommons.github.io/datasets/",
+      "status": "nonconformant",
+      "reason": "Cardinality violation (min=1): 0"
+    },
+    {
+      "class":  "https://h2020-sbd4nano.github.io/sbd-data-nanowiki/",
+      "status": "nonconformant",
+      "reason": "Cardinality violation (min=1): 0"
+    },
+    {
+      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape",
+      "status": "nonconformant",
+      "reason": "Cardinality violation (min=1): 0"
+    },
+    {
+      "class":  "https://vhp4safety.github.io/cloud/",
+      "status": "nonconformant",
+      "reason": "Cardinality violation (min=1): 0"
+    },
+    {
+      "class":  "https://search.data.enanomapper.net/",
+      "status": "nonconformant",
+      "reason": "Cardinality violation (min=1): 0"
+    },
+    {
+      "class":  "https://h2020-sbd4nano.github.io/sbd-data-smartnanotox/",
+      "status": "nonconformant",
+      "reason": "Cardinality violation (min=1): 0"
+    },
+    {
+      "class":  "https://nanosolveit.eu/resources/tools-services/",
+      "status": "nonconformant",
+      "reason": "Cardinality violation (min=1): 0"
+    },
+    {}
+  ]
+}
