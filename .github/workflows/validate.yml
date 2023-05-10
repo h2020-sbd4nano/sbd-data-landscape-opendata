@@ -1,10 +1,10 @@
-name: Create Markdown
+name: Create open.ttl
 
 on:
   workflow_dispatch:
 
 jobs:
-  webpage:
+  turtle:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -13,7 +13,7 @@ jobs:
           fetch-depth: 0
 
       - name: Install wget, rasqal-utils, jq
-        run: sudo apt install gwget rasqal-utils jq
+        run: sudo apt install wget rasqal-utils jq
 
       - name: Generate a new open.ttl
         run: |
