@@ -12,8 +12,6 @@ smartnanotox/
 ambit/
 vhp4safety/
 all.ttl
-open.ttl
-open.txt
 *.kate-swp
 *.uris
 *.json
