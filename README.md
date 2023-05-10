@@ -32,7 +32,7 @@ npm install @shexjs/cli
 Install ROBOT:
 
 ```shell
-wget https://github.com/ontodev/robot/releases/download/v1.7.0/robot.jar
+wget https://github.com/ontodev/robot/releases/download/v1.9.3/robot.jar
 curl https://raw.githubusercontent.com/ontodev/robot/master/bin/robot > robot
 ```
 
