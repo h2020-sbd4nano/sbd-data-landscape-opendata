@@ -2,8 +2,6 @@ name: Create Markdown
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '@daily'
 
 jobs:
   webpage:
