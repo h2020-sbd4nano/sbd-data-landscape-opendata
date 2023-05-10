@@ -13,9 +13,6 @@ ambit/
 vhp4safety/
 all.ttl
 *.kate-swp
-*.uris
-*.json
-*.rq
 *.shex
 shexValidation.log
 sbd4nano/
