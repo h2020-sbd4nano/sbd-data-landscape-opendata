@@ -7,7 +7,7 @@ SHEXVALIDATE=groovy validate.groovy
 
 .PRECIOUS: %.uris %.json
 
-all: open.txt open.ttl dataset.json model.json assertion.json database.json
+all: open.txt open.ttl dataset.json model.json assertion.json database.json void.json
 
 open.txt:
 	@bash fetchData.sh
@@ -27,13 +27,7 @@ distclean: clean
 	# also deletes downloaded files
 	@rm -Rf dataset.* wikidata/ wp1/ nanowiki/
 
-%.uris: %.rq
-	@# roqet -q -r csv $< -D open.ttl | grep http | head -2 > $@
-	@#roqet -q -r csv $< -D open.ttl | grep http > $@
-	@roqet -q -r csv $< -D open.ttl | tail -n +2 > $@
-	@touch $@
-
-%.json: %.uris
+%.json:
 	@echo "Validating the $*s"
 	${SHEXVALIDATE} Resource open.ttl $*
 
