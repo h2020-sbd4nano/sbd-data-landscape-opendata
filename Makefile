@@ -1,13 +1,13 @@
 TTLS  := ${shell cat open.txt | grep -v open.ttl | grep -v node_modules }
 VALIDS := ${shell cat open.txt | grep -v open.ttl | grep -v node_modules | sed -e 's/ttl/txt/' }
-JSONS := ${shell cat open.txt | grep -v open.ttl | grep -v node_modules | sed -e 's/ttl/json/' }
+JSONS := ${shell ls -1 *.shex | sed -e 's/shex/json/' }
 
 # assumes Groovy >4.0.4 to be installed, see the README
 SHEXVALIDATE=groovy validate.groovy
 
-.PRECIOUS: %.uris %.json
+.PRECIOUS: %.json
 
-all: open.txt open.ttl dataset.json model.json assertion.json database.json void.json
+all: ${JSONS}
 
 open.txt:
 	@bash fetchData.sh
@@ -27,9 +27,9 @@ distclean: clean
 	# also deletes downloaded files
 	@rm -Rf dataset.* wikidata/ wp1/ nanowiki/
 
-%.json:
+%.json: %.shex
 	@echo "Validating the $*s"
-	${SHEXVALIDATE} Resource open.ttl $* > $@
+	@${SHEXVALIDATE} Resource open.ttl $* > $@
 
 open.ttl: ${TTLS} validation
 	@cat ${TTLS} > open.ttl
