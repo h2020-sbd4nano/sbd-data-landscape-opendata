@@ -20,8 +20,8 @@ validation: ${VALIDS}
 
 clean:
 	# deletes computed files
-	@rm -f *.json *.uris open.ttl open.txt
-	@rm -Rf sbd4nano nanosolveit smartnanotox wikidata wp1 wp2 assertions diamonds aop nanocommons vhp4safety
+	@rm -f *.json
+	@rm -Rf sbd4nano nanosolveit smartnanotox wikidata wp1 wp2 assertions diamonds aop nanocommons vhp4safety ambit nanowiki
 
 distclean: clean
 	# also deletes downloaded files
