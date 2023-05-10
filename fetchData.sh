@@ -15,9 +15,6 @@ mkdir -p smartnanotox
 wget -O smartnanotox/datasets.ttl https://raw.githubusercontent.com/h2020-sbd4nano/sbd-data-smartnanotox/main/datasets.ttl
 echo "smartnanotox/datasets.ttl" >> open.txt
 
-#mkdir -p wikidata
-#wget -O wikidata/nanosafety_databases.ttl https://raw.githubusercontent.com/h2020-sbd4nano/sbd-data-landscape/master/nanosafety_databases.ttl
-
 mkdir -p ambit
 wget -O ambit/open-licensed.ttl https://raw.githubusercontent.com/h2020-sbd4nano/sbd-data-ambit/master/open-licensed.ttl
 echo "ambit/open-licensed.ttl" >> open.txt
@@ -29,14 +26,6 @@ echo "nanowiki/nanowiki.ttl" >> open.txt
 mkdir -p wp2
 wget -O wp2/urv-qsar.ttl https://raw.githubusercontent.com/h2020-sbd4nano/sbd-data-wp2/main/urv-qsar.ttl
 echo "wp2/urv-qsar.ttl" >> open.txt
-
-mkdir -p assertions
-wget -O assertions/wp1_bel.ttl https://raw.githubusercontent.com/h2020-sbd4nano/sbd-data-wp1/main/wp1_bel.ttl
-wget -O assertions/outp.ttl https://raw.githubusercontent.com/h2020-sbd4nano/relationship_network/main/outp.ttl
-echo "assertions/outp.ttl" >> open.txt
-
-mkdir -p diamonds
-wget -O diamonds/diamonds-models.ttl https://raw.githubusercontent.com/h2020-sbd4nano/sbd-data-diamonds/main/diamonds-models.ttl
 
 mkdir -p aop
 wget -O aop/aopwiki-datasets.ttl https://raw.githubusercontent.com/h2020-sbd4nano/sbd-data-aopwiki/main/aopwiki-datasets.ttl
