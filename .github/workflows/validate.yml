@@ -12,8 +12,8 @@ jobs:
           submodules: true
           fetch-depth: 0
 
-      - name: Install raptor2-utils
-        run: sudo apt install raptor2-utils
+      - name: Install raptor2-utils and groovy
+        run: sudo apt install raptor2-utils groovy
 
       - name: Generate a new open.ttl
         run: |
@@ -21,11 +21,15 @@ jobs:
           make validation
           make open.ttl
 
+      - name: Generate the Shex validation reports
+        run: |
+          make all
+
       - name: Commit report
         run: |
           git config --global user.name 'GitHub Action'
           git config --global user.email 'actions@github.com'
-          git add open.txt open.ttl
+          git add open.txt open.ttl *.json
           if git diff --exit-code --staged; then
               echo "No changes"
           else
