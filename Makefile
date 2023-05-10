@@ -29,7 +29,7 @@ distclean: clean
 
 %.json:
 	@echo "Validating the $*s"
-	${SHEXVALIDATE} Resource open.ttl $*
+	${SHEXVALIDATE} Resource open.ttl $* > $@
 
 open.ttl: ${TTLS} validation
 	@cat ${TTLS} > open.ttl
