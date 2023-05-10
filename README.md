@@ -16,18 +16,14 @@ A Ubuntu or Debian system, e.g. with the Windows Linux Subsystem.
 * roqet
 * jq
 * npm
+* Groovy 4.x (not available as Debian/Ubuntu package)
 
 Install the Debian/Ubuntu packages with:
 
 ```shell
-sudo apt install wget rasqal-utils jq npm
+sudo apt install wget rasqal-utils jq
 ```
 
-Install the npm shexjs module with:
-
-```shell
-npm install @shexjs/cli
-```
 
 Install ROBOT:
 
