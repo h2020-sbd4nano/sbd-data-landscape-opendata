@@ -7,7 +7,7 @@ SHEXVALIDATE="./node_modules/@shexjs/cli/bin/validate"
 
 .PRECIOUS: %.uris %.json
 
-all: open.ttl dataset.json model.json assertion.json database.json void.json
+all: open.ttl dataset.json model.json assertion.json database.json
 
 open.txt:
 	@bash fetchData.sh
