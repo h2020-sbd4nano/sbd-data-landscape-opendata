@@ -12,8 +12,8 @@ jobs:
           submodules: true
           fetch-depth: 0
 
-      - name: Install wget, rasqal-utils, jq
-        run: sudo apt install wget rasqal-utils jq
+      - name: Install raptor2-utils
+        run: sudo apt install raptor2-utils
 
       - name: Generate a new open.ttl
         run: |
