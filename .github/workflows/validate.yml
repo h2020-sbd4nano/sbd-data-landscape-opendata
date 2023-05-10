@@ -23,6 +23,7 @@ jobs:
 
       - name: Generate the Shex validation reports
         run: |
+          bash fetchShapes.sh
           make all
 
       - name: Commit report
