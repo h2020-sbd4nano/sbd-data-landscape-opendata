@@ -27,7 +27,7 @@ distclean: clean
 	# also deletes downloaded files
 	@rm -Rf dataset.* wikidata/ wp1/ nanowiki/
 
-%.json: %.shex
+%.json: %.shex open.ttl
 	@echo "Validating the $*s"
 	@${SHEXVALIDATE} Resource open.ttl $* > $@
 

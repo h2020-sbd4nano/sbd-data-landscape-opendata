@@ -1,5 +1,7 @@
 #!/usr/bash
 
+# this refers to open metadata, not necessarily open research output
+
 rm -f open.txt
 touch open.txt
 
