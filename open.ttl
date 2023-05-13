@@ -16859,7 +16859,7 @@ npo:NPO_1962 rdfs:label "Surface coating"@en .
 <https://nanosolveit.eu/resources/tools-services/>
  a                    void:DatasetDescription ;
  dct:title            "NanoSolveIT Tools"@en ;
- dct:license          <http://example.com/unknown> ;
+ dct:license          <http://creativecommons.org/publicdomain/zero/1.0/> ;
  dc:source            <https://nanosolveit.eu/resources/tools-services/> ;
  foaf:img             <https://nanosolveit.eu/wp-content/uploads/2019/06/NanoSolveIT-300x114-Transparent-Half.png> .
 
