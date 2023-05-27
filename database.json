@@ -6,11 +6,83 @@
       "status": "conformant"
     },
     {
-      "class":  "https://search.data.enanomapper.net/about/enanomapper",
+      "class":  "https://search.data.enanomapper.net/about/imptox",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://search.data.enanomapper.net/about/cusp",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://search.data.enanomapper.net/about/aurora",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://search.data.enanomapper.net/about/sunshine",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://search.data.enanomapper.net/about/gov4nano",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://search.data.enanomapper.net/about/harmless",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://search.data.enanomapper.net/about/nanoinformatix",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://search.data.enanomapper.net/about/polyrisk",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://search.data.enanomapper.net/about/sabyna",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://search.data.enanomapper.net/about/patrols",
       "status": "conformant"
     },
     {
       "class":  "https://search.data.enanomapper.net/about/nanoreg",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://search.data.enanomapper.net/about/charisma",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://search.data.enanomapper.net/about/sbd4nano",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://search.data.enanomapper.net/about/sabydoma",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://search.data.enanomapper.net/about/gracious",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://search.data.enanomapper.net/about/riskgone",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://search.data.enanomapper.net/about/plasticfate",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://search.data.enanomapper.net/about/enanomapper",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://search.data.enanomapper.net/about/biorima",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://search.data.enanomapper.net/about/plasticheal",
       "status": "conformant"
     },
     {

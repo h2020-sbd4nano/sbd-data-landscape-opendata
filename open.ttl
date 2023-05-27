@@ -17079,6 +17079,200 @@ npo:NPO_1962 rdfs:label "Surface coating"@en .
   dct:license <https://search.data.enanomapper.net/about/nanoreg2> ;
   foaf:page <https://search.data.enanomapper.net/projects/nanoreg2> .
 
+#1811 triples detected in the JSON-LD
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+@prefix dct:   <http://purl.org/dc/terms/> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sbd:   <https://www.sbd4nano.eu/rdf/#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix void:  <http://rdfs.org/ns/void#> .
+
+<https://search.data.enanomapper.net/closed/>
+ a                    void:DatasetDescription ;
+ dct:title            "Closed datasets hosted at the Nanosafety Data Interface"@en ;
+ foaf:img             <https://search.data.enanomapper.net/assets/img/logo.png> .
+
+<https://search.data.enanomapper.net/about/aurora> a sbd:Database ;
+  dc:source <https://search.data.enanomapper.net/closed/> ;
+  rdfs:label "aurora - eNanoMapper database"@en ;
+  dc:description "H2020 AURORA project data: AURORA - Developing an actionable European roadmap for early-life health risk assessment of micro- and nanoplastic (MNP) pollution"@en ;
+  dct:license <https://search.data.enanomapper.net/about/aurora> ;
+  foaf:page <https://search.data.enanomapper.net/projects/aurora> .
+
+<https://search.data.enanomapper.net/about/biorima> a sbd:Database ;
+  dc:source <https://search.data.enanomapper.net/closed/> ;
+  rdfs:label "biorima - eNanoMapper database"@en ;
+  dc:description "H2020 BIORIMA project data: Risk Management of Biomaterials"@en ;
+  dct:license <https://search.data.enanomapper.net/about/biorima> ;
+  foaf:page <https://search.data.enanomapper.net/projects/biorima> .
+
+<https://search.data.enanomapper.net/about/charisma> a sbd:Database ;
+  dc:source <https://search.data.enanomapper.net/closed/> ;
+  rdfs:label "charisma - eNanoMapper database"@en ;
+  dc:description "H2020 CHARISMA project data: Characterization and HARmonization for Industrial Standardisation of advanced MAterials"@en ;
+  dct:license <https://search.data.enanomapper.net/about/charisma> ;
+  foaf:page <https://search.data.enanomapper.net/projects/charisma> .
+
+<https://search.data.enanomapper.net/about/cusp> a sbd:Database ;
+  dc:source <https://search.data.enanomapper.net/closed/> ;
+  rdfs:label "cusp - eNanoMapper database"@en ;
+  dc:description "CUSP project data: CUSP – the European research cluster to understand the health impacts of micro- and nanoplastics (MNPs)"@en ;
+  dct:license <https://search.data.enanomapper.net/about/cusp> ;
+  foaf:page <https://search.data.enanomapper.net/projects/cusp> .
+
+<https://search.data.enanomapper.net/about/gov4nano> a sbd:Database ;
+  dc:source <https://search.data.enanomapper.net/closed/> ;
+  rdfs:label "gov4nano - eNanoMapper database"@en ;
+  dc:description "H2020 Gov4Nano project data: Implementation of Risk Governance: meeting the needs of nanotechnology"@en ;
+  dct:license <https://search.data.enanomapper.net/about/gov4nano> ;
+  foaf:page <https://search.data.enanomapper.net/projects/gov4nano> .
+
+<https://search.data.enanomapper.net/about/gracious> a sbd:Database ;
+  dc:source <https://search.data.enanomapper.net/closed/> ;
+  rdfs:label "gracious - eNanoMapper database"@en ;
+  dc:description "H2020 GRACIOUS project data: Grouping materials for Risk Assessment"@en ;
+  dct:license <https://search.data.enanomapper.net/about/gracious> ;
+  foaf:page <https://search.data.enanomapper.net/projects/gracious> .
+
+<https://search.data.enanomapper.net/about/harmless> a sbd:Database ;
+  dc:source <https://search.data.enanomapper.net/closed/> ;
+  rdfs:label "harmless - eNanoMapper database"@en ;
+  dc:description "H2020 HARMLESS project data: Advanced High Aspect Ratio and Multicomponent materials: towards comprehensive intelLigent tEsting and Safe by design Strategies"@en ;
+  dct:license <https://search.data.enanomapper.net/about/harmless> ;
+  foaf:page <https://search.data.enanomapper.net/projects/harmless> .
+
+<https://search.data.enanomapper.net/about/imptox> a sbd:Database ;
+  dc:source <https://search.data.enanomapper.net/closed/> ;
+  rdfs:label "imptox - eNanoMapper database"@en ;
+  dc:description "H2020 IMPTOX project data: An innovative analytical platform to investigate the effect and toxicity of micro and nano plastics combined with environmental contaminants on the risk of allergic disease in preclinical and clinical models"@en ;
+  dct:license <https://search.data.enanomapper.net/about/imptox> ;
+  foaf:page <https://search.data.enanomapper.net/projects/imptox> .
+
+<https://search.data.enanomapper.net/about/nanoinformatix> a sbd:Database ;
+  dc:source <https://search.data.enanomapper.net/closed/> ;
+  rdfs:label "nanoinformatix - eNanoMapper database"@en ;
+  dc:description "H2020 NanoinformaTIX project data: Development and Implementation of a Sustainable Modelling Platform for NanoInformatics"@en ;
+  dct:license <https://search.data.enanomapper.net/about/nanoinformatix> ;
+  foaf:page <https://search.data.enanomapper.net/projects/nanoinformatix> .
+
+<https://search.data.enanomapper.net/about/patrols> a sbd:Database ;
+  dc:source <https://search.data.enanomapper.net/closed/> ;
+  rdfs:label "patrols - eNanoMapper database"@en ;
+  dc:description "H2020 PATROLS project data: PATROLS - Physiologically Anchored Tools for Realistic nanOmateriaL hazard aSsessment"@en ;
+  dct:license <https://search.data.enanomapper.net/about/patrols> ;
+  foaf:page <https://search.data.enanomapper.net/projects/patrols> .
+
+<https://search.data.enanomapper.net/about/plasticfate> a sbd:Database ;
+  dc:source <https://search.data.enanomapper.net/closed/> ;
+  rdfs:label "plasticfate - eNanoMapper database"@en ;
+  dc:description "H2020 PlasticFatE project data: Plastics fate and effects in the human body"@en ;
+  dct:license <https://search.data.enanomapper.net/about/plasticfate> ;
+  foaf:page <https://search.data.enanomapper.net/projects/plasticfate> .
+
+<https://search.data.enanomapper.net/about/plasticheal> a sbd:Database ;
+  dc:source <https://search.data.enanomapper.net/closed/> ;
+  rdfs:label "plasticheal - eNanoMapper database"@en ;
+  dc:description "H2020 PLASTICHEAL project data: Innovative tools to study the impact and mode of action of micro and nanoplastics on human health: towards a knowledge base for risk assessment"@en ;
+  dct:license <https://search.data.enanomapper.net/about/plasticheal> ;
+  foaf:page <https://search.data.enanomapper.net/projects/plasticheal> .
+
+<https://search.data.enanomapper.net/about/polyrisk> a sbd:Database ;
+  dc:source <https://search.data.enanomapper.net/closed/> ;
+  rdfs:label "polyrisk - eNanoMapper database"@en ;
+  dc:description "H2020 POLYRISK project data: POLYRISK - Understanding human exposure and health hazard of micro- and nanoplastic contaminants in our environment"@en ;
+  dct:license <https://search.data.enanomapper.net/about/polyrisk> ;
+  foaf:page <https://search.data.enanomapper.net/projects/polyrisk> .
+
+<https://search.data.enanomapper.net/about/riskgone> a sbd:Database ;
+  dc:source <https://search.data.enanomapper.net/closed/> ;
+  rdfs:label "riskgone - eNanoMapper database"@en ;
+  dc:description "H2020 RiskGone project data: Science-based Risk Governance of Nano-Technology"@en ;
+  dct:license <https://search.data.enanomapper.net/about/riskgone> ;
+  foaf:page <https://search.data.enanomapper.net/projects/riskgone> .
+
+<https://search.data.enanomapper.net/about/sabydoma> a sbd:Database ;
+  dc:source <https://search.data.enanomapper.net/closed/> ;
+  rdfs:label "sabydoma - eNanoMapper database"@en ;
+  dc:description "H2020 SABYDOMA project data: Safety BY Design Of nanoMaterials - From Lab Manufacture to Governance and Communication: Progressing Up the TRL Ladder"@en ;
+  dct:license <https://search.data.enanomapper.net/about/sabydoma> ;
+  foaf:page <https://search.data.enanomapper.net/projects/sabydoma> .
+
+<https://search.data.enanomapper.net/about/sabyna> a sbd:Database ;
+  dc:source <https://search.data.enanomapper.net/closed/> ;
+  rdfs:label "sabyna - eNanoMapper database"@en ;
+  dc:description "H2020 SAbyNA project data: SAbyNA - Simple, robust and cost-effective approaches to guide industry in the development of safer nanomaterials and nano-enabled products"@en ;
+  dct:license <https://search.data.enanomapper.net/about/sabyna> ;
+  foaf:page <https://search.data.enanomapper.net/projects/sabyna> .
+
+<https://search.data.enanomapper.net/about/sbd4nano> a sbd:Database ;
+  dc:source <https://search.data.enanomapper.net/closed/> ;
+  rdfs:label "sbd4nano - eNanoMapper database"@en ;
+  dc:description "H2020 SBD4Nano project data: Computing infrastructure for the definition, performance testing and implementation of safe-by-design approaches in nanotechnology supply chains"@en ;
+  dct:license <https://search.data.enanomapper.net/about/sbd4nano> ;
+  foaf:page <https://search.data.enanomapper.net/projects/sbd4nano> .
+
+<https://search.data.enanomapper.net/about/sunshine> a sbd:Database ;
+  dc:source <https://search.data.enanomapper.net/closed/> ;
+  rdfs:label "sunshine - eNanoMapper database"@en ;
+  dc:description "H2020 SUNSHINE project data: SUNSHINE - Safe and Sustainable Design for Advanced Materials"@en ;
+  dct:license <https://search.data.enanomapper.net/about/sunshine> ;
+  foaf:page <https://search.data.enanomapper.net/projects/sunshine> .
+
+@prefix enm:    <http://purl.enanomapper.org/onto/> .
+@prefix npo:    <http://purl.bioontology.org/ontology/npo#> .
+@prefix obo:    <http://purl.obolibrary.org/obo/> .
+@prefix owl:    <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sbdbel: <https://www.sbd4nano.eu/bel/#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+
+<https://search.data.enanomapper.net/about/enpra>
+        sbdbel:NP  obo:CHEBI_59999 , npo:NPO_1892 , npo:NPO_1542 , npo:NPO_354 , obo:CHEBI_51050 .
+
+<https://search.data.enanomapper.net/about/nanotest>
+        sbdbel:NP  npo:NPO_1559 , obo:CHEBI_51050 , npo:NPO_1373 , npo:NPO_1548 .
+
+<https://search.data.enanomapper.net/about/calibrate>
+        sbdbel:NP  obo:CHEBI_82297 , obo:CHEBI_59999 , npo:NPO_1544 , npo:NPO_1373 .
+
+<https://search.data.enanomapper.net/projects/nanoreg2>
+        sbdbel:NP  npo:NPO_199 , enm:ENM_9000005 , enm:ENM_9000006 , obo:CHEBI_133326 , npo:NPO_1892 , npo:NPO_354 , npo:NPO_1542 , npo:NPO_1373 , obo:CHEBI_51050 .
+
+<https://search.data.enanomapper.net/projects/riskgone>
+        sbdbel:NP  npo:NPO_354 , npo:NPO_1892 , npo:NPO_1544 , enm:ENM_9000257 , npo:NPO_401 , npo:NPO_1542 , obo:CHEBI_51050 .
+
+<https://search.data.enanomapper.net/projects/gracious/>
+        sbdbel:NP  npo:NPO_1542 , obo:CHEBI_46727 , npo:NPO_1550 , obo:CHEBI_133326 , npo:NPO_1892 , npo:NPO_126 , enm:ENM_9000006 , obo:CHEBI_51050 , npo:NPO_354 , obo:CHEBI_59999 , npo:NPO_589 , obo:CHEBI_133349 , obo:CHEBI_82297 , npo:NPO_1373 , npo:NPO_1544 , enm:ENM_9000073 , npo:NPO_1375 .
+
+<https://search.data.enanomapper.net/about/nanoreg>
+        sbdbel:NP  npo:NPO_1542 , npo:NPO_126 , obo:CHEBI_3311 , npo:NPO_1550 , enm:ENM_9000006 , enm:ENM_9000007 , npo:NPO_606 , obo:CHEBI_133337 , obo:CHEBI_133340 , npo:NPO_157 , npo:NPO_401 , obo:CHEBI_59999 , obo:CHEBI_133333 , obo:CHEBI_18246 , obo:CHEBI_51135 , obo:CHEBI_133349 , obo:CHEBI_33418 , npo:NPO_1373 , npo:NPO_1892 , obo:CHEBI_51050 , obo:CHEBI_133326 , npo:NPO_943 , npo:NPO_354 .
+
+<https://search.data.enanomapper.net/projects/patrols/>
+        sbdbel:NP  npo:NPO_1544 , enm:ENM_9000006 , obo:CHEBI_59999 , npo:NPO_1892 , npo:NPO_1542 , obo:CHEBI_51050 , obo:CHEBI_133326 , obo:CHEBI_46727 .
+
+<https://search.data.enanomapper.net/projects/calibrate/>
+        sbdbel:NP  obo:CHEBI_82297 , obo:CHEBI_59999 , npo:NPO_1544 , npo:NPO_1373 .
+
+<https://search.data.enanomapper.net/projects/nanoinformatix>
+        sbdbel:NP  npo:NPO_401 , npo:NPO_1542 , npo:NPO_1892 , npo:NPO_1544 , npo:NPO_1373 , enm:ENM_9000006 , obo:CHEBI_51050 , npo:NPO_354 .
+
+<https://search.data.enanomapper.net/projects/omics/>
+        sbdbel:NP  enm:ENM_9000239 , npo:NPO_401 , obo:CHEBI_33418 , npo:NPO_1373 , npo:NPO_1374 , obo:ENVO_00002008 , obo:CHEBI_46727 , npo:NPO_589 , npo:NPO_371 , obo:CHEBI_51050 , npo:NPO_965 , obo:CHEBI_132889 , npo:NPO_729 , npo:NPO_943 , npo:NPO_707 , npo:NPO_1544 , npo:NPO_354 , obo:CHEBI_131897 , enm:ENM_9000005 , npo:NPO_1542 , obo:CHEBI_50595 , enm:ENM_9000006 , obo:CHEBI_50596 , obo:ENVO_02000102 , npo:NPO_1892 , obo:CHEBI_82297 , obo:ENVO_00002985 , enm:ENM_9000008 , npo:NPO_122 , obo:ENVO_01000060 , obo:CHEBI_33416 , enm:ENM_9000254 , npo:NPO_126 , obo:CHEBI_46661 .
+
+<https://search.data.enanomapper.net/projects/sbd4nano>
+        sbdbel:NP  obo:CHEBI_59999 , obo:CHEBI_50814 , obo:CHEBI_132889 , npo:NPO_1373 .
+
+<https://search.data.enanomapper.net/about/sanowork>
+        sbdbel:NP  obo:CHEBI_82297 , obo:CHEBI_46666 , npo:NPO_1373 , npo:NPO_606 , enm:ENM_9000241 , npo:NPO_1892 , obo:CHEBI_51050 .
+
+<https://search.data.enanomapper.net/about/marina>
+        sbdbel:NP  obo:CHEBI_133326 , obo:CHEBI_59999 , obo:CHEBI_16412 , npo:NPO_1892 , npo:NPO_1542 , npo:NPO_354 , npo:NPO_1373 , obo:CHEBI_51050 .
+
+<https://search.data.enanomapper.net/about/nanogenotox>
+        sbdbel:NP  npo:NPO_1542 , npo:NPO_1373 , obo:CHEBI_51050 , obo:CHEBI_59999 , npo:NPO_354 .
+
 @prefix void:    <http://rdfs.org/ns/void#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix dct:     <http://purl.org/dc/> .
