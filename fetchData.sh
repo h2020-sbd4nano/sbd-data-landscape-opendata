@@ -17,7 +17,11 @@ echo "smartnanotox/datasets.ttl" >> open.txt
 
 mkdir -p ambit
 wget -O ambit/open-licensed.ttl https://raw.githubusercontent.com/h2020-sbd4nano/sbd-data-ambit/master/open-licensed.ttl
+wget -O ambit/closed-licensed.ttl https://raw.githubusercontent.com/h2020-sbd4nano/sbd-data-ambit/master/closed-licensed.ttl
+wget -O ambit/npAnnotations.ttl https://raw.githubusercontent.com/h2020-sbd4nano/sbd-data-ambit/master/npAnnotations.ttl
 echo "ambit/open-licensed.ttl" >> open.txt
+echo "ambit/closed-licensed.ttl" >> open.txt
+echo "ambit/npAnnotations.ttl" >> open.txt
 
 mkdir -p nanowiki
 wget -O nanowiki/nanowiki.ttl https://raw.githubusercontent.com/h2020-sbd4nano/sbd-data-nanowiki/main/nanowiki.ttl
