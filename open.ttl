@@ -17124,7 +17124,7 @@ npo:NPO_1962 rdfs:label "Surface coating"@en .
 <https://h2020-sbd4nano.github.io/sbd-data-nanowiki/>
  a                    void:DatasetDescription ;
  dcterms:title        "NanoWiki v6 causal relationships"@en ;
- foaf:img             <http://www.enanomapper.net/sites/default/files/eNanoMapper_LOGO.png> ;
+ foaf:img             <https://search.data.enanomapper.net/assets/img/logo.png> ;
  dc:source <https://doi.org/10.6084/m9.figshare.11897205.v1> .
 
 <http://127.0.0.1/mediawiki/index.php/Berg2009_R1> a sbdbel:CausalAssertion ;
@@ -41299,7 +41299,7 @@ npo:NPO_707  rdfs:label "Nanomaterial"@en .
 <https://vhp4safety.github.io/cloud/>
  a                    void:DatasetDescription ;
  dct:title            "Cloud services provided by VHP4Safety"@en ;
- foaf:img             <https://vhp4safety.nl/wp-content/uploads/sites/725/2021/05/VHP-LOGO-100mm-RGB.png> ;
+ foaf:img             <https://images.nieuwsbrieven.rivm.nl/101500/0/5763/fe1e7915ce28f7a96ca25ed234631504.png> ;
  dct:license          <http://creativecommons.org/publicdomain/zero/1.0/> . # license of this metadata
 
 <https://vhp4safety.github.io/cloud/service/aopwiki> a sbd:Resource ;
