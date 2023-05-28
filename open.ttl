@@ -16853,8 +16853,13 @@ npo:NPO_1962 rdfs:label "Surface coating"@en .
 @prefix foaf:  <http://xmlns.com/foaf/0.1/> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix sbd:   <https://www.sbd4nano.eu/rdf/#> .
+@prefix sbdbel:  <https://www.sbd4nano.eu/bel/#> .
 @prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
 @prefix void:    <http://rdfs.org/ns/void#> .
+
+@prefix MOx: <http://purl.bioontology.org/ontology/npo#NPO_1541> .
+@prefix Metal: <http://purl.bioontology.org/ontology/npo#NPO_1384> .
+@prefix NP: <http://purl.bioontology.org/ontology/npo#NPO_707> .
 
 <https://nanosolveit.eu/resources/tools-services/>
  a                    void:DatasetDescription ;
@@ -16868,21 +16873,24 @@ npo:NPO_1962 rdfs:label "Surface coating"@en .
   rdfs:label "PhysChem: Zeta potential NanoXtract model" ;
   dc:description "A novel nanoinformatics predictive model using new computational descriptors from TEM images for the prediction of NMs properties, such as zeta potential."@en ;
   dct:license <http://example.com/unknown> ;
-  foaf:page <http://enaloscloud.novamechanics.com/EnalosWebApps/ZetaPotential/> .
+  foaf:page <http://enaloscloud.novamechanics.com/EnalosWebApps/ZetaPotential/> ;
+  sbdbel:NP MOx:, Metal: .
 
 <https://cellviability.cloud.nanosolveit.eu/> a sbd:Model ;
   dc:source <https://nanosolveit.eu/resources/tools-services/> ;
   rdfs:label "NanoSolveIT Cytotoxicity (Cell Viability) Prediction for Metal Oxide NPs"@en ;
   dc:description "A tool to predict the cytotoxicity of metal oxide nanomaterials to human bronchial epithelial (BEAS-2B) and murine myeloid (RAW 264.7) cell lines using single parameter (% cell viability) adenosine triphosphate (ATP) and lactate dehydrogenase (LDH) assays, based on selected physicochemical, atomistic and molecular descriptors."@en ;
   dct:license <http://example.com/unknown> ;
-  foaf:page <https://cellviability.cloud.nanosolveit.eu/> .
+  foaf:page <https://cellviability.cloud.nanosolveit.eu/> ;
+  sbdbel:NP MOx: .
 
 <https://deepdaph.cloud.nanosolveit.eu/> a sbd:Model ;
   dc:source <https://nanosolveit.eu/resources/tools-services/> ;
   rdfs:label "DeepDaph"@en ;
   dc:description "A workflow applying two different deep learning architectures on microscopic images of Daphnia magna is proposed that can automatically detect possible malformations, such as effects on the length of the tail, and the overall size, and uncommon lipid concentrations and lipid deposit shapes, which are due to direct or parental exposure to ENMs."@en ;
   dct:license <http://example.com/unknown> ;
-  foaf:page <https://deepdaph.cloud.nanosolveit.eu/> .
+  foaf:page <https://deepdaph.cloud.nanosolveit.eu/> ;
+  sbdbel:NP NP: .
 
 <https://nanofase.cloud.nanosolveit.eu/> a sbd:Model ;
   dc:source <https://nanosolveit.eu/resources/tools-services/> ;
@@ -16894,7 +16902,8 @@ npo:NPO_1962 rdfs:label "Surface coating"@en .
   dc:source <https://nanosolveit.eu/resources/tools-services/> ;
   rdfs:label "NanoSolveIT Tool for Assessment of Human Exposure to Nanomaterials"@en ;
   dct:license <http://example.com/unknown> ;
-  foaf:page <https://aerosol.cloud.nanosolveit.eu/> .
+  foaf:page <https://aerosol.cloud.nanosolveit.eu/> ;
+  sbdbel:NP NP: .
 
 <https://funmappone.cloud.nanosolveit.eu/> a sbd:Model ;
   dc:source <https://nanosolveit.eu/resources/tools-services/> ;
@@ -16907,8 +16916,21 @@ npo:NPO_1962 rdfs:label "Surface coating"@en .
 @prefix foaf:  <http://xmlns.com/foaf/0.1/> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix sbd:   <https://www.sbd4nano.eu/rdf/#> .
+@prefix sbdbel:  <https://www.sbd4nano.eu/bel/#> .
 @prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
 @prefix void:    <http://rdfs.org/ns/void#> .
+
+@prefix TiO2:  <http://purl.obolibrary.org/obo/CHEBI_51050> .
+@prefix CBNP:  <http://purl.obolibrary.org/obo/CHEBI_133602> .
+@prefix NM105: <http://purl.enanomapper.org/onto/ENM_9000204> .
+@prefix NM110: <http://purl.enanomapper.org/onto/ENM_9000205> .
+@prefix NM403: <http://purl.enanomapper.org/onto/ENM_9000230> .
+@prefix ZnO:   <http://purl.bioontology.org/ontology/npo#NPO_1542> .
+@prefix MOx:   <http://purl.bioontology.org/ontology/npo#NPO_1541> .
+@prefix Fe2O3: <http://purl.bioontology.org/ontology/npo#NPO_1550> .
+@prefix CNT:   <http://purl.bioontology.org/ontology/npo#NPO_606> .
+@prefix SWCNT: <http://purl.bioontology.org/ontology/npo#NPO_943> .
+@prefix MWCNT: <http://purl.bioontology.org/ontology/npo#NPO_354> .
 
 <https://h2020-sbd4nano.github.io/sbd-data-smartnanotox/>
  a                    void:DatasetDescription ;
@@ -16921,7 +16943,8 @@ npo:NPO_1962 rdfs:label "Surface coating"@en .
   dc:source <https://h2020-sbd4nano.github.io/smartnanotox/datasets/> ;
   foaf:page <https://identifiers.org/geo:GSE156457> ;
   dct:license <https://www.wikidata.org/entity/Q50423863> ;
-  rdfs:label "Transcriptomic study of NR8383 rat macrophages cells following exposure to Printex90"@en .
+  rdfs:label "Transcriptomic study of NR8383 rat macrophages cells following exposure to Printex90"@en ;
+  sbdbel:NP CBNP: .
 
 <https://identifiers.org/geo:GSE156458> a sbd:Dataset ;
   dc:source <https://h2020-sbd4nano.github.io/smartnanotox/datasets/> ;
@@ -16945,25 +16968,29 @@ npo:NPO_1962 rdfs:label "Surface coating"@en .
   dc:source <https://h2020-sbd4nano.github.io/smartnanotox/datasets/> ;
   foaf:page <https://identifiers.org/geo:GSE156509> ;
   dct:license <https://www.wikidata.org/entity/Q50423863> ;
-  rdfs:label "Transcriptomic study of NR8383 rat macrophages cells following exposure to TiO2 (NM105, p25 anatase/rutile)"@en .
+  rdfs:label "Transcriptomic study of NR8383 rat macrophages cells following exposure to TiO2 (NM105, p25 anatase/rutile)"@en ;
+  sbdbel:NP NM105: .
 
 <https://identifiers.org/geo:GSE156511> a sbd:Dataset ;
   dc:source <https://h2020-sbd4nano.github.io/smartnanotox/datasets/> ;
   foaf:page <https://identifiers.org/geo:GSE156511> ;
   dct:license <https://www.wikidata.org/entity/Q50423863> ;
-  rdfs:label "Transcriptomic study of NR8383 rat macrophages cells following exposure to NM403 carbon nanotubes"@en .
+  rdfs:label "Transcriptomic study of NR8383 rat macrophages cells following exposure to NM403 carbon nanotubes"@en ;
+  sbdbel:NP NM403: .
 
 <https://identifiers.org/geo:GSE156564> a sbd:Dataset ;
   dc:source <https://h2020-sbd4nano.github.io/smartnanotox/datasets/> ;
   foaf:page <https://identifiers.org/geo:GSE156564> ;
   dct:license <https://www.wikidata.org/entity/Q50423863> ;
-  rdfs:label "Transcriptomic study of NR8383 rat macrophages cells following exposure to TiO2 (NRCWE001)"@en .
+  rdfs:label "Transcriptomic study of NR8383 rat macrophages cells following exposure to TiO2 (NRCWE001)"@en ;
+  sbdbel:NP TiO2: .
 
 <https://identifiers.org/geo:GSE156571> a sbd:Dataset ;
   dc:source <https://h2020-sbd4nano.github.io/smartnanotox/datasets/> ;
   foaf:page <https://identifiers.org/geo:GSE156571> ;
   dct:license <https://www.wikidata.org/entity/Q50423863> ;
-  rdfs:label "Transcriptomic study of NR8383 rat macrophages cells following exposure to multi-walled carbon nanotubes (NRCWE006)"@en .
+  rdfs:label "Transcriptomic study of NR8383 rat macrophages cells following exposure to multi-walled carbon nanotubes (NRCWE006)"@en ;
+  sbdbel:NP MWCNT: .
 
 <https://identifiers.org/geo:GSE156573> a sbd:Dataset ;
   dc:source <https://h2020-sbd4nano.github.io/smartnanotox/datasets/> ;
@@ -16975,7 +17002,8 @@ npo:NPO_1962 rdfs:label "Surface coating"@en .
   dc:source <https://h2020-sbd4nano.github.io/smartnanotox/datasets/> ;
   foaf:page <https://identifiers.org/geo:GSE156587> ;
   dct:license <https://www.wikidata.org/entity/Q50423863> ;
-  rdfs:label "Transcriptomic study of NR8383 rat macrophages cells following exposure to Fe2O3 (NRCWE018)."@en .
+  rdfs:label "Transcriptomic study of NR8383 rat macrophages cells following exposure to Fe2O3 (NRCWE018)."@en ;
+  sbdbel:NP Fe2O3: .
 
 <https://identifiers.org/geo:GSE156659> a sbd:Dataset ;
   dc:source <https://h2020-sbd4nano.github.io/smartnanotox/datasets/> ;
@@ -16987,31 +17015,36 @@ npo:NPO_1962 rdfs:label "Surface coating"@en .
   dc:source <https://h2020-sbd4nano.github.io/smartnanotox/datasets/> ;
   foaf:page <https://identifiers.org/geo:GSE156660> ;
   dct:license <https://www.wikidata.org/entity/Q50423863> ;
-  rdfs:label "Transcriptomic study of NR8383 rat macrophages cells following exposure to COOH-functionalized carbon nanotubes (NRCWE042)"@en .
+  rdfs:label "Transcriptomic study of NR8383 rat macrophages cells following exposure to COOH-functionalized carbon nanotubes (NRCWE042)"@en ;
+  sbdbel:NP CNT: .
 
 <https://identifiers.org/geo:GSE156666> a sbd:Dataset ;
   dc:source <https://h2020-sbd4nano.github.io/smartnanotox/datasets/> ;
   foaf:page <https://identifiers.org/geo:GSE156666> ;
   dct:license <https://www.wikidata.org/entity/Q50423863> ;
-  rdfs:label "Transcriptomic study of NR8383 rat macrophages cells following exposure to NH2-functionalized carbon nanotubes (NRCWE049)"@en .
+  rdfs:label "Transcriptomic study of NR8383 rat macrophages cells following exposure to NH2-functionalized carbon nanotubes (NRCWE049)"@en ;
+  sbdbel:NP CNT: .
 
 <https://identifiers.org/geo:GSE156691> a sbd:Dataset ;
   dc:source <https://h2020-sbd4nano.github.io/smartnanotox/datasets/> ;
   foaf:page <https://identifiers.org/geo:GSE156691> ;
   dct:license <https://www.wikidata.org/entity/Q50423863> ;
-  rdfs:label "Transcriptomic study of NR8383 rat macrophages cells following exposure to pristine single-walled carbon nanotubes (NRCWE055)"@en .
+  rdfs:label "Transcriptomic study of NR8383 rat macrophages cells following exposure to pristine single-walled carbon nanotubes (NRCWE055)"@en ;
+  sbdbel:NP SWCNT: .
 
 <https://identifiers.org/geo:GSE156694> a sbd:Dataset ;
   dc:source <https://h2020-sbd4nano.github.io/smartnanotox/datasets/> ;
   foaf:page <https://identifiers.org/geo:GSE156694> ;
   dct:license <https://www.wikidata.org/entity/Q50423863> ;
-  rdfs:label "Transcriptomic study of NR8383 rat macrophages cells following exposure to carbon black (Printex 90)"@en .
+  rdfs:label "Transcriptomic study of NR8383 rat macrophages cells following exposure to carbon black (Printex 90)"@en ;
+  sbdbel:NP CBNP: .
 
 <https://identifiers.org/geo:GSE156695> a sbd:Dataset ;
   dc:source <https://h2020-sbd4nano.github.io/smartnanotox/datasets/> ;
   foaf:page <https://identifiers.org/geo:GSE156695> ;
   dct:license <https://www.wikidata.org/entity/Q50423863> ;
-  rdfs:label "Transcriptomic study of NR8383 rat macrophages cells following exposure to ZnO 4 µg/mL and ZnO 16 µg/mL"@en .
+  rdfs:label "Transcriptomic study of NR8383 rat macrophages cells following exposure to ZnO 4 µg/mL and ZnO 16 µg/mL"@en ;
+  sbdbel:NP ZnO: .
 
 <https://identifiers.org/geo:GSE117487> a sbd:Dataset ;
   dc:source <https://h2020-sbd4nano.github.io/smartnanotox/datasets/> ;
@@ -17023,20 +17056,23 @@ npo:NPO_1962 rdfs:label "Surface coating"@en .
   dc:source <https://h2020-sbd4nano.github.io/smartnanotox/datasets/> ;
   foaf:page <https://identifiers.org/geo:GSE99997> ;
   dct:license <https://www.wikidata.org/entity/Q50423863> ;
-  rdfs:label "TiO2-induced gene expression profiles in rat lung: a subacute inhalation study"@en .
+  rdfs:label "TiO2-induced gene expression profiles in rat lung: a subacute inhalation study"@en ;
+  sbdbel:NP TiO2: .
 
 <https://identifiers.org/geo:GSE99435> a sbd:Dataset ;
   dc:source <https://h2020-sbd4nano.github.io/smartnanotox/datasets/> ;
   foaf:page <https://identifiers.org/geo:GSE99435> ;
   dct:license <https://www.wikidata.org/entity/Q50423863> ;
-  rdfs:label "Transcriptomic study of PMA-differentiated THP-1 cells following exposure to zinc oxide nanoparticles NM110"@en .
+  rdfs:label "Transcriptomic study of PMA-differentiated THP-1 cells following exposure to zinc oxide nanoparticles NM110"@en ;
+  sbdbel:NP NM110: .
 
 <https://identifiers.org/geo:GSE97852> a sbd:Dataset ;
   dc:source <https://h2020-sbd4nano.github.io/smartnanotox/datasets/> ;
   foaf:page <https://identifiers.org/geo:GSE97852> ;
   dct:license <https://www.wikidata.org/entity/Q50423863> ;
-  rdfs:label "Transcriptomic study of NR8383 cells following exposure to zinc oxide nanoparticles NM110"@en .
-#323 triples detected in the JSON-LD
+  rdfs:label "Transcriptomic study of NR8383 cells following exposure to zinc oxide nanoparticles NM110"@en ;
+  sbdbel:NP NM110: .
+#402 triples detected in the JSON-LD
 @prefix dc:    <http://purl.org/dc/elements/1.1/> .
 @prefix dct:   <http://purl.org/dc/terms/> .
 @prefix foaf:  <http://xmlns.com/foaf/0.1/> .
@@ -17047,6 +17083,7 @@ npo:NPO_1962 rdfs:label "Surface coating"@en .
 
 <https://search.data.enanomapper.net/>
  a                    void:DatasetDescription ;
+ dc:source            <https://search.data.enanomapper.net/> ;
  dct:title            "Open datasets hosted at the Nanosafety Data Interface"@en ;
  foaf:img             <https://search.data.enanomapper.net/assets/img/logo.png> ;
  dct:license          <http://creativecommons.org/publicdomain/zero/1.0/> . # license of this metadata
@@ -17065,6 +17102,13 @@ npo:NPO_1962 rdfs:label "Surface coating"@en .
   dct:license <https://search.data.enanomapper.net/about/enanomapper> ;
   foaf:page <https://search.data.enanomapper.net/projects/enanomapper> .
 
+<https://search.data.enanomapper.net/about/gracious> a sbd:Database ;
+  dc:source <https://search.data.enanomapper.net/> ;
+  rdfs:label "gracious - eNanoMapper database"@en ;
+  dc:description "H2020 GRACIOUS project data: Grouping materials for Risk Assessment"@en ;
+  dct:license <https://search.data.enanomapper.net/about/gracious> ;
+  foaf:page <https://search.data.enanomapper.net/projects/gracious> .
+
 <https://search.data.enanomapper.net/about/nanoreg> a sbd:Database ;
   dc:source <https://search.data.enanomapper.net/> ;
   rdfs:label "nanoreg - eNanoMapper database"@en ;
@@ -17079,7 +17123,7 @@ npo:NPO_1962 rdfs:label "Surface coating"@en .
   dct:license <https://search.data.enanomapper.net/about/nanoreg2> ;
   foaf:page <https://search.data.enanomapper.net/projects/nanoreg2> .
 
-#1811 triples detected in the JSON-LD
+#1732 triples detected in the JSON-LD
 @prefix dc:    <http://purl.org/dc/elements/1.1/> .
 @prefix dct:   <http://purl.org/dc/terms/> .
 @prefix foaf:  <http://xmlns.com/foaf/0.1/> .
@@ -17090,6 +17134,7 @@ npo:NPO_1962 rdfs:label "Surface coating"@en .
 
 <https://search.data.enanomapper.net/closed/>
  a                    void:DatasetDescription ;
+ dc:source            <https://search.data.enanomapper.net/> ;
  dct:title            "Closed datasets hosted at the Nanosafety Data Interface"@en ;
  foaf:img             <https://search.data.enanomapper.net/assets/img/logo.png> .
 
@@ -17127,13 +17172,6 @@ npo:NPO_1962 rdfs:label "Surface coating"@en .
   dc:description "H2020 Gov4Nano project data: Implementation of Risk Governance: meeting the needs of nanotechnology"@en ;
   dct:license <https://search.data.enanomapper.net/about/gov4nano> ;
   foaf:page <https://search.data.enanomapper.net/projects/gov4nano> .
-
-<https://search.data.enanomapper.net/about/gracious> a sbd:Database ;
-  dc:source <https://search.data.enanomapper.net/closed/> ;
-  rdfs:label "gracious - eNanoMapper database"@en ;
-  dc:description "H2020 GRACIOUS project data: Grouping materials for Risk Assessment"@en ;
-  dct:license <https://search.data.enanomapper.net/about/gracious> ;
-  foaf:page <https://search.data.enanomapper.net/projects/gracious> .
 
 <https://search.data.enanomapper.net/about/harmless> a sbd:Database ;
   dc:source <https://search.data.enanomapper.net/closed/> ;
@@ -17459,6 +17497,7 @@ npo:NPO_707  rdfs:label "Nanomaterial"@en .
 
 <https://atena.urv.cat/model/>
  a                    void:DatasetDescription ;
+ dc:source            <https://atena.urv.cat/model/> ;
  dct:title            "SbD4nano Nanocompound"@en ;
  dct:license          <http://example.com/unknown> ;
  foaf:img             <https://www.urv.cat/media/img/logo-urv-nav.png> .
@@ -41339,6 +41378,7 @@ npo:NPO_707  rdfs:label "Nanomaterial"@en .
 
 <https://nanocommons.github.io/datasets/>
  a                    void:DatasetDescription ;
+ dc:source            <https://nanocommons.github.io/datasets/> ;
  dct:title            "Overview of open datasets released by NanoSafety Cluster projects"@en ;
  foaf:img             <https://upload.wikimedia.org/wikipedia/commons/e/e1/NanoCommons-Logo-Large_-_White_Circle_01.png> ;
  dct:license          <http://creativecommons.org/publicdomain/zero/1.0/> .
@@ -41492,6 +41532,7 @@ npo:NPO_707  rdfs:label "Nanomaterial"@en .
 
 <https://vhp4safety.github.io/cloud/>
  a                    void:DatasetDescription ;
+ dc:source            <https://cloud.vhp4safety.nl/> ;
  dct:title            "Cloud services provided by VHP4Safety"@en ;
  foaf:img             <https://images.nieuwsbrieven.rivm.nl/101500/0/5763/fe1e7915ce28f7a96ca25ed234631504.png> ;
  dct:license          <http://creativecommons.org/publicdomain/zero/1.0/> . # license of this metadata
