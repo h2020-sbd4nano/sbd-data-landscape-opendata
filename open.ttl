@@ -1,3 +1,15 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sbd: <https://www.sbd4nano.eu/rdf/#> .
+@prefix sbdbel: <https://www.sbd4nano.eu/bel/#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+void:DatasetDescription rdfs:label "Dataset Description" .
+sbdbel:CausalAssertion  rdfs:label "Causal Relationship" .
+
+sbd:Database rdfs:label "Database" .
+sbd:Dataset  rdfs:label "Dataset" .
+sbd:Model    rdfs:label "Model" .
+sbd:Resource rdfs:label "Resource" .
 @prefix afr: <http://purl.allotrope.org/ontologies/result#> .
 @prefix bao: <http://www.bioassayontology.org/bao#> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
@@ -17482,6 +17494,2102 @@ npo:NPO_707  rdfs:label "Nanomaterial"@en .
    sbdbel:relationship sbdbel:correlates ;
    sbdbel:outcome bioassayReading: ;
    sbdbel:quote "We have applied a magnetofluorescent nanoparticle library decorated with small molecules to address four critical questions in biomedical nanomaterial research [..] Screening of this library identified a variety of nanomaterials that discriminate among different cell types as well as among different physiologic states of the same cell type." .
+@prefix aop_event: <https://identifiers.org/aop.events/> .
+@prefix cito: <http://purl.org/spar/cito/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix efo: <http://www.ebi.ac.uk/efo/> .
+@prefix enm: <http://purl.enanomapper.org/onto/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix gracious: <https://h2020-sbd4nano.github.io/sbd4nano-gracious-owl/gracious.html#> .
+@prefix kb: <https://h2020-sbd4nano.github.io/sbd-data-landscape/> .
+@prefix npo: <http://purl.bioontology.org/ontology/npo#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sbd: <https://www.sbd4nano.eu/rdf/#> .
+@prefix sbdbel: <https://www.sbd4nano.eu/bel/#> .
+@prefix sio: <http://semanticscience.org/resource/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<https://github.com/h2020-sbd4nano/relationship_network> a void:DatasetDescription ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    dc:title "SbD4nano WP2 Causal Relationships"@en ;
+    foaf:page <https://www.sbd4nano.eu/> .
+
+kb:CausalAssertion_0 a sbd:CausalAssertion,
+        sbd:resource ;
+    enm:CL_0001034 "unknown" ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    dcterms:subject [ a "GO" ;
+            sio:description "unknown" ;
+            owl:sameAs enm:ENM_0000117 ] ;
+    cito:containsAssertionFrom <doi.org/10.1021/la203607w>,
+        <doi.org/10.1021/tx400385x> ;
+    sio:SIO_000299 "formation of hydrogen bonds between polar functional groups on the GO surface and water molecules, a stable GO colloidal suspension can be attained" ;
+    efo:EFO_0000428 "unknown" ;
+    sbdbel:cause [ rdfs:label "coating/surface chemistry" ;
+            owl:sameAs npo:NPO_1823,
+                gracious:0f790f0f-2b26-d346-8756-4ea6181af3c4,
+                <unknown> ] ;
+    sbdbel:outcome [ rdfs:label "Suspension" ;
+            owl:sameAs <unknown> ] ;
+    sbdbel:relationship sbdbel:Correlates .
+
+kb:CausalAssertion_1 a sbd:CausalAssertion,
+        sbd:resource ;
+    enm:CL_0001034 "unknown" ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    dcterms:subject [ a "GO" ;
+            sio:description "unknown" ;
+            owl:sameAs enm:ENM_0000117 ] ;
+    cito:containsAssertionFrom <unknown> ;
+    sio:SIO_000299 "The main oxygen containing functional groups, which are distributed on GO nanosheets are carboxylic (– COOH), phenolic hydroxyl (–OH), epoxides (C–O–C) and other carbonyl groups (C=O) causing polar surface properties." ;
+    efo:EFO_0000428 "unknown" ;
+    sbdbel:cause [ rdfs:label "coating/surface chemistry" ;
+            owl:sameAs npo:NPO_1823,
+                gracious:0f790f0f-2b26-d346-8756-4ea6181af3c4,
+                <unknown> ] ;
+    sbdbel:outcome [ rdfs:label "Surface charge" ;
+            owl:sameAs <unknown> ] ;
+    sbdbel:relationship sbdbel:Correlates .
+
+kb:CausalAssertion_10 a sbd:CausalAssertion,
+        sbd:resource ;
+    enm:CL_0001034 "A549 cells" ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    dcterms:subject [ a "GO" ;
+            sio:description "The thickness of the GO layer is around 0.9 nm according to AFM measurement (Fig. S1). Both large and small sheets are presented in m-GO (430 ± 300 nm). The size of l-GO sheets (780 ± 410 nm) is larger than that of s-GO sheets (160 ± 90 nm). In aqueous suspension, the average hydrodynamic diameter (Dh) is 588 nm for m-GO, 556 nm for l-GO, 148 nm for s-GO, according to Nanosizer measurements (Table S1). Three GO samples have very similar FTIR spectra (Fig. S2). The broad absorption at 3400 cm−1 suggests the existence of –COOH and –OH groups. The absorption at 1720 cm−1 corresponds to Cdouble bondO bonds. The oxygen contents based on XPS analysis are 33.1% for l-GO, 37.0% for s-GO and 35.8% for m-GO (Fig. S3). " ;
+            owl:sameAs enm:ENM_0000117 ] ;
+    cito:containsAssertionFrom <https://doi.org/10.1016/j.toxlet.2010.11.016>,
+        <unknown> ;
+    sio:SIO_000299 "GO with higher concentrations induces more ROS. Among the three GO samples, s-GO causes the most serious oxidative stress." ;
+    efo:EFO_0000428 "A549 cells" ;
+    sbdbel:cause [ rdfs:label "lateral dimension" ;
+            owl:sameAs <unknown> ] ;
+    sbdbel:outcome [ rdfs:label "ROS production" ;
+            owl:sameAs <1364;257;1115;249;1278;1753;1592>,
+                <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:26523>,
+                <unknown> ] ;
+    sbdbel:relationship sbdbel:NegativelyCorrelates .
+
+kb:CausalAssertion_11 a sbd:CausalAssertion,
+        sbd:resource ;
+    enm:CL_0001034 "unknown" ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    dcterms:subject [ a "unknown" ;
+            sio:description "unknown" ] ;
+    cito:containsAssertionFrom <https://doi.org/10.1038/cdd.2010.11>,
+        <unknown> ;
+    sio:SIO_000299 "unknown" ;
+    efo:EFO_0000428 "unknown" ;
+    sbdbel:cause [ rdfs:label "activation of caspase-3" ;
+            owl:sameAs <unknown> ] ;
+    sbdbel:outcome [ rdfs:label "Apoptosis" ;
+            owl:sameAs <unknown> ] ;
+    sbdbel:relationship sbdbel:PositivelyCorrelates .
+
+kb:CausalAssertion_12 a sbd:CausalAssertion,
+        sbd:resource ;
+    enm:CL_0001034 "macrophage PMØ, J774A.1, LLC, MCF-7, HepG2, and HUVEC" ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    dcterms:subject [ a "GO" ;
+            sio:description "350 nm and 2 μm in lateral dimension, and the average heights were 3.9 and 4.05 nm layer amounts (≈4) of the two GO products. " ;
+            owl:sameAs enm:ENM_0000117 ] ;
+    cito:containsAssertionFrom <https://doi.org/10.1016/j.biomaterials.2012.02.021>,
+        <unknown> ;
+    sio:SIO_000299 "either lateral dimension had little effect on cell viability over present dose range (0–20 μg/mL)" ;
+    efo:EFO_0000428 "macrophage PMØ, J774A.1, LLC, MCF-7, HepG2, and HUVEC" ;
+    sbdbel:cause [ rdfs:label "lateral dimension" ;
+            owl:sameAs <unknown> ] ;
+    sbdbel:outcome [ rdfs:label "cell viability" ;
+            owl:sameAs <unknown> ] ;
+    sbdbel:relationship sbdbel:DoesNotCorrelate .
+
+kb:CausalAssertion_13 a sbd:CausalAssertion,
+        sbd:resource ;
+    enm:CL_0001034 "macrophage PMØ, J774A.1, LLC, MCF-7, HepG2, and HUVEC" ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    dcterms:subject [ a "GO+Mn" ;
+            sio:description "351 nm and 2 μm in lateral dimension, and the average heights were 3.9 and 4.05 nm layer amounts (≈4) of the two GO products." ] ;
+    cito:containsAssertionFrom <https://doi.org/10.1016/j.biomaterials.2012.02.021>,
+        <unknown> ;
+    sio:SIO_000299 "significant toxicity was detected for all six kinds of cells that treated with Mn-containing GO. " ;
+    efo:EFO_0000428 "macrophage PMØ, J774A.1, LLC, MCF-7, HepG2, and HUVEC" ;
+    sbdbel:cause [ rdfs:label "Mn-impurity" ;
+            owl:sameAs <unknown> ] ;
+    sbdbel:outcome [ rdfs:label "toxicity" ;
+            owl:sameAs npo:NPO_1338,
+                <unknown> ] ;
+    sbdbel:relationship sbdbel:PositivelyCorrelates .
+
+kb:CausalAssertion_14 a sbd:CausalAssertion,
+        sbd:resource ;
+    enm:CL_0001034 "HUVEC" ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    dcterms:subject [ a "GO+Mn" ;
+            sio:description "351 nm and 2 μm in lateral dimension, and the average heights were 3.9 and 4.05 nm layer amounts (≈4) of the two GO products." ] ;
+    cito:containsAssertionFrom <https://doi.org/10.1016/j.biomaterials.2012.02.021>,
+        <unknown> ;
+    sio:SIO_000299 "At a dose of 20 μg/mL, viability was even reduced by ∼70% for HUVEC cells" ;
+    efo:EFO_0000428 "HUVEC" ;
+    sbdbel:cause [ rdfs:label "Mn-impurity" ;
+            owl:sameAs <unknown> ] ;
+    sbdbel:outcome [ rdfs:label "cell viability" ;
+            owl:sameAs <unknown> ] ;
+    sbdbel:relationship sbdbel:NegativelyCorrelates .
+
+kb:CausalAssertion_15 a sbd:CausalAssertion,
+        sbd:resource ;
+    enm:CL_0001034 "HepG2, HKC, LLC, and HUVEC" ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    dcterms:subject [ a "GO" ;
+            sio:description "352 nm and 2 μm in lateral dimension, and the average heights were 3.9 and 4.05 nm layer amounts (≈4) of the two GO products." ;
+            owl:sameAs enm:ENM_0000117 ] ;
+    cito:containsAssertionFrom <https://doi.org/10.1016/j.biomaterials.2012.02.021>,
+        <unknown> ;
+    sio:SIO_000299 "GO internalization was negligible in all these non-phagocytes, which was likely due to strong electrostatic repulsions between GO and cell surface (negatively charged)" ;
+    efo:EFO_0000428 "HepG2, HKC, LLC, and HUVEC" ;
+    sbdbel:cause [ rdfs:label "Surface charge" ;
+            owl:sameAs <unknown> ] ;
+    sbdbel:outcome [ rdfs:label "cell uptake (amount)" ;
+            owl:sameAs <unknown> ] ;
+    sbdbel:relationship sbdbel:NegativelyCorrelates .
+
+kb:CausalAssertion_16 a sbd:CausalAssertion,
+        sbd:resource ;
+    enm:CL_0001034 "HepG2, HKC, LLC, and HUVEC" ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    dcterms:subject [ a "GO" ;
+            sio:description "352 nm and 2 μm in lateral dimension, and the average heights were 3.9 and 4.05 nm layer amounts (≈4) of the two GO products." ;
+            owl:sameAs enm:ENM_0000117 ] ;
+    cito:containsAssertionFrom <https://doi.org/10.1016/j.biomaterials.2012.02.021>,
+        <unknown> ;
+    sio:SIO_000299 "For the flat 2D GO, the curve was much smaller than that of spherical particles, imparting much higher carboxyl intensities when the cell-GO interaction happened. Therefore, the electrostatic repulsions between pristine GO and cell membrane would be more difficult to be conquered. " ;
+    efo:EFO_0000428 "HepG2, HKC, LLC, and HUVEC" ;
+    sbdbel:cause [ rdfs:label "shape" ;
+            owl:sameAs npo:NPO_274,
+                <unknown> ] ;
+    sbdbel:outcome [ rdfs:label "cell uptake (amount)" ;
+            owl:sameAs <unknown> ] ;
+    sbdbel:relationship sbdbel:Correlates .
+
+kb:CausalAssertion_17 a sbd:CausalAssertion,
+        sbd:resource ;
+    enm:CL_0001034 "macrophage PMØ, J774A.1" ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    dcterms:subject [ a "GO" ;
+            sio:description "354 nm and 2 μm in lateral dimension, and the average heights were 3.9 and 4.05 nm layer amounts (≈4) of the two GO products." ;
+            owl:sameAs enm:ENM_0000117 ] ;
+    cito:containsAssertionFrom <https://doi.org/10.1016/j.biomaterials.2012.02.021>,
+        <unknown> ;
+    sio:SIO_000299 "the saturated uptake amount of the two GO sheets did not vary with lateral dimension" ;
+    efo:EFO_0000428 "macrophage PMØ, J774A.1" ;
+    sbdbel:cause [ rdfs:label "lateral dimension" ;
+            owl:sameAs <unknown> ] ;
+    sbdbel:outcome [ rdfs:label "cell uptake (amount)" ;
+            owl:sameAs <unknown> ] ;
+    sbdbel:relationship sbdbel:DoesNotCorrelate .
+
+kb:CausalAssertion_18 a sbd:CausalAssertion,
+        sbd:resource ;
+    enm:CL_0001034 "macrophage PMØ, J774A.1, LLC, MCF-7, HepG2, and HUVEC" ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    dcterms:subject [ a "GO" ;
+            sio:description "351 nm and 2 μm in lateral dimension, and the average heights were 3.9 and 4.05 nm layer amounts (≈4) of the two GO products." ;
+            owl:sameAs enm:ENM_0000117 ] ;
+    cito:containsAssertionFrom <https://doi.org/10.1016/j.biomaterials.2012.02.021>,
+        <unknown> ;
+    sio:SIO_000299 "These results confirmed a dramatic uptake disparity between cell types" ;
+    efo:EFO_0000428 "macrophage PMØ, J774A.1, LLC, MCF-7, HepG2, and HUVEC" ;
+    sbdbel:cause [ rdfs:label "cell type" ;
+            owl:sameAs <unknown> ] ;
+    sbdbel:outcome [ rdfs:label "cell uptake (amount)" ;
+            owl:sameAs <unknown> ] ;
+    sbdbel:relationship sbdbel:Correlates .
+
+kb:CausalAssertion_19 a sbd:CausalAssertion,
+        sbd:resource ;
+    enm:CL_0001034 "macrophage PMØ, J774A.1" ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    dcterms:subject [ a "GO" ;
+            sio:description "354 nm and 2 μm in lateral dimension, and the average heights were 3.9 and 4.05 nm layer amounts (≈4) of the two GO products." ;
+            owl:sameAs enm:ENM_0000117 ] ;
+    cito:containsAssertionFrom <https://doi.org/10.1016/j.biomaterials.2012.02.021>,
+        <unknown> ;
+    sio:SIO_000299 "Surprisingly, the saturated uptake amount of the two GO sheets did not vary with lateral dimension (Fig. 2B), and an identical accumulation of GO in macrophages was observed (Fig. 2C and D)" ;
+    efo:EFO_0000428 "macrophage PMØ, J774A.1" ;
+    sbdbel:cause [ rdfs:label "lateral dimension" ;
+            owl:sameAs <unknown> ] ;
+    sbdbel:outcome [ rdfs:label "cell uptake (amount)" ;
+            owl:sameAs <unknown> ] ;
+    sbdbel:relationship sbdbel:DoesNotCorrelate .
+
+kb:CausalAssertion_2 a sbd:CausalAssertion,
+        sbd:resource ;
+    enm:CL_0001034 "unknown" ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    dcterms:subject [ a "GO" ;
+            sio:description "unknown" ;
+            owl:sameAs enm:ENM_0000117 ] ;
+    cito:containsAssertionFrom <unknown> ;
+    sio:SIO_000299 "Due to these functionalities, GO nanosheets are relatively hydrophilic and exfoliate easily in aqueous media [Najafi F. et al., 2015]." ;
+    efo:EFO_0000428 "unknown" ;
+    sbdbel:cause [ rdfs:label "Surface charge" ;
+            owl:sameAs <unknown> ] ;
+    sbdbel:outcome [ rdfs:label "Hydrophilicity" ;
+            owl:sameAs <unknown> ] ;
+    sbdbel:relationship sbdbel:Correlates .
+
+kb:CausalAssertion_20 a sbd:CausalAssertion,
+        sbd:resource ;
+    enm:CL_0001034 "PMØ" ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    dcterms:subject [ a "GO" ;
+            sio:description "354 nm and 2 μm in lateral dimension, and the average heights were 3.9 and 4.05 nm layer amounts (≈4) of the two GO products." ;
+            owl:sameAs enm:ENM_0000117 ] ;
+    cito:containsAssertionFrom <https://doi.org/10.1016/j.biomaterials.2012.02.021>,
+        <unknown> ;
+    sio:SIO_000299 "The internalization of 350 nm and 2 μm GO was proved an energy-dependent process, as remarkable decreases (∼85% compared with cells at 37 °C) occurred for GO under low-energy incubation (at 4 °C). " ;
+    efo:EFO_0000428 "PMØ" ;
+    sbdbel:cause [ rdfs:label "temperature" ;
+            owl:sameAs <unknown> ] ;
+    sbdbel:outcome [ rdfs:label "cell uptake (amount)" ;
+            owl:sameAs <unknown> ] ;
+    sbdbel:relationship sbdbel:PositivelyCorrelates .
+
+kb:CausalAssertion_21 a sbd:CausalAssertion,
+        sbd:resource ;
+    enm:CL_0001034 "mouse alveolar macrophages (MHS) " ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    dcterms:subject [ a "GO" ;
+            sio:description "thicknesses ranging from 0.5 to 2.0 nm and areas up to 200 000 nm2" ;
+            owl:sameAs enm:ENM_0000117 ] ;
+    cito:containsAssertionFrom <dx.doi.org/10.1021/tx400385x>,
+        <https://doi.org/10.1021/nl202515a> ;
+    sio:SIO_000299 "GO acts on alveolar macrophages and alveolar epithelial cells by the generation of ROS, yielding inflammation, and resulting in apoptosis of mitochondrial respiration.27" ;
+    efo:EFO_0000428 "mouse alveolar macrophages (MHS) " ;
+    sbdbel:cause [ rdfs:label "exposure" ;
+            owl:sameAs <unknown> ] ;
+    sbdbel:outcome [ rdfs:label "ROS production" ;
+            owl:sameAs <1364;257;1115;249;1278;1753;1592>,
+                <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:26523>,
+                <unknown> ] ;
+    sbdbel:relationship sbdbel:PositivelyCorrelates .
+
+kb:CausalAssertion_22 a sbd:CausalAssertion,
+        sbd:resource ;
+    enm:CL_0001034 "epithelial cells (MLE 12) (catalog no. CRL-2019 and CRL-2110, respectively, ATCC, Manassas, VA)" ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    dcterms:subject [ a "GO" ;
+            sio:description "thicknesses ranging from 0.5 to 2.0 nm and areas up to 200 000 nm2" ;
+            owl:sameAs enm:ENM_0000117 ] ;
+    cito:containsAssertionFrom <dx.doi.org/10.1021/tx400385x>,
+        <https://doi.org/10.1021/nl202515a> ;
+    sio:SIO_000299 "GO acts on alveolar macrophages and alveolar epithelial cells by the generation of ROS, yielding inflammation, and resulting in apoptosis of mitochondrial respiration.27" ;
+    efo:EFO_0000428 "epithelial cells (MLE 12) (catalog no. CRL-2019 and CRL-2110, respectively, ATCC, Manassas, VA)" ;
+    sbdbel:cause [ rdfs:label "exposure" ;
+            owl:sameAs <unknown> ] ;
+    sbdbel:outcome [ rdfs:label "ROS production" ;
+            owl:sameAs <1364;257;1115;249;1278;1753;1592>,
+                <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:26523>,
+                <unknown> ] ;
+    sbdbel:relationship sbdbel:PositivelyCorrelates .
+
+kb:CausalAssertion_23 a sbd:CausalAssertion,
+        sbd:resource ;
+    enm:CL_0001034 "human fibroblast cell (HDF)" ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    dcterms:subject [ a "GO" ;
+            sio:description "height of GO sheet is about 1 nm" ;
+            owl:sameAs enm:ENM_0000117 ] ;
+    cito:containsAssertionFrom <https://doi.org/10.1007/s11671-010-9751-6>,
+        <unknown> ;
+    sio:SIO_000299 "graphene oxides with dose of less than 20 μg/mL did not exhibit toxicity to human fibroblast cells" ;
+    efo:EFO_0000428 "human fibroblast cell (HDF)" ;
+    sbdbel:cause [ rdfs:label "Dose" ;
+            owl:sameAs <unknown> ] ;
+    sbdbel:outcome [ rdfs:label "cytotoxicity" ;
+            owl:sameAs <unknown> ] ;
+    sbdbel:relationship sbdbel:DoesNotCorrelate .
+
+kb:CausalAssertion_24 a sbd:CausalAssertion,
+        sbd:resource ;
+    enm:CL_0001034 "human fibroblast cell (HDF)" ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    dcterms:subject [ a "GO" ;
+            sio:description "height of GO sheet is about 1 nm" ;
+            owl:sameAs enm:ENM_0000117 ] ;
+    cito:containsAssertionFrom <dx.doi.org/10.1021/tx400385x>,
+        <https://doi.org/10.1007/s11671-010-9751-6> ;
+    sio:SIO_000299 "graphene oxides with dose of less than 20 μg/mL did not exhibit toxicity to human fibroblast cells, and the dose of more than 50 μg/mL exhibits obvious cytotoxicity such as decreasing cell adhesion, inducing cell apoptosis, entering into lysosomes, mitochondrion, endoplasm, and cell nucleus." ;
+    efo:EFO_0000428 "human fibroblast cell (HDF)" ;
+    sbdbel:cause [ rdfs:label "Dose" ;
+            owl:sameAs <unknown> ] ;
+    sbdbel:outcome [ rdfs:label "cytotoxicity" ;
+            owl:sameAs <unknown> ] ;
+    sbdbel:relationship sbdbel:PositivelyCorrelates .
+
+kb:CausalAssertion_25 a sbd:CausalAssertion,
+        sbd:resource ;
+    enm:CL_0001034 "human fibroblast cell (HDF)" ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    dcterms:subject [ a "GO" ;
+            sio:description "height of GO sheet is about 1 nm" ;
+            owl:sameAs enm:ENM_0000117 ] ;
+    cito:containsAssertionFrom <dx.doi.org/10.1021/tx400385x>,
+        <https://doi.org/10.1007/s11671-010-9751-6> ;
+    sio:SIO_000299 "graphene oxides with dose of less than 20 μg/mL did not exhibit toxicity to human fibroblast cells, and the dose of more than 50 μg/mL exhibits obvious cytotoxicity such as decreasing cell adhesion, inducing cell apoptosis, entering into lysosomes, mitochondrion, endoplasm, and cell nucleus." ;
+    efo:EFO_0000428 "human fibroblast cell (HDF)" ;
+    sbdbel:cause [ rdfs:label "Dose" ;
+            owl:sameAs <unknown> ] ;
+    sbdbel:outcome [ rdfs:label "cell adhesion" ;
+            owl:sameAs <unknown> ] ;
+    sbdbel:relationship sbdbel:NegativelyCorrelates .
+
+kb:CausalAssertion_26 a sbd:CausalAssertion,
+        sbd:resource ;
+    enm:CL_0001034 "human fibroblast cell (HDF)" ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    dcterms:subject [ a "GO" ;
+            sio:description "height of GO sheet is about 1 nm" ;
+            owl:sameAs enm:ENM_0000117 ] ;
+    cito:containsAssertionFrom <https://doi.org/10.1007/s11671-010-9751-6>,
+        <unknown> ;
+    sio:SIO_000299 "morphology of HDF cells cultured with 20 μg/mL GO for 3 days, showing cell have unclear boundary, membrane vesicles and fragmentation, the arrow showing apoptotic cells formed nodular structure encapsulating GO" ;
+    efo:EFO_0000428 "human fibroblast cell (HDF)" ;
+    sbdbel:cause [ rdfs:label "Dose" ;
+            owl:sameAs <unknown> ] ;
+    sbdbel:outcome [ rdfs:label "apoptosis" ;
+            owl:sameAs <unknown> ] ;
+    sbdbel:relationship sbdbel:PositivelyCorrelates .
+
+kb:CausalAssertion_27 a sbd:CausalAssertion,
+        sbd:resource ;
+    enm:CL_0001034 "Mice" ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    dcterms:subject [ a "GO" ;
+            sio:description "height of GO sheet is about 1 nm" ;
+            owl:sameAs enm:ENM_0000117 ] ;
+    cito:containsAssertionFrom <https://doi.org/10.1007/s11671-010-9751-6>,
+        <unknown> ;
+    sio:SIO_000299 "graphene oxides under low dose (0.1 mg) and middle dose (0.25 mg) did not exhibit obvious toxicity to mice, under high dose (0.4 mg) exhibited chronic toxicity such as 4/9 mice death and lung granuloma formation, mainly located in lung, liver, spleen and kidney, almost could not be cleaned by kidney. " ;
+    efo:EFO_0000428 "Mice" ;
+    sbdbel:cause [ rdfs:label "Dose" ;
+            owl:sameAs <unknown> ] ;
+    sbdbel:outcome [ rdfs:label "toxicity" ;
+            owl:sameAs npo:NPO_1338,
+                <unknown> ] ;
+    sbdbel:relationship sbdbel:DoesNotCorrelate .
+
+kb:CausalAssertion_28 a sbd:CausalAssertion,
+        sbd:resource ;
+    enm:CL_0001034 "Mice" ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    dcterms:subject [ a "GO" ;
+            sio:description "height of GO sheet is about 1 nm" ;
+            owl:sameAs enm:ENM_0000117 ] ;
+    cito:containsAssertionFrom <https://doi.org/10.1007/s11671-010-9751-6>,
+        <unknown> ;
+    sio:SIO_000299 "graphene oxides under low dose (0.1 mg) and middle dose (0.25 mg) did not exhibit obvious toxicity to mice, under high dose (0.4 mg) exhibited chronic toxicity such as 4/9 mice death and lung granuloma formation, mainly located in lung, liver, spleen and kidney, almost could not be cleaned by kidney. " ;
+    efo:EFO_0000428 "Mice" ;
+    sbdbel:cause [ rdfs:label "Dose" ;
+            owl:sameAs <unknown> ] ;
+    sbdbel:outcome [ rdfs:label "toxicity" ;
+            owl:sameAs npo:NPO_1338,
+                <unknown> ] ;
+    sbdbel:relationship sbdbel:PositivelyCorrelates .
+
+kb:CausalAssertion_29 a sbd:CausalAssertion,
+        sbd:resource ;
+    enm:CL_0001034 "Mice" ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    dcterms:subject [ a "GO" ;
+            sio:description "height of GO sheet is about 1 nm" ;
+            owl:sameAs enm:ENM_0000117 ] ;
+    cito:containsAssertionFrom <https://doi.org/10.1007/s11671-010-9751-6>,
+        <unknown> ;
+    sio:SIO_000299 "graphene oxides under low dose (0.1 mg) and middle dose (0.25 mg) did not exhibit obvious toxicity to mice, under high dose (0.4 mg) exhibited chronic toxicity such as 4/9 mice death and lung granuloma formation, mainly located in lung, liver, spleen and kidney, almost could not be cleaned by kidney. " ;
+    efo:EFO_0000428 "Mice" ;
+    sbdbel:cause [ rdfs:label "Dose" ;
+            owl:sameAs <unknown> ] ;
+    sbdbel:outcome [ rdfs:label "granuloma formation" ;
+            owl:sameAs <unknown> ] ;
+    sbdbel:relationship sbdbel:PositivelyCorrelates .
+
+kb:CausalAssertion_3 a sbd:CausalAssertion,
+        sbd:resource ;
+    enm:CL_0001034 "unknown" ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    dcterms:subject [ a "GO" ;
+            sio:description "unknown" ;
+            owl:sameAs enm:ENM_0000117 ] ;
+    cito:containsAssertionFrom <unknown> ;
+    sio:SIO_000299 "Due to these functionalities, GO nanosheets are relatively hydrophilic and exfoliate easily in aqueous media [Najafi F. et al., 2015]." ;
+    efo:EFO_0000428 "unknown" ;
+    sbdbel:cause [ rdfs:label "Hydrophilicity" ;
+            owl:sameAs <unknown> ] ;
+    sbdbel:outcome [ rdfs:label "exfoliation" ;
+            owl:sameAs <unknown> ] ;
+    sbdbel:relationship sbdbel:Correlates .
+
+kb:CausalAssertion_30 a sbd:CausalAssertion,
+        sbd:resource ;
+    enm:CL_0001034 "RAW264.7 cells" ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    dcterms:subject [ a "GO" ;
+            sio:description "The effective hydrodynamic diameters of large and small GO were ≈2.4 μm and ≈350 nm, respectively" ;
+            owl:sameAs enm:ENM_0000117 ] ;
+    cito:containsAssertionFrom <dx.doi.org/10.1021/tx400385x>,
+        <https://doi.org/10.1016/j.biomaterials.2012.05.064> ;
+    sio:SIO_000299 "Murine macrophage-like RAW264.7 cells incubated with GO (∼100 μg/mL) were also able to elicit autophagy and the expression of Toll-like receptors associated with inflammatory responses.48" ;
+    efo:EFO_0000428 "RAW264.7 cells" ;
+    sbdbel:cause [ rdfs:label "exposure" ;
+            owl:sameAs <unknown> ] ;
+    sbdbel:outcome [ rdfs:label "autophagy" ;
+            owl:sameAs <unknown> ] ;
+    sbdbel:relationship sbdbel:PositivelyCorrelates .
+
+kb:CausalAssertion_31 a sbd:CausalAssertion,
+        sbd:resource ;
+    enm:CL_0001034 "RAW264.7 cells" ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    dcterms:subject [ a "GO" ;
+            sio:description "The effective hydrodynamic diameters of large and small GO were ≈2.4 μm and ≈350 nm, respectively" ;
+            owl:sameAs enm:ENM_0000117 ] ;
+    cito:containsAssertionFrom <dx.doi.org/10.1021/tx400385x>,
+        <https://doi.org/10.1016/j.biomaterials.2012.05.064> ;
+    sio:SIO_000299 "Murine macrophage-like RAW264.7 cells incubated with GO (∼100 μg/mL) were also able to elicit autophagy and the expression of Toll-like receptors associated with inflammatory responses.48" ;
+    efo:EFO_0000428 "RAW264.7 cells" ;
+    sbdbel:cause [ rdfs:label "exposure" ;
+            owl:sameAs <unknown> ] ;
+    sbdbel:outcome [ rdfs:label "Toll-like receptors" ;
+            owl:sameAs <https://www.ensembl.org/id/ENSG00000136869>,
+                <unknown> ] ;
+    sbdbel:relationship sbdbel:PositivelyCorrelates .
+
+kb:CausalAssertion_32 a sbd:CausalAssertion,
+        sbd:resource ;
+    enm:CL_0001034 "murine dendritic cells (DCs)" ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    dcterms:subject [ a "GO" ;
+            sio:description "?" ;
+            owl:sameAs enm:ENM_0000117 ] ;
+    cito:containsAssertionFrom <dx.doi.org/10.1021/tx400385x>,
+        <https://doi.org/10.1002/smll.201201546> ;
+    sio:SIO_000299 "Dendritic cells treated with GO (up to 25 μg/mL) were affected in their functional activity (antigens inhibition), this effect was associated with a down-regulation of intracellular levels of one unit of the immune proteasome responsible for antigen processing in these cells." ;
+    efo:EFO_0000428 "murine dendritic cells (DCs)" ;
+    sbdbel:cause [ rdfs:label "exposure" ;
+            owl:sameAs <unknown> ] ;
+    sbdbel:outcome [ rdfs:label "immunoproteasome LMP7" ;
+            owl:sameAs <unknown> ] ;
+    sbdbel:relationship sbdbel:NegativelyCorrelates .
+
+kb:CausalAssertion_33 a sbd:CausalAssertion,
+        sbd:resource ;
+    enm:CL_0001034 "murine dendritic cells (DCs)" ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    dcterms:subject [ a "GO" ;
+            sio:description "?" ;
+            owl:sameAs enm:ENM_0000117 ] ;
+    cito:containsAssertionFrom <https://doi.org/10.1002/smll.201201546>,
+        <unknown> ;
+    sio:SIO_000299 "GO disrupted the protein antigen processing in DCs by down-regulating the levels of immunoproteasome LMP7" ;
+    efo:EFO_0000428 "murine dendritic cells (DCs)" ;
+    sbdbel:cause [ rdfs:label "exposure" ;
+            owl:sameAs <unknown> ] ;
+    sbdbel:outcome [ rdfs:label "immunoproteasome LMP7" ;
+            owl:sameAs <unknown> ] ;
+    sbdbel:relationship sbdbel:NegativelyCorrelates .
+
+kb:CausalAssertion_34 a sbd:CausalAssertion,
+        sbd:resource ;
+    enm:CL_0001034 "MCF-7 cells" ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    dcterms:subject [ a "GO" ;
+            sio:description "unknown" ;
+            owl:sameAs enm:ENM_0000117 ] ;
+    cito:containsAssertionFrom <unknown> ;
+    sio:SIO_000299 "The cytotoxicity of GO and biogenic rGO was evaluated on human skin fibroblasts (CRL-2522). both GO (synthesized from graphite powder using a modified version of Hummers and Offeman’s method) and biogenic rGO (synthesized by Bacillus marisflavi biomass) exhibited toxicity on MCF-7 cells in a dose-dependent manner (up to a dose >60 μg/mL), thus decreasing the cell viability, increasing the ROS generation, and releasing lactate dehydro-genase.51 Atomic force microcopy revealed that GO exhibit flat sheets with an average thickness of about 0.43 nm, indicating the formation of single-layered GO nanosheets. However, biogenic rGO was found to be thicker (∼4.23 nm), indicating the presence of biomass on the GO surface.51" ;
+    efo:EFO_0000428 "MCF-7 cells" ;
+    sbdbel:cause [ rdfs:label "Dose" ;
+            owl:sameAs <unknown> ] ;
+    sbdbel:outcome [ rdfs:label "toxicity" ;
+            owl:sameAs npo:NPO_1338,
+                <unknown> ] ;
+    sbdbel:relationship sbdbel:PositivelyCorrelates .
+
+kb:CausalAssertion_35 a sbd:CausalAssertion,
+        sbd:resource ;
+    enm:CL_0001034 "mammalian colorectal adenocarcinoma cells (HT-29 cells)" ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    dcterms:subject [ a "GO" ;
+            sio:description "?" ;
+            owl:sameAs enm:ENM_0000117 ] ;
+    cito:containsAssertionFrom <dx.doi.org/10.1021/tx400385x>,
+        <https://doi.org/10.1021/nn202699t> ;
+    sio:SIO_000299 "the attachment and proliferation of mammalian colorectal adenocarcinoma cells (HT-29 cells) upon exposure to GO films, indicating no significant toxicity" ;
+    efo:EFO_0000428 "mammalian colorectal adenocarcinoma cells (HT-29 cells)" ;
+    sbdbel:cause [ rdfs:label "exposure" ;
+            owl:sameAs <unknown> ] ;
+    sbdbel:outcome [ rdfs:label "toxicity" ;
+            owl:sameAs npo:NPO_1338,
+                <unknown> ] ;
+    sbdbel:relationship sbdbel:DoesNotCorrelate .
+
+kb:CausalAssertion_36 a sbd:CausalAssertion,
+        sbd:resource ;
+    enm:CL_0001034 "RAJI, HCT116, OVCAR-3, U87MG, MCF-7" ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    dcterms:subject [ a "PEGGO" ;
+            sio:description "unknown" ] ;
+    cito:containsAssertionFrom <dx.doi.org/10.1021/tx400385x>,
+        <unknown> ;
+    sio:SIO_000299 "incubation of several cell cultures, such as lymphoblastoid cells (RAJI),33 colon cancer cell lines (HCT116),34 a human ovarian carcinoma cell line (OVCAR-3),35 a glioblastoma cell line (U87MG), and breast cancer cells (MCF-7), with GO capped with polyethylene glycol (PEG), showed no cytotoxicity up to 100 μg/mL.36" ;
+    efo:EFO_0000428 "RAJI, HCT116, OVCAR-3, U87MG, MCF-7" ;
+    sbdbel:cause [ rdfs:label "Dose" ;
+            owl:sameAs <unknown> ] ;
+    sbdbel:outcome [ rdfs:label "cytotoxicity" ;
+            owl:sameAs <unknown> ] ;
+    sbdbel:relationship sbdbel:DoesNotCorrelate .
+
+kb:CausalAssertion_37 a sbd:CausalAssertion,
+        sbd:resource ;
+    enm:CL_0001034 "A549" ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    dcterms:subject [ a "GO" ;
+            sio:description "thickness of the GO sheets was ∼1.1 nm" ;
+            owl:sameAs enm:ENM_0000117 ] ;
+    cito:containsAssertionFrom <https://doi.org/10.1021/nn101097v>,
+        <unknown> ;
+    sio:SIO_000299 "The metabolic activity assays based on succinate dehydrogenase activity in the mitochondria showed that GO nanosheets (20 μg/mL) exhibited no cytotoxicity to A549 within 2 h incubation and a slight decrease in cell viability (∼20%) within 24 h. GO nanosheets of higher concentration (85 μg/mL) led to an increased cytotoxicity (∼50%) within 24 h " ;
+    efo:EFO_0000428 "A549" ;
+    sbdbel:cause [ rdfs:label "Dose" ;
+            owl:sameAs <unknown> ] ;
+    sbdbel:outcome [ rdfs:label "cell viability" ;
+            owl:sameAs <unknown> ] ;
+    sbdbel:relationship sbdbel:NegativelyCorrelates .
+
+kb:CausalAssertion_38 a sbd:CausalAssertion,
+        sbd:resource ;
+    enm:CL_0001034 "A549" ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    dcterms:subject [ a "GO" ;
+            sio:description "thickness of the GO sheets was ∼1.1 nm" ;
+            owl:sameAs enm:ENM_0000117 ] ;
+    cito:containsAssertionFrom <https://doi.org/10.1021/nn101097v>,
+        <unknown> ;
+    sio:SIO_000299 "The metabolic activity assays based on succinate dehydrogenase activity in the mitochondria showed that GO nanosheets (20 μg/mL) exhibited no cytotoxicity to A549 within 2 h incubation and a slight decrease in cell viability (∼20%) within 24 h. GO nanosheets of higher concentration (85 μg/mL) led to an increased cytotoxicity (∼50%) within 24 h " ;
+    efo:EFO_0000428 "A549" ;
+    sbdbel:cause [ rdfs:label "time of exposure" ;
+            owl:sameAs <unknown> ] ;
+    sbdbel:outcome [ rdfs:label "cell viability" ;
+            owl:sameAs <unknown> ] ;
+    sbdbel:relationship sbdbel:NegativelyCorrelates .
+
+kb:CausalAssertion_39 a sbd:CausalAssertion,
+        sbd:resource ;
+    enm:CL_0001034 "mice" ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    dcterms:subject [ a "GO" ;
+            sio:description "unknown" ;
+            owl:sameAs enm:ENM_0000117 ] ;
+    cito:containsAssertionFrom <dx.doi.org/10.1021/tx400385x>,
+        <unknown> ;
+    sio:SIO_000299 "PEGylation of GO reduces the toxic effects in mice, and similarly, no severe toxicity was measured in vivo upon administration of GO as a component in injectable hydrogels for tissue engineering.65 " ;
+    efo:EFO_0000428 "mice" ;
+    sbdbel:cause [ rdfs:label "PEGylation" ;
+            owl:sameAs <unknown> ] ;
+    sbdbel:outcome [ rdfs:label "toxicity" ;
+            owl:sameAs npo:NPO_1338,
+                <unknown> ] ;
+    sbdbel:relationship sbdbel:NegativelyCorrelates .
+
+kb:CausalAssertion_4 a sbd:CausalAssertion,
+        sbd:resource ;
+    enm:CL_0001034 "human neuronal cells (PC12 cells)" ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    dcterms:subject [ a "rGO" ;
+            sio:description "diameter between 100−110 nm and thickness between 3−5 nm" ] ;
+    cito:containsAssertionFrom <dx.doi.org/10.1021/tx400385x>,
+        <https://doi.org/10.1021/nn1007176> ;
+    sio:SIO_000299 "Exposure of human neuronal cells (PC12 cells) to reduced graphene oxide (rGO) (diameter between 100−110 nm and thickness between 3−5 nm) caused an increase in the activation of caspase-3, release of lactate dehydrogenase, and generation of reactive oxygen species (ROS).24" ;
+    efo:EFO_0000428 "human neuronal cells (PC12 cells)" ;
+    sbdbel:cause [ rdfs:label "exposure" ;
+            owl:sameAs <unknown> ] ;
+    sbdbel:outcome [ rdfs:label "activation of caspase-3" ;
+            owl:sameAs <unknown> ] ;
+    sbdbel:relationship sbdbel:PositivelyCorrelates .
+
+kb:CausalAssertion_40 a sbd:CausalAssertion,
+        sbd:resource ;
+    enm:CL_0001034 "human cells" ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    dcterms:subject [ a "GO" ;
+            sio:description "unknown" ;
+            owl:sameAs enm:ENM_0000117 ] ;
+    cito:containsAssertionFrom <dx.doi.org/10.1021/tx400385x>,
+        <unknown> ;
+    sio:SIO_000299 "The toxicity of GO was observed to be dose-dependent in both human and animal cells, displaying little to no effect for low and medium doses in mice.46" ;
+    efo:EFO_0000428 "human cells" ;
+    sbdbel:cause [ rdfs:label "Dose" ;
+            owl:sameAs <unknown> ] ;
+    sbdbel:outcome [ rdfs:label "toxicity" ;
+            owl:sameAs npo:NPO_1338,
+                <unknown> ] ;
+    sbdbel:relationship sbdbel:PositivelyCorrelates .
+
+kb:CausalAssertion_41 a sbd:CausalAssertion,
+        sbd:resource ;
+    enm:CL_0001034 "animal cells" ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    dcterms:subject [ a "GO" ;
+            sio:description "unknown" ;
+            owl:sameAs enm:ENM_0000117 ] ;
+    cito:containsAssertionFrom <dx.doi.org/10.1021/tx400385x>,
+        <unknown> ;
+    sio:SIO_000299 "The toxicity of GO was observed to be dose-dependent in both human and animal cells, displaying little to no effect for low and medium doses in mice.46" ;
+    efo:EFO_0000428 "animal cells" ;
+    sbdbel:cause [ rdfs:label "Dose" ;
+            owl:sameAs <unknown> ] ;
+    sbdbel:outcome [ rdfs:label "toxicity" ;
+            owl:sameAs npo:NPO_1338,
+                <unknown> ] ;
+    sbdbel:relationship sbdbel:PositivelyCorrelates .
+
+kb:CausalAssertion_42 a sbd:CausalAssertion,
+        sbd:resource ;
+    enm:CL_0001034 "unknown" ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    dcterms:subject [ a "GO" ;
+            sio:description "unknown" ;
+            owl:sameAs enm:ENM_0000117 ] ;
+    cito:containsAssertionFrom <dx.doi.org/10.1021/tx400385x>,
+        <unknown> ;
+    sio:SIO_000299 "The intravenous administration of GO or amine-derived GO (GO-NH2) into a mouse (250 μg/kg body weight) led to extensive pulmonary thromboembolism, which is consistent with the highly potent thrombogenic nature of GO, as previously shown in vitro; however, amine-GO (GO-NH2) was found to be less toxic compared with its unfunctionalized counterpart." ;
+    efo:EFO_0000428 "unknown" ;
+    sbdbel:cause [ rdfs:label "amination" ;
+            owl:sameAs <unknown> ] ;
+    sbdbel:outcome [ rdfs:label "toxicity" ;
+            owl:sameAs npo:NPO_1338,
+                <unknown> ] ;
+    sbdbel:relationship sbdbel:PositivelyCorrelates .
+
+kb:CausalAssertion_43 a sbd:CausalAssertion,
+        sbd:resource ;
+    enm:CL_0001034 "unknown" ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    dcterms:subject [ a "Carbon" ;
+            sio:description "unknown" ] ;
+    cito:containsAssertionFrom <dx.doi.org/10.1021/tx400385x>,
+        <unknown> ;
+    sio:SIO_000299 "Many reports have proposed that oxidative stress is one of the mechanisms involved in the toxic effects of carbon nanomaterials.2,24,37,90 The oxidative stress in target cells is caused by the generation of reactive oxygen species (ROS).2 Antioxidant enzymes, such as superoxide dismutase or glutathione per-oxidase, are able to reduce and eliminate ROS. If homeostasis is not achieved, cellular macromolecules, such as proteins, DNA, and lipids, can be damaged.2" ;
+    efo:EFO_0000428 "unknown" ;
+    sbdbel:cause [ rdfs:label "exposure" ;
+            owl:sameAs <unknown> ] ;
+    sbdbel:outcome [ rdfs:label "ROS production" ;
+            owl:sameAs <1364;257;1115;249;1278;1753;1592>,
+                <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:26523>,
+                <unknown> ] ;
+    sbdbel:relationship sbdbel:unknown .
+
+kb:CausalAssertion_44 a sbd:CausalAssertion,
+        sbd:resource ;
+    enm:CL_0001034 "unknown" ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    dcterms:subject [ a "Carbon" ;
+            sio:description "unknown" ] ;
+    cito:containsAssertionFrom <dx.doi.org/10.1021/tx400385x>,
+        <unknown> ;
+    sio:SIO_000299 "Many reports have proposed that oxidative stress is one of the mechanisms involved in the toxic effects of carbon nanomaterials.2,24,37,90 The oxidative stress in target cells is caused by the generation of reactive oxygen species (ROS).2 Antioxidant enzymes, such as superoxide dismutase or glutathione per-oxidase, are able to reduce and eliminate ROS. If homeostasis is not achieved, cellular macromolecules, such as proteins, DNA, and lipids, can be damaged.2" ;
+    efo:EFO_0000428 "unknown" ;
+    sbdbel:cause [ rdfs:label "ROS production" ;
+            owl:sameAs <1364;257;1115;249;1278;1753;1592>,
+                <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:26523>,
+                <unknown> ] ;
+    sbdbel:outcome [ rdfs:label "oxidative stress" ;
+            owl:sameAs enm:ENM_0000037,
+                gracious:640bbb71-d45e-5d47-a86e-ace7de10544d,
+                aop_event:1392 ] ;
+    sbdbel:relationship sbdbel:unknown .
+
+kb:CausalAssertion_45 a sbd:CausalAssertion,
+        sbd:resource ;
+    enm:CL_0001034 "unknown" ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    dcterms:subject [ a "Graphene" ;
+            sio:description "unknown" ] ;
+    cito:containsAssertionFrom <dx.doi.org/10.1021/tx400385x>,
+        <unknown> ;
+    sio:SIO_000299 "This review reveals that the toxicity of graphene is dependent on the graphene surface (the chemical structure or the nature of the functionalized coatings), size, number of layers, cell type, administration route (for in vivo experiments), dose, time of exposure, and synthesis method" ;
+    efo:EFO_0000428 "unknown" ;
+    sbdbel:cause [ rdfs:label "coating/surface chemistry" ;
+            owl:sameAs npo:NPO_1823,
+                gracious:0f790f0f-2b26-d346-8756-4ea6181af3c4,
+                <unknown> ] ;
+    sbdbel:outcome [ rdfs:label "toxicity" ;
+            owl:sameAs npo:NPO_1338,
+                <unknown> ] ;
+    sbdbel:relationship sbdbel:unknown .
+
+kb:CausalAssertion_46 a sbd:CausalAssertion,
+        sbd:resource ;
+    enm:CL_0001034 "unknown" ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    dcterms:subject [ a "Graphene" ;
+            sio:description "unknown" ] ;
+    cito:containsAssertionFrom <dx.doi.org/10.1021/tx400385x>,
+        <unknown> ;
+    sio:SIO_000299 "This review reveals that the toxicity of graphene is dependent on the graphene surface (the chemical structure or the nature of the functionalized coatings), size, number of layers, cell type, administration route (for in vivo experiments), dose, time of exposure, and synthesis method" ;
+    efo:EFO_0000428 "unknown" ;
+    sbdbel:cause [ rdfs:label "lateral dimension" ;
+            owl:sameAs <unknown> ] ;
+    sbdbel:outcome [ rdfs:label "toxicity" ;
+            owl:sameAs npo:NPO_1338,
+                <unknown> ] ;
+    sbdbel:relationship sbdbel:unknown .
+
+kb:CausalAssertion_47 a sbd:CausalAssertion,
+        sbd:resource ;
+    enm:CL_0001034 "unknown" ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    dcterms:subject [ a "Graphene" ;
+            sio:description "unknown" ] ;
+    cito:containsAssertionFrom <dx.doi.org/10.1021/tx400385x>,
+        <unknown> ;
+    sio:SIO_000299 "This review reveals that the toxicity of graphene is dependent on the graphene surface (the chemical structure or the nature of the functionalized coatings), size, number of layers, cell type, administration route (for in vivo experiments), dose, time of exposure, and synthesis method" ;
+    efo:EFO_0000428 "unknown" ;
+    sbdbel:cause [ rdfs:label "layers" ;
+            owl:sameAs <unknown> ] ;
+    sbdbel:outcome [ rdfs:label "toxicity" ;
+            owl:sameAs npo:NPO_1338,
+                <unknown> ] ;
+    sbdbel:relationship sbdbel:unknown .
+
+kb:CausalAssertion_48 a sbd:CausalAssertion,
+        sbd:resource ;
+    enm:CL_0001034 "unknown" ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    dcterms:subject [ a "Graphene" ;
+            sio:description "unknown" ] ;
+    cito:containsAssertionFrom <dx.doi.org/10.1021/tx400385x>,
+        <unknown> ;
+    sio:SIO_000299 "This review reveals that the toxicity of graphene is dependent on the graphene surface (the chemical structure or the nature of the functionalized coatings), size, number of layers, cell type, administration route (for in vivo experiments), dose, time of exposure, and synthesis method" ;
+    efo:EFO_0000428 "unknown" ;
+    sbdbel:cause [ rdfs:label "cell type" ;
+            owl:sameAs <unknown> ] ;
+    sbdbel:outcome [ rdfs:label "toxicity" ;
+            owl:sameAs npo:NPO_1338,
+                <unknown> ] ;
+    sbdbel:relationship sbdbel:unknown .
+
+kb:CausalAssertion_49 a sbd:CausalAssertion,
+        sbd:resource ;
+    enm:CL_0001034 "unknown" ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    dcterms:subject [ a "Graphene" ;
+            sio:description "unknown" ] ;
+    cito:containsAssertionFrom <dx.doi.org/10.1021/tx400385x>,
+        <unknown> ;
+    sio:SIO_000299 "This review reveals that the toxicity of graphene is dependent on the graphene surface (the chemical structure or the nature of the functionalized coatings), size, number of layers, cell type, administration route (for in vivo experiments), dose, time of exposure, and synthesis method" ;
+    efo:EFO_0000428 "unknown" ;
+    sbdbel:cause [ rdfs:label "Dose" ;
+            owl:sameAs <unknown> ] ;
+    sbdbel:outcome [ rdfs:label "toxicity" ;
+            owl:sameAs npo:NPO_1338,
+                <unknown> ] ;
+    sbdbel:relationship sbdbel:unknown .
+
+kb:CausalAssertion_5 a sbd:CausalAssertion,
+        sbd:resource ;
+    enm:CL_0001034 "human neuronal cells (PC12 cells)" ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    dcterms:subject [ a "rGO" ;
+            sio:description "diameter between 100−110 nm and thickness between 3−5 nm" ] ;
+    cito:containsAssertionFrom <dx.doi.org/10.1021/tx400385x>,
+        <https://doi.org/10.1021/nn1007176> ;
+    sio:SIO_000299 "Exposure of human neuronal cells (PC12 cells) to reduced graphene oxide (rGO) (diameter between 100−110 nm and thickness between 3−5 nm) caused an increase in the activation of caspase-3, release of lactate dehydrogenase, and generation of reactive oxygen species (ROS).24" ;
+    efo:EFO_0000428 "human neuronal cells (PC12 cells)" ;
+    sbdbel:cause [ rdfs:label "exposure" ;
+            owl:sameAs <unknown> ] ;
+    sbdbel:outcome [ rdfs:label "lactate dehydrogenase" ;
+            owl:sameAs <unknown> ] ;
+    sbdbel:relationship sbdbel:PositivelyCorrelates .
+
+kb:CausalAssertion_50 a sbd:CausalAssertion,
+        sbd:resource ;
+    enm:CL_0001034 "unknown" ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    dcterms:subject [ a "Graphene" ;
+            sio:description "unknown" ] ;
+    cito:containsAssertionFrom <dx.doi.org/10.1021/tx400385x>,
+        <unknown> ;
+    sio:SIO_000299 "This review reveals that the toxicity of graphene is dependent on the graphene surface (the chemical structure or the nature of the functionalized coatings), size, number of layers, cell type, administration route (for in vivo experiments), dose, time of exposure, and synthesis method" ;
+    efo:EFO_0000428 "unknown" ;
+    sbdbel:cause [ rdfs:label "time of exposure" ;
+            owl:sameAs <unknown> ] ;
+    sbdbel:outcome [ rdfs:label "toxicity" ;
+            owl:sameAs npo:NPO_1338,
+                <unknown> ] ;
+    sbdbel:relationship sbdbel:unknown .
+
+kb:CausalAssertion_51 a sbd:CausalAssertion,
+        sbd:resource ;
+    enm:CL_0001034 "unknown" ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    dcterms:subject [ a "Graphene" ;
+            sio:description "unknown" ] ;
+    cito:containsAssertionFrom <dx.doi.org/10.1021/tx400385x>,
+        <unknown> ;
+    sio:SIO_000299 "he current literature proposes that the generation of reactive oxygen species in target cells is the most important cytotoxicity mechanism of graphene." ;
+    efo:EFO_0000428 "unknown" ;
+    sbdbel:cause [ rdfs:label "exposure" ;
+            owl:sameAs <unknown> ] ;
+    sbdbel:outcome [ rdfs:label "ROS production" ;
+            owl:sameAs <1364;257;1115;249;1278;1753;1592>,
+                <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:26523>,
+                <unknown> ] ;
+    sbdbel:relationship sbdbel:unknown .
+
+kb:CausalAssertion_52 a sbd:CausalAssertion,
+        sbd:resource ;
+    enm:CL_0001034 "unknown" ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    dcterms:subject [ a "Graphene" ;
+            sio:description "unknown" ] ;
+    cito:containsAssertionFrom <dx.doi.org/10.1021/tx400385x>,
+        <unknown> ;
+    sio:SIO_000299 "he current literature proposes that the generation of reactive oxygen species in target cells is the most important cytotoxicity mechanism of graphene." ;
+    efo:EFO_0000428 "unknown" ;
+    sbdbel:cause [ rdfs:label "ROS production" ;
+            owl:sameAs <1364;257;1115;249;1278;1753;1592>,
+                <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:26523>,
+                <unknown> ] ;
+    sbdbel:outcome [ rdfs:label "cytotoxicity" ;
+            owl:sameAs <unknown> ] ;
+    sbdbel:relationship sbdbel:unknown .
+
+kb:CausalAssertion_6 a sbd:CausalAssertion,
+        sbd:resource ;
+    enm:CL_0001034 "human neuronal cells (PC12 cells)" ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    dcterms:subject [ a "rGO" ;
+            sio:description "diameter between 100−110 nm and thickness between 3−5 nm" ] ;
+    cito:containsAssertionFrom <dx.doi.org/10.1021/tx400385x>,
+        <https://doi.org/10.1021/nn1007176> ;
+    sio:SIO_000299 "Exposure of human neuronal cells (PC12 cells) to reduced graphene oxide (rGO) (diameter between 100−110 nm and thickness between 3−5 nm) caused an increase in the activation of caspase-3, release of lactate dehydrogenase, and generation of reactive oxygen species (ROS).24" ;
+    efo:EFO_0000428 "human neuronal cells (PC12 cells)" ;
+    sbdbel:cause [ rdfs:label "exposure" ;
+            owl:sameAs <unknown> ] ;
+    sbdbel:outcome [ rdfs:label "ROS production" ;
+            owl:sameAs <1364;257;1115;249;1278;1753;1592>,
+                <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:26523>,
+                <unknown> ] ;
+    sbdbel:relationship sbdbel:PositivelyCorrelates .
+
+kb:CausalAssertion_7 a sbd:CausalAssertion,
+        sbd:resource ;
+    enm:CL_0001034 "A549 cells" ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    dcterms:subject [ a "GO" ;
+            sio:description "The thickness of the GO layer is around 0.9 nm according to AFM. m-GO (430 ± 300 nm). The size of l-GO sheets (780 ± 410 nm) is larger than that of s-GO sheets (160 ± 90 nm). In aqueous suspension, the average hydrodynamic diameter (Dh) is 588 nm for m-GO, 556 nm for l-GO, 148 nm for s-GO, according to Nanosizer measurements (Table S1). Three GO samples have very similar FTIR spectra (Fig. S2). The broad absorption at 3400 cm−1 suggests the existence of –COOH and –OH groups. The absorption at 1720 cm−1 corresponds to Cdouble bondO bonds. The oxygen contents based on XPS analysis are 33.1% for l-GO, 37.0% for s-GO and 35.8% for m-GO (Fig. S3). " ;
+            owl:sameAs enm:ENM_0000117 ] ;
+    cito:containsAssertionFrom <dx.doi.org/10.1021/tx400385x>,
+        <https://doi.org/10.1016/j.toxlet.2010.11.016> ;
+    sio:SIO_000299 "exposure of A549 cells to GO did not show cell uptake, although size-dependent cytotoxicity and dose-dependent oxidative stress were observed.37" ;
+    efo:EFO_0000428 "A549 cells" ;
+    sbdbel:cause [ rdfs:label "exposure" ;
+            owl:sameAs <unknown> ] ;
+    sbdbel:outcome [ rdfs:label "cell uptake (amount)" ;
+            owl:sameAs <unknown> ] ;
+    sbdbel:relationship sbdbel:DoesNotCorrelate .
+
+kb:CausalAssertion_8 a sbd:CausalAssertion,
+        sbd:resource ;
+    enm:CL_0001034 "A549 cells" ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    dcterms:subject [ a "GO" ;
+            sio:description "The thickness of the GO layer is around 0.9 nm according to AFM measurement (Fig. S1). Both large and small sheets are presented in m-GO (430 ± 300 nm). The size of l-GO sheets (780 ± 410 nm) is larger than that of s-GO sheets (160 ± 90 nm). In aqueous suspension, the average hydrodynamic diameter (Dh) is 588 nm for m-GO, 556 nm for l-GO, 148 nm for s-GO, according to Nanosizer measurements (Table S1). Three GO samples have very similar FTIR spectra (Fig. S2). The broad absorption at 3400 cm−1 suggests the existence of –COOH and –OH groups. The absorption at 1720 cm−1 corresponds to Cdouble bondO bonds. The oxygen contents based on XPS analysis are 33.1% for l-GO, 37.0% for s-GO and 35.8% for m-GO (Fig. S3). " ;
+            owl:sameAs enm:ENM_0000117 ] ;
+    cito:containsAssertionFrom <https://doi.org/10.1016/j.toxlet.2010.11.016>,
+        <unknown> ;
+    sio:SIO_000299 "The influence of l-GO and m-GO on the viability of A549 cells is tiny. Even at the highest concentration of 200 μg/mL, more than 80% of the cell viability remains. However, s-GO induces more viability loss than l-GO and m-GO. At 200 μg/mL of GO, the cell viability is 67% at 24 h postexposure." ;
+    efo:EFO_0000428 "A549 cells" ;
+    sbdbel:cause [ rdfs:label "lateral dimension" ;
+            owl:sameAs <unknown> ] ;
+    sbdbel:outcome [ rdfs:label "cell viability" ;
+            owl:sameAs <unknown> ] ;
+    sbdbel:relationship sbdbel:NegativelyCorrelates .
+
+kb:CausalAssertion_9 a sbd:CausalAssertion,
+        sbd:resource ;
+    enm:CL_0001034 "A549 cells" ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    dcterms:subject [ a "GO" ;
+            sio:description "The thickness of the GO layer is around 0.9 nm according to AFM measurement (Fig. S1). Both large and small sheets are presented in m-GO (430 ± 300 nm). The size of l-GO sheets (780 ± 410 nm) is larger than that of s-GO sheets (160 ± 90 nm). In aqueous suspension, the average hydrodynamic diameter (Dh) is 588 nm for m-GO, 556 nm for l-GO, 148 nm for s-GO, according to Nanosizer measurements (Table S1). Three GO samples have very similar FTIR spectra (Fig. S2). The broad absorption at 3400 cm−1 suggests the existence of –COOH and –OH groups. The absorption at 1720 cm−1 corresponds to Cdouble bondO bonds. The oxygen contents based on XPS analysis are 33.1% for l-GO, 37.0% for s-GO and 35.8% for m-GO (Fig. S3). " ;
+            owl:sameAs enm:ENM_0000117 ] ;
+    cito:containsAssertionFrom <https://doi.org/10.1016/j.toxlet.2010.11.016>,
+        <unknown> ;
+    sio:SIO_000299 "GO with higher concentrations induces more ROS. Among the three GO samples, s-GO causes the most serious oxidative stress." ;
+    efo:EFO_0000428 "A549 cells" ;
+    sbdbel:cause [ rdfs:label "Dose" ;
+            owl:sameAs <unknown> ] ;
+    sbdbel:outcome [ rdfs:label "ROS production" ;
+            owl:sameAs <1364;257;1115;249;1278;1753;1592>,
+                <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:26523>,
+                <unknown> ] ;
+    sbdbel:relationship sbdbel:PositivelyCorrelates .
+
+@prefix aop_event: <https://identifiers.org/aop.events/> .
+@prefix bio: <http://purl.jp/bio/4/id/> .
+@prefix cito: <http://purl.org/spar/cito/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix enm: <http://purl.enanomapper.org/onto/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix gracious: <https://h2020-sbd4nano.github.io/sbd4nano-gracious-owl/gracious.html#> .
+@prefix kb: <https://h2020-sbd4nano.github.io/sbd-data-landscape/> .
+@prefix npo: <http://purl.bioontology.org/ontology/npo#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix pato: <http://purl.org/obo/owl/PATO#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sbd: <https://www.sbd4nano.eu/rdf/#> .
+@prefix sbdbel: <https://www.sbd4nano.eu/bel/#> .
+@prefix sio: <http://semanticscience.org/resource/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<https://github.com/h2020-sbd4nano/relationship_network> a void:DatasetDescription ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    dc:title "SbD4nano WP2 Causal Relationships"@en ;
+    foaf:page <https://www.sbd4nano.eu/> .
+
+kb:CausalAssertion_0 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ rdfs:label "core composition" ;
+            owl:sameAs npo:NPO_1808,
+                gracious:fa7326c4-966e-2b43-ae02-228eeeaf8de6,
+                <nan> ] ;
+    sbdbel:outcome [ rdfs:label "dissolution" ;
+            owl:sameAs npo:NPO_1955,
+                <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_1 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ rdfs:label "core composition" ;
+            owl:sameAs npo:NPO_1808,
+                gracious:fa7326c4-966e-2b43-ae02-228eeeaf8de6,
+                <nan> ] ;
+    sbdbel:outcome [ rdfs:label "protein corona" ;
+            owl:sameAs enm:ENM_0000115,
+                gracious:89d0aaac-872c-5e4a-b195-c86ae6438ddd,
+                <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_10 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ rdfs:label "coating/surface chemistry" ;
+            owl:sameAs npo:NPO_1823,
+                gracious:0f790f0f-2b26-d346-8756-4ea6181af3c4,
+                <nan> ] ;
+    sbdbel:outcome [ rdfs:label "cell uptake (amount)" ;
+            owl:sameAs <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_11 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ rdfs:label "coating/surface chemistry" ;
+            owl:sameAs npo:NPO_1823,
+                gracious:0f790f0f-2b26-d346-8756-4ea6181af3c4,
+                <nan> ] ;
+    sbdbel:outcome [ rdfs:label "dissolution" ;
+            owl:sameAs npo:NPO_1955,
+                <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_12 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ rdfs:label "coating/surface chemistry" ;
+            owl:sameAs npo:NPO_1823,
+                gracious:0f790f0f-2b26-d346-8756-4ea6181af3c4,
+                <nan> ] ;
+    sbdbel:outcome [ rdfs:label "cell uptake (type)" ;
+            owl:sameAs npo:NPO_296,
+                <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_13 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ rdfs:label "coating/surface chemistry" ;
+            owl:sameAs npo:NPO_1823,
+                gracious:0f790f0f-2b26-d346-8756-4ea6181af3c4,
+                <nan> ] ;
+    sbdbel:outcome [ rdfs:label "protein corona" ;
+            owl:sameAs enm:ENM_0000115,
+                gracious:89d0aaac-872c-5e4a-b195-c86ae6438ddd,
+                <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_14 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ rdfs:label "coating/surface chemistry" ;
+            owl:sameAs npo:NPO_1823,
+                gracious:0f790f0f-2b26-d346-8756-4ea6181af3c4,
+                <nan> ] ;
+    sbdbel:outcome [ rdfs:label "ultraviolet shielding function" ;
+            owl:sameAs <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_15 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ rdfs:label "shape" ;
+            owl:sameAs npo:NPO_274,
+                <nan> ] ;
+    sbdbel:outcome [ rdfs:label "cell uptake (type)" ;
+            owl:sameAs npo:NPO_296,
+                <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_16 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ rdfs:label "shape" ;
+            owl:sameAs npo:NPO_274,
+                <nan> ] ;
+    sbdbel:outcome [ rdfs:label "protein corona" ;
+            owl:sameAs enm:ENM_0000115,
+                gracious:89d0aaac-872c-5e4a-b195-c86ae6438ddd,
+                <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_17 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <10.1080/15376516.2020.1761920> ;
+    sbdbel:cause [ rdfs:label "diameter" ;
+            owl:sameAs pato:PATO_0001334,
+                <nan> ] ;
+    sbdbel:outcome [ rdfs:label "toxicity" ;
+            owl:sameAs npo:NPO_1338,
+                <nan> ] ;
+    sbdbel:relationship sbdbel:positivelyCorrelates .
+
+kb:CausalAssertion_18 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ rdfs:label "diameter" ;
+            owl:sameAs pato:PATO_0001334,
+                <nan> ] ;
+    sbdbel:outcome [ rdfs:label "size" ;
+            owl:sameAs pato:PATO_0000117,
+                <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_19 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ rdfs:label "length" ;
+            owl:sameAs pato:PATO_0000122,
+                <nan> ] ;
+    sbdbel:outcome [ rdfs:label "size" ;
+            owl:sameAs pato:PATO_0000117,
+                <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_2 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ rdfs:label "core composition" ;
+            owl:sameAs npo:NPO_1808,
+                gracious:fa7326c4-966e-2b43-ae02-228eeeaf8de6,
+                <nan> ] ;
+    sbdbel:outcome [ rdfs:label "crystal structure" ;
+            owl:sameAs npo:NPO_895,
+                <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_20 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ rdfs:label "stacks" ;
+            owl:sameAs <nan> ] ;
+    sbdbel:outcome [ rdfs:label "size" ;
+            owl:sameAs pato:PATO_0000117,
+                <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_21 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ rdfs:label "crystal structure" ;
+            owl:sameAs npo:NPO_895,
+                <nan> ] ;
+    sbdbel:outcome [ rdfs:label "photo-reactivity" ;
+            owl:sameAs bio:200906046025103420,
+                gracious:f2e9da49-86e2-9841-818c-06668ea97115,
+                <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_22 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <https://dr.lib.iastate.edu/server/api/core/bitstreams/3f7d4880-f782-49a5-9965-e33817b0b2eb/content> ;
+    sbdbel:cause [ rdfs:label "interaction potential" ;
+            owl:sameAs <nan> ] ;
+    sbdbel:outcome [ rdfs:label "aggregation" ;
+            owl:sameAs npo:NPO_1967,
+                gracious:f63dea04-80e4-3e4b-b1bc-bdd501b41734,
+                <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_23 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <10.1039/d0nr00868k> ;
+    sbdbel:cause [ rdfs:label "aggregation" ;
+            owl:sameAs npo:NPO_1967,
+                gracious:f63dea04-80e4-3e4b-b1bc-bdd501b41734,
+                <nan> ] ;
+    sbdbel:outcome [ rdfs:label "reactivity" ;
+            owl:sameAs bio:200906068457811098,
+                <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_24 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <10.1039/d0nr00868k> ;
+    sbdbel:cause [ rdfs:label "aggregation" ;
+            owl:sameAs npo:NPO_1967,
+                gracious:f63dea04-80e4-3e4b-b1bc-bdd501b41734,
+                <nan> ] ;
+    sbdbel:outcome [ rdfs:label "cell uptake (amount)" ;
+            owl:sameAs <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_25 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <10.1039/d0nr00868k> ;
+    sbdbel:cause [ rdfs:label "aggregation" ;
+            owl:sameAs npo:NPO_1967,
+                gracious:f63dea04-80e4-3e4b-b1bc-bdd501b41734,
+                <nan> ] ;
+    sbdbel:outcome [ rdfs:label "environmental fate" ;
+            owl:sameAs enm:ENM_0000001,
+                <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_26 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <10.1039/d0nr00868k> ;
+    sbdbel:cause [ rdfs:label "aggregation" ;
+            owl:sameAs npo:NPO_1967,
+                gracious:f63dea04-80e4-3e4b-b1bc-bdd501b41734,
+                <nan> ] ;
+    sbdbel:outcome [ rdfs:label "membrane crossing" ;
+            owl:sameAs <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_27 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <10.1039/d0nr00868k> ;
+    sbdbel:cause [ rdfs:label "aggregation" ;
+            owl:sameAs npo:NPO_1967,
+                gracious:f63dea04-80e4-3e4b-b1bc-bdd501b41734,
+                <nan> ] ;
+    sbdbel:outcome [ rdfs:label "toxicity" ;
+            owl:sameAs npo:NPO_1338,
+                <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_28 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <10.1039/d0nr00868k> ;
+    sbdbel:cause [ rdfs:label "medium" ;
+            owl:sameAs npo:NPO_1853,
+                <nan> ] ;
+    sbdbel:outcome [ rdfs:label "aggregation" ;
+            owl:sameAs npo:NPO_1967,
+                gracious:f63dea04-80e4-3e4b-b1bc-bdd501b41734,
+                <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_29 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ rdfs:label "medium" ;
+            owl:sameAs npo:NPO_1853,
+                <nan> ] ;
+    sbdbel:outcome [ rdfs:label "dissolution" ;
+            owl:sameAs npo:NPO_1955,
+                <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_3 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ rdfs:label "core composition" ;
+            owl:sameAs npo:NPO_1808,
+                gracious:fa7326c4-966e-2b43-ae02-228eeeaf8de6,
+                <nan> ] ;
+    sbdbel:outcome [ rdfs:label "interaction potential" ;
+            owl:sameAs <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_30 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ rdfs:label "medium" ;
+            owl:sameAs npo:NPO_1853,
+                <nan> ] ;
+    sbdbel:outcome [ rdfs:label "protein corona" ;
+            owl:sameAs enm:ENM_0000115,
+                gracious:89d0aaac-872c-5e4a-b195-c86ae6438ddd,
+                <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_31 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <https://dr.lib.iastate.edu/server/api/core/bitstreams/3f7d4880-f782-49a5-9965-e33817b0b2eb/content> ;
+    sbdbel:cause [ rdfs:label "concentration" ;
+            owl:sameAs npo:NPO_1167,
+                <nan> ] ;
+    sbdbel:outcome [ rdfs:label "aggregation" ;
+            owl:sameAs npo:NPO_1967,
+                gracious:f63dea04-80e4-3e4b-b1bc-bdd501b41734,
+                <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_32 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ rdfs:label "concentration" ;
+            owl:sameAs npo:NPO_1167,
+                <nan> ] ;
+    sbdbel:outcome [ rdfs:label "cell uptake (amount)" ;
+            owl:sameAs <nan> ] ;
+    sbdbel:relationship sbdbel:positivelyCorrelates .
+
+kb:CausalAssertion_33 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ rdfs:label "concentration" ;
+            owl:sameAs npo:NPO_1167,
+                <nan> ] ;
+    sbdbel:outcome [ rdfs:label "protein corona" ;
+            owl:sameAs enm:ENM_0000115,
+                gracious:89d0aaac-872c-5e4a-b195-c86ae6438ddd,
+                <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_34 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ rdfs:label "exposure route" ;
+            owl:sameAs <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C83121>,
+                <nan> ] ;
+    sbdbel:outcome [ rdfs:label "medium" ;
+            owl:sameAs npo:NPO_1853,
+                <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_35 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ rdfs:label "exposure route" ;
+            owl:sameAs <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C83121>,
+                <nan> ] ;
+    sbdbel:outcome [ rdfs:label "concentration" ;
+            owl:sameAs npo:NPO_1167,
+                <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_36 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ rdfs:label "exposure route" ;
+            owl:sameAs <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C83121>,
+                <nan> ] ;
+    sbdbel:outcome [ rdfs:label "cell uptake (amount)" ;
+            owl:sameAs <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_37 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ rdfs:label "exposure route" ;
+            owl:sameAs <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C83121>,
+                <nan> ] ;
+    sbdbel:outcome [ rdfs:label "organ (type)" ;
+            owl:sameAs <http://purl.obolibrary.org/obo/UBERON_0000062>,
+                <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_38 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ rdfs:label "photo-reactivity" ;
+            owl:sameAs bio:200906046025103420,
+                gracious:f2e9da49-86e2-9841-818c-06668ea97115,
+                <nan> ] ;
+    sbdbel:outcome [ rdfs:label "ROS production" ;
+            owl:sameAs <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:26523>,
+                <nan> ] ;
+    sbdbel:relationship sbdbel:positivelyCorrelates .
+
+kb:CausalAssertion_39 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ rdfs:label "cell uptake (amount)" ;
+            owl:sameAs <nan> ] ;
+    sbdbel:outcome [ rdfs:label "concentration" ;
+            owl:sameAs npo:NPO_1167,
+                <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_4 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ rdfs:label "core composition" ;
+            owl:sameAs npo:NPO_1808,
+                gracious:fa7326c4-966e-2b43-ae02-228eeeaf8de6,
+                <nan> ] ;
+    sbdbel:outcome [ rdfs:label "reactivity" ;
+            owl:sameAs bio:200906068457811098,
+                <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_40 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ rdfs:label "membrane crossing" ;
+            owl:sameAs <nan> ] ;
+    sbdbel:outcome [ rdfs:label "cell uptake (amount)" ;
+            owl:sameAs <nan> ] ;
+    sbdbel:relationship sbdbel:positivelyCorrelates .
+
+kb:CausalAssertion_41 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <https://doi.org/10.1016/j.scitotenv.2012.08.066> ;
+    sbdbel:cause [ rdfs:label "dissolution" ;
+            owl:sameAs npo:NPO_1955,
+                <nan> ] ;
+    sbdbel:outcome [ rdfs:label "environmental fate" ;
+            owl:sameAs enm:ENM_0000001,
+                <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_42 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <https://doi.org/10.1016/j.scitotenv.2012.08.066> ;
+    sbdbel:cause [ rdfs:label "dissolution" ;
+            owl:sameAs npo:NPO_1955,
+                <nan> ] ;
+    sbdbel:outcome [ rdfs:label "cell uptake (type)" ;
+            owl:sameAs npo:NPO_296,
+                <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_43 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <https://doi.org/10.1016/j.scitotenv.2012.08.066> ;
+    sbdbel:cause [ rdfs:label "dissolution" ;
+            owl:sameAs npo:NPO_1955,
+                <nan> ] ;
+    sbdbel:outcome [ rdfs:label "crystal structure" ;
+            owl:sameAs npo:NPO_895,
+                <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_44 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ rdfs:label "kidney activity" ;
+            owl:sameAs <nan> ] ;
+    sbdbel:outcome [ rdfs:label "concentration" ;
+            owl:sameAs npo:NPO_1167,
+                <nan> ] ;
+    sbdbel:relationship sbdbel:negativelyCorrelates .
+
+kb:CausalAssertion_45 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ rdfs:label "enzyme degredation" ;
+            owl:sameAs <http://www.biopax.org/release/biopax-level3.owl#Degradation>,
+                <nan> ] ;
+    sbdbel:outcome [ rdfs:label "concentration" ;
+            owl:sameAs npo:NPO_1167,
+                <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_46 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <10.1039/d0nr00868k> ;
+    sbdbel:cause [ rdfs:label "size" ;
+            owl:sameAs pato:PATO_0000117,
+                <nan> ] ;
+    sbdbel:outcome [ rdfs:label "aggregation" ;
+            owl:sameAs npo:NPO_1967,
+                gracious:f63dea04-80e4-3e4b-b1bc-bdd501b41734,
+                <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_47 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ rdfs:label "size" ;
+            owl:sameAs pato:PATO_0000117,
+                <nan> ] ;
+    sbdbel:outcome [ rdfs:label "photo-reactivity" ;
+            owl:sameAs bio:200906046025103420,
+                gracious:f2e9da49-86e2-9841-818c-06668ea97115,
+                <nan> ] ;
+    sbdbel:relationship sbdbel:negativelyCorrelates .
+
+kb:CausalAssertion_48 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ rdfs:label "size" ;
+            owl:sameAs pato:PATO_0000117,
+                <nan> ] ;
+    sbdbel:outcome [ rdfs:label "dissolution" ;
+            owl:sameAs npo:NPO_1955,
+                <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_49 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ rdfs:label "size" ;
+            owl:sameAs pato:PATO_0000117,
+                <nan> ] ;
+    sbdbel:outcome [ rdfs:label "kidney activity" ;
+            owl:sameAs <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_5 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ rdfs:label "core composition" ;
+            owl:sameAs npo:NPO_1808,
+                gracious:fa7326c4-966e-2b43-ae02-228eeeaf8de6,
+                <nan> ] ;
+    sbdbel:outcome [ rdfs:label "quantum and tunneling effects" ;
+            owl:sameAs <http://journals.plos.org/plosone/browse/quantum_tunneling>,
+                <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_50 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ rdfs:label "size" ;
+            owl:sameAs pato:PATO_0000117,
+                <nan> ] ;
+    sbdbel:outcome [ rdfs:label "surface area" ;
+            owl:sameAs npo:NPO_1235,
+                gracious:e0479312-9b4a-2841-a5b4-ba55c2dc9699,
+                <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_51 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ rdfs:label "size" ;
+            owl:sameAs pato:PATO_0000117,
+                <nan> ] ;
+    sbdbel:outcome [ rdfs:label "liver/spleen activity" ;
+            owl:sameAs <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_52 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ rdfs:label "size" ;
+            owl:sameAs pato:PATO_0000117,
+                <nan> ] ;
+    sbdbel:outcome [ rdfs:label "cell uptake (type)" ;
+            owl:sameAs npo:NPO_296,
+                <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_53 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ rdfs:label "size" ;
+            owl:sameAs pato:PATO_0000117,
+                <nan> ] ;
+    sbdbel:outcome [ rdfs:label "protein corona" ;
+            owl:sameAs enm:ENM_0000115,
+                gracious:89d0aaac-872c-5e4a-b195-c86ae6438ddd,
+                <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_54 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <https://doi.org/10.1021/cr0500535> ;
+    sbdbel:cause [ rdfs:label "surface area" ;
+            owl:sameAs npo:NPO_1235,
+                gracious:e0479312-9b4a-2841-a5b4-ba55c2dc9699,
+                <nan> ] ;
+    sbdbel:outcome [ rdfs:label "photo-reactivity" ;
+            owl:sameAs bio:200906046025103420,
+                gracious:f2e9da49-86e2-9841-818c-06668ea97115,
+                <nan> ] ;
+    sbdbel:relationship sbdbel:positivelyCorrelates .
+
+kb:CausalAssertion_55 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ rdfs:label "surface area" ;
+            owl:sameAs npo:NPO_1235,
+                gracious:e0479312-9b4a-2841-a5b4-ba55c2dc9699,
+                <nan> ] ;
+    sbdbel:outcome [ rdfs:label "dissolution" ;
+            owl:sameAs npo:NPO_1955,
+                <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_56 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ rdfs:label "liver/spleen activity" ;
+            owl:sameAs <nan> ] ;
+    sbdbel:outcome [ rdfs:label "concentration" ;
+            owl:sameAs npo:NPO_1167,
+                <nan> ] ;
+    sbdbel:relationship sbdbel:negativelyCorrelates .
+
+kb:CausalAssertion_57 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ rdfs:label "cell uptake (type)" ;
+            owl:sameAs npo:NPO_296,
+                <nan> ] ;
+    sbdbel:outcome [ rdfs:label "cell uptake (amount)" ;
+            owl:sameAs <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_58 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ rdfs:label "protein corona" ;
+            owl:sameAs enm:ENM_0000115,
+                gracious:89d0aaac-872c-5e4a-b195-c86ae6438ddd,
+                <nan> ] ;
+    sbdbel:outcome [ rdfs:label "cell uptake (amount)" ;
+            owl:sameAs <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_59 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ rdfs:label "charge" ;
+            owl:sameAs npo:NPO_1292,
+                <nan> ] ;
+    sbdbel:outcome [ rdfs:label "protein corona" ;
+            owl:sameAs enm:ENM_0000115,
+                gracious:89d0aaac-872c-5e4a-b195-c86ae6438ddd,
+                <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_6 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ rdfs:label "core composition" ;
+            owl:sameAs npo:NPO_1808,
+                gracious:fa7326c4-966e-2b43-ae02-228eeeaf8de6,
+                <nan> ] ;
+    sbdbel:outcome [ rdfs:label "dissolution" ;
+            owl:sameAs npo:NPO_1955,
+                <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_60 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ rdfs:label "deformability" ;
+            owl:sameAs <http://sbmi.uth.tmc.edu/ontology/ochv#C0678559>,
+                <nan> ] ;
+    sbdbel:outcome [ rdfs:label "size" ;
+            owl:sameAs pato:PATO_0000117,
+                <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_61 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ rdfs:label "deformability" ;
+            owl:sameAs <http://sbmi.uth.tmc.edu/ontology/ochv#C0678559>,
+                <nan> ] ;
+    sbdbel:outcome [ rdfs:label "shape" ;
+            owl:sameAs npo:NPO_274,
+                <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_62 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ rdfs:label "Zeta-potential" ;
+            owl:sameAs npo:NPO_1302,
+                <nan> ] ;
+    sbdbel:outcome [ rdfs:label "sedimentation rate" ;
+            owl:sameAs <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_63 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ rdfs:label "surface charge" ;
+            owl:sameAs <nan> ] ;
+    sbdbel:outcome [ rdfs:label "charge" ;
+            owl:sameAs npo:NPO_1292,
+                <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_64 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ rdfs:label "surface charge" ;
+            owl:sameAs <nan> ] ;
+    sbdbel:outcome [ rdfs:label "cell uptake (amount)" ;
+            owl:sameAs <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_65 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ rdfs:label "surface charge" ;
+            owl:sameAs <nan> ] ;
+    sbdbel:outcome [ rdfs:label "cytotoxicity" ;
+            owl:sameAs <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_66 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ rdfs:label "light" ;
+            owl:sameAs <nan> ] ;
+    sbdbel:outcome [ rdfs:label "photo-reactivity" ;
+            owl:sameAs bio:200906046025103420,
+                gracious:f2e9da49-86e2-9841-818c-06668ea97115,
+                <nan> ] ;
+    sbdbel:relationship sbdbel:positivelyCorrelates .
+
+kb:CausalAssertion_67 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ rdfs:label "medium" ;
+            owl:sameAs npo:NPO_1853,
+                <nan> ] ;
+    sbdbel:outcome [ rdfs:label "light" ;
+            owl:sameAs <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_68 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ rdfs:label "lipopolysaccharides" ;
+            owl:sameAs <nan> ] ;
+    sbdbel:outcome [ rdfs:label "Pathogen-associated molecular patterns" ;
+            owl:sameAs <nan> ] ;
+    sbdbel:relationship sbdbel:kindOf .
+
+kb:CausalAssertion_69 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ rdfs:label "Pathogen-associated molecular patterns" ;
+            owl:sameAs <nan> ] ;
+    sbdbel:outcome [ rdfs:label "Toll-like receptors" ;
+            owl:sameAs <https://www.ensembl.org/id/ENSG00000136869>,
+                <nan> ] ;
+    sbdbel:relationship sbdbel:recognizedBy .
+
+kb:CausalAssertion_7 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ rdfs:label "core composition" ;
+            owl:sameAs npo:NPO_1808,
+                gracious:fa7326c4-966e-2b43-ae02-228eeeaf8de6,
+                <nan> ] ;
+    sbdbel:outcome [ rdfs:label "charge" ;
+            owl:sameAs npo:NPO_1292,
+                <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_70 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ rdfs:label "Toll-like receptors" ;
+            owl:sameAs <https://www.ensembl.org/id/ENSG00000136869>,
+                <nan> ] ;
+    sbdbel:outcome [ rdfs:label "cell membrane" ;
+            owl:sameAs <nan> ] ;
+    sbdbel:relationship sbdbel:partOf .
+
+kb:CausalAssertion_71 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ rdfs:label "Toll-like receptors" ;
+            owl:sameAs <https://www.ensembl.org/id/ENSG00000136869>,
+                <nan> ] ;
+    sbdbel:outcome [ rdfs:label "NF-κB activation" ;
+            owl:sameAs <https://www.ensembl.org/id/ENSG00000109320>,
+                <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_72 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ rdfs:label "aspect ratio (HARN)" ;
+            owl:sameAs npo:NPO_1365,
+                gracious:a1a2da81-f140-f844-9323-17f220ddeb78,
+                <nan> ] ;
+    sbdbel:outcome [ rdfs:label "frustrated phagocytosis" ;
+            owl:sameAs <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_73 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ rdfs:label "aspect ratio (HARN)" ;
+            owl:sameAs npo:NPO_1365,
+                gracious:a1a2da81-f140-f844-9323-17f220ddeb78,
+                <nan> ] ;
+    sbdbel:outcome [ rdfs:label "NADPH oxidase (NOX1) activation" ;
+            owl:sameAs <https://www.ensembl.org/id/ENSG00000007952>,
+                <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_74 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ rdfs:label "NADPH oxidase (NOX1) activation" ;
+            owl:sameAs <https://www.ensembl.org/id/ENSG00000007952>,
+                <nan> ] ;
+    sbdbel:outcome [ rdfs:label "ROS production" ;
+            owl:sameAs <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:26523>,
+                <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_75 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ rdfs:label "ROS production" ;
+            owl:sameAs <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:26523>,
+                <nan> ] ;
+    sbdbel:outcome [ rdfs:label "oxidative stress" ;
+            owl:sameAs enm:ENM_0000037,
+                gracious:640bbb71-d45e-5d47-a86e-ace7de10544d,
+                aop_event:1392 ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_76 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ rdfs:label "ROS production" ;
+            owl:sameAs <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:26523>,
+                <nan> ] ;
+    sbdbel:outcome [ rdfs:label "inflammasome activation" ;
+            owl:sameAs <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_77 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ rdfs:label "inflammasome activation" ;
+            owl:sameAs <nan> ] ;
+    sbdbel:outcome [ rdfs:label "NLRP3 expression" ;
+            owl:sameAs <http://www.uniprot.org/uniprot/A0A024R5Q0>,
+                <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_78 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ rdfs:label "inflammasome activation" ;
+            owl:sameAs <nan> ] ;
+    sbdbel:outcome [ rdfs:label "apoptosis-associated speck-like protein containing a CARD" ;
+            owl:sameAs <https://www.ensembl.org/id/ENSG00000103490>,
+                <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_79 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ rdfs:label "inflammasome activation" ;
+            owl:sameAs <nan> ] ;
+    sbdbel:outcome [ rdfs:label "pro-caspase-1" ;
+            owl:sameAs <https://www.ensembl.org/id/ENSG00000137752>,
+                <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_8 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ rdfs:label "core composition" ;
+            owl:sameAs npo:NPO_1808,
+                gracious:fa7326c4-966e-2b43-ae02-228eeeaf8de6,
+                <nan> ] ;
+    sbdbel:outcome [ rdfs:label "Zeta-potential" ;
+            owl:sameAs npo:NPO_1302,
+                <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_80 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ rdfs:label "NF-κB activation" ;
+            owl:sameAs <https://www.ensembl.org/id/ENSG00000109320>,
+                <nan> ] ;
+    sbdbel:outcome [ rdfs:label "NLRP3 expression" ;
+            owl:sameAs <http://www.uniprot.org/uniprot/A0A024R5Q0>,
+                <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_81 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ rdfs:label "NF-κB activation" ;
+            owl:sameAs <https://www.ensembl.org/id/ENSG00000109320>,
+                <nan> ] ;
+    sbdbel:outcome [ rdfs:label "pro-interleukin (IL)-1β" ;
+            owl:sameAs <https://www.ensembl.org/id/ENSG00000125538>,
+                <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_82 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ rdfs:label "pro-interleukin (IL)-1β" ;
+            owl:sameAs <https://www.ensembl.org/id/ENSG00000125538>,
+                <nan> ] ;
+    sbdbel:outcome [ rdfs:label "mature IL-1β" ;
+            owl:sameAs <https://www.ensembl.org/id/ENSG00000125538>,
+                <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_83 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ rdfs:label "pro-caspase-1" ;
+            owl:sameAs <https://www.ensembl.org/id/ENSG00000137752>,
+                <nan> ] ;
+    sbdbel:outcome [ rdfs:label "caspase-1" ;
+            owl:sameAs <https://www.ensembl.org/id/ENSG00000137752>,
+                <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_84 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ rdfs:label "caspase-1" ;
+            owl:sameAs <https://www.ensembl.org/id/ENSG00000137752>,
+                <nan> ] ;
+    sbdbel:outcome [ rdfs:label "mature IL-1β" ;
+            owl:sameAs <https://www.ensembl.org/id/ENSG00000125538>,
+                <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_85 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ rdfs:label "Pottasium" ;
+            owl:sameAs <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:29103>,
+                <nan> ] ;
+    sbdbel:outcome [ rdfs:label "inflammasome activation" ;
+            owl:sameAs <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_86 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ rdfs:label "size" ;
+            owl:sameAs pato:PATO_0000117,
+                <nan> ] ;
+    sbdbel:outcome [ rdfs:label "Phagocytosis" ;
+            owl:sameAs <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_87 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ rdfs:label "Phagocytosis" ;
+            owl:sameAs <nan> ] ;
+    sbdbel:outcome [ rdfs:label "cell uptake (type)" ;
+            owl:sameAs npo:NPO_296,
+                <nan> ] ;
+    sbdbel:relationship sbdbel:kindOf .
+
+kb:CausalAssertion_88 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ rdfs:label "cell uptake (amount)" ;
+            owl:sameAs <nan> ] ;
+    sbdbel:outcome [ rdfs:label "lysosomal damage" ;
+            owl:sameAs <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_89 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ rdfs:label "lysosomal damage" ;
+            owl:sameAs <nan> ] ;
+    sbdbel:outcome [ rdfs:label "cathepsins" ;
+            owl:sameAs <http://www.uniprot.org/uniprot/E9PCB3>,
+                <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_9 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <https://dr.lib.iastate.edu/server/api/core/bitstreams/3f7d4880-f782-49a5-9965-e33817b0b2eb/content> ;
+    sbdbel:cause [ rdfs:label "coating/surface chemistry" ;
+            owl:sameAs npo:NPO_1823,
+                gracious:0f790f0f-2b26-d346-8756-4ea6181af3c4,
+                <nan> ] ;
+    sbdbel:outcome [ rdfs:label "aggregation" ;
+            owl:sameAs npo:NPO_1967,
+                gracious:f63dea04-80e4-3e4b-b1bc-bdd501b41734,
+                <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_90 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ rdfs:label "cathepsins" ;
+            owl:sameAs <http://www.uniprot.org/uniprot/E9PCB3>,
+                <nan> ] ;
+    sbdbel:outcome [ rdfs:label "mitochondrial damage" ;
+            owl:sameAs <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_91 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ rdfs:label "lysosomal damage" ;
+            owl:sameAs <nan> ] ;
+    sbdbel:outcome [ rdfs:label "ROS production" ;
+            owl:sameAs <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:26523>,
+                <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+<10.1080/15376516.2020.1761920> a sio:SIO_000176 ;
+    rdfs:label "Reference" ;
+    dcterms:subject <nan> .
+
+<https://doi.org/10.1021/cr0500535> a sio:SIO_000176 ;
+    rdfs:label "Reference" ;
+    dcterms:subject npo:NPO_1486 .
+
+<https://doi.org/10.1016/j.scitotenv.2012.08.066> a sio:SIO_000176 ;
+    rdfs:label "Reference" ;
+    dcterms:subject <nan> .
+
+<https://dr.lib.iastate.edu/server/api/core/bitstreams/3f7d4880-f782-49a5-9965-e33817b0b2eb/content> a sio:SIO_000176 ;
+    rdfs:label "Reference" ;
+    dcterms:subject <nan> .
+
+<10.1039/d0nr00868k> a sio:SIO_000176 ;
+    rdfs:label "Reference" ;
+    dcterms:subject <nan> .
+
+<nan> a sio:SIO_000176 ;
+    rdfs:label "Reference" ;
+    dcterms:subject <nan> .
 @prefix dc:    <http://purl.org/dc/elements/1.1/> .
 @prefix dct:   <http://purl.org/dc/terms/> .
 @prefix foaf:  <http://xmlns.com/foaf/0.1/> .

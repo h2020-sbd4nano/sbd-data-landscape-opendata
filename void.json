@@ -18,7 +18,7 @@
       "reason": "Cardinality violation (min=1): 0"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-aopwiki/",
+      "class":  "https://github.com/h2020-sbd4nano/relationship_network",
       "status": "nonconformant",
       "reason": "Cardinality violation (min=1): 0"
     },
@@ -33,17 +33,7 @@
       "reason": "Cardinality violation (min=1): 0"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-nanowiki/",
-      "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
-    },
-    {
       "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape",
-      "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
-    },
-    {
-      "class":  "https://vhp4safety.github.io/cloud/",
       "status": "nonconformant",
       "reason": "Cardinality violation (min=1): 0"
     },
@@ -59,6 +49,21 @@
     },
     {
       "class":  "https://nanosolveit.eu/resources/tools-services/",
+      "status": "nonconformant",
+      "reason": "Cardinality violation (min=1): 0"
+    },
+    {
+      "class":  "https://h2020-sbd4nano.github.io/sbd-data-aopwiki/",
+      "status": "nonconformant",
+      "reason": "Cardinality violation (min=1): 0"
+    },
+    {
+      "class":  "https://h2020-sbd4nano.github.io/sbd-data-nanowiki/",
+      "status": "nonconformant",
+      "reason": "Cardinality violation (min=1): 0"
+    },
+    {
+      "class":  "https://vhp4safety.github.io/cloud/",
       "status": "nonconformant",
       "reason": "Cardinality violation (min=1): 0"
     },

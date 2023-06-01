@@ -1,3 +1,4 @@
+landscape/landscape.ttl
 sbd4nano/qsar_models.ttl
 nanosolveit/tools.ttl
 smartnanotox/datasets.ttl
@@ -5,6 +6,8 @@ ambit/open-licensed.ttl
 ambit/closed-licensed.ttl
 ambit/npAnnotations.ttl
 nanowiki/nanowiki.ttl
+wp2/GO_relationships_v1.ttl
+wp2/outp.ttl
 wp2/urv-qsar.ttl
 aop/aopwiki-datasets.ttl
 aop/aops.ttl
