@@ -34,7 +34,11 @@ wget -O nanowiki/nanowiki.ttl https://raw.githubusercontent.com/h2020-sbd4nano/s
 echo "nanowiki/nanowiki.ttl" >> open.txt
 
 mkdir -p wp2
+wget -O wp2/GO_relationships_v1.ttl https://raw.githubusercontent.com/h2020-sbd4nano/relationship_network/main/GO_relationships_v1.ttl
+wget -O wp2/outp.ttl https://raw.githubusercontent.com/h2020-sbd4nano/relationship_network/main/outp.ttl
 wget -O wp2/urv-qsar.ttl https://raw.githubusercontent.com/h2020-sbd4nano/sbd-data-wp2/main/urv-qsar.ttl
+echo "wp2/GO_relationships_v1.ttl" >> open.txt
+echo "wp2/outp.ttl" >> open.txt
 echo "wp2/urv-qsar.ttl" >> open.txt
 
 mkdir -p aop
