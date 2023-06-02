@@ -7,7 +7,9 @@ touch open.txt
 
 mkdir -p landscape
 wget -O landscape/landscape.ttl https://raw.githubusercontent.com/h2020-sbd4nano/sbd-data-landscape/master/landscape.ttl
+wget -O landscape/qsar_models.ttl https://raw.githubusercontent.com/h2020-sbd4nano/sbd-data-landscape/master/qsar_models.ttl
 echo "landscape/landscape.ttl" >> open.txt
+echo "landscape/qsar_models.ttl" >> open.txt
 
 mkdir -p sbd4nano
 wget -O sbd4nano/qsar_models.ttl https://raw.githubusercontent.com/h2020-sbd4nano/sbd-data-landscape/master/qsar_models.ttl
