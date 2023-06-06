@@ -1,4 +1,5 @@
 landscape/landscape.ttl
+landscape/qsar_models.ttl
 sbd4nano/qsar_models.ttl
 nanosolveit/tools.ttl
 smartnanotox/datasets.ttl
