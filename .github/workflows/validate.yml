@@ -1,4 +1,4 @@
-name: Create open.ttl
+name: Update the Open SbD4Nano Cache
 
 on:
   workflow_dispatch:
