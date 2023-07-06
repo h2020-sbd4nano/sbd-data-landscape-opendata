@@ -55,6 +55,10 @@ mkdir -p nanocommons
 wget -O nanocommons/datasets.ttl https://raw.githubusercontent.com/h2020-sbd4nano/sbd-data-nanocommons/main/datasets.ttl
 echo "nanocommons/datasets.ttl" >> open.txt
 
+mkdir -p riskgone
+wget -O riskgone/datasets.ttl https://raw.githubusercontent.com/h2020-sbd4nano/sbd-data-riskgone/main/datasets.ttl
+echo "riskgone/datasets.ttl" >> open.txt
+
 mkdir -p vhp4safety
 wget -O vhp4safety/cloud.ttl https://raw.githubusercontent.com/h2020-sbd4nano/sbd-data-vhp4safety/main/cloud.ttl
 echo "vhp4safety/cloud.ttl" >> open.txt
