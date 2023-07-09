@@ -19,6 +19,10 @@ mkdir -p nanosolveit
 wget -O nanosolveit/tools.ttl https://raw.githubusercontent.com/h2020-sbd4nano/sbd-data-nanosolveit/main/tools.ttl
 echo "nanosolveit/tools.ttl" >> open.txt
 
+mkdir -p nanoinformatix
+wget -O nanoinformatix/tools.ttl https://raw.githubusercontent.com/h2020-sbd4nano/sbd-data-nanoinformatix/main/tools.ttl
+echo "nanoinformatix/tools.ttl" >> open.txt
+
 mkdir -p smartnanotox
 wget -O smartnanotox/datasets.ttl https://raw.githubusercontent.com/h2020-sbd4nano/sbd-data-smartnanotox/main/datasets.ttl
 echo "smartnanotox/datasets.ttl" >> open.txt
