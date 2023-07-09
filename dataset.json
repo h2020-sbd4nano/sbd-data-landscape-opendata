@@ -2,23 +2,19 @@
   "target": "https://www.sbd4nano.eu/rdf/#Dataset",
   "conformant": [
     {
-      "class":  "https://identifiers.org/geo:GSE156660",
+      "class":  "file:///home/runner/work/sbd-data-riskgone/sbd-data-riskgone/10.1038/s41598-018-24483-z",
       "status": "conformant"
     },
     {
-      "class":  "https://identifiers.org/geo:GSE156573",
+      "class":  "file:///home/runner/work/sbd-data-riskgone/sbd-data-riskgone/10.1016/j.chemosphere.2019.125489",
       "status": "conformant"
     },
     {
-      "class":  "https://identifiers.org/geo:GSE156587",
+      "class":  "https://doi.org/10.5281/zenodo.7941248",
       "status": "conformant"
     },
     {
-      "class":  "https://doi.org/10.6084/m9.figshare.10071023.v1",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/geo:GSE156511",
+      "class":  "file:///home/runner/work/sbd-data-riskgone/sbd-data-riskgone/10.1111/risa.12109",
       "status": "conformant"
     },
     {
@@ -26,15 +22,11 @@
       "status": "conformant"
     },
     {
-      "class":  "https://doi.org/10.6084/m9.figshare.10071032.v1",
-      "status": "conformant"
-    },
-    {
       "class":  "https://doi.org/10.5281/zenodo.4713745",
       "status": "conformant"
     },
     {
-      "class":  "https://doi.org/10.5281/zenodo.4986068",
+      "class":  "https://doi.org/10.5281/zenodo.7966166",
       "status": "conformant"
     },
     {
@@ -42,15 +34,99 @@
       "status": "conformant"
     },
     {
-      "class":  "https://identifiers.org/geo:GSE156509",
+      "class":  "https://doi.org/10.5281/zenodo.7990251",
       "status": "conformant"
     },
     {
-      "class":  "https://doi.org/10.5281/zenodo.4146981",
+      "class":  "https://doi.org/10.5281/zenodo.7940162",
       "status": "conformant"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-aopwiki/ke/",
+      "class":  "file:///home/runner/work/sbd-data-riskgone/sbd-data-riskgone/10.1016/j.fct.2017.08.008",
+      "status": "conformant"
+    },
+    {
+      "class":  "file:///home/runner/work/sbd-data-riskgone/sbd-data-riskgone/10.1021/acsnano.8b07562",
+      "status": "conformant"
+    },
+    {
+      "class":  "file:///home/runner/work/sbd-data-riskgone/sbd-data-riskgone/10.1002/smll.201900510",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://doi.org/10.5281/zenodo.7961318",
+      "status": "conformant"
+    },
+    {
+      "class":  "file:///home/runner/work/sbd-data-riskgone/sbd-data-riskgone/10.1038/s41467-020-16413-3",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://doi.org/10.5281/zenodo.7986673",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://identifiers.org/geo:GSE156571",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://doi.org/10.5281/zenodo.7965446",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://doi.org/10.5281/zenodo.7940272",
+      "status": "conformant"
+    },
+    {
+      "class":  "file:///home/runner/work/sbd-data-riskgone/sbd-data-riskgone/10.1016/j.chemosphere.2021.131452",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://doi.org/10.5281/zenodo.5744082",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://doi.org/10.5281/zenodo.7940539",
+      "status": "conformant"
+    },
+    {
+      "class":  "file:///home/runner/work/sbd-data-riskgone/sbd-data-riskgone/10.1007/s11224-021-01869-w",
+      "status": "conformant"
+    },
+    {
+      "class":  "file:///home/runner/work/sbd-data-riskgone/sbd-data-riskgone/10.3390/nano10102017",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://doi.org/10.5281/zenodo.35493",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://identifiers.org/geo:GSE156573",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://doi.org/10.6084/m9.figshare.10071023.v1",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://doi.org/10.5281/zenodo.7990302",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://doi.org/10.6084/m9.figshare.10071032.v1",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://doi.org/10.5281/zenodo.4986068",
+      "status": "conformant"
+    },
+    {
+      "class":  "file:///home/runner/work/sbd-data-riskgone/sbd-data-riskgone/10.1016/j.impact.2021.100308",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://doi.org/10.5281/zenodo.7940770",
       "status": "conformant"
     },
     {
@@ -82,7 +158,7 @@
       "status": "conformant"
     },
     {
-      "class":  "https://identifiers.org/geo:GSE156571",
+      "class":  "file:///home/runner/work/sbd-data-riskgone/sbd-data-riskgone/10.1016/j.chemosphere.2018.11.014",
       "status": "conformant"
     },
     {
@@ -90,23 +166,7 @@
       "status": "conformant"
     },
     {
-      "class":  "https://identifiers.org/geo:GSE156691",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/geo:GSE156564",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://doi.org/10.5281/zenodo.7602354",
-      "status": "conformant"
-    },
-    {
       "class":  "https://identifiers.org/geo:GSE156489",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/geo:GSE156457",
       "status": "conformant"
     },
     {
@@ -118,11 +178,163 @@
       "status": "conformant"
     },
     {
+      "class":  "https://doi.org/10.5281/zenodo.7335039",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://identifiers.org/geo:GSE117487",
+      "status": "conformant"
+    },
+    {
+      "class":  "file:///home/runner/work/sbd-data-riskgone/sbd-data-riskgone/10.1073/pnas.1919755117",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://identifiers.org/geo:GSE156493",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://identifiers.org/geo:GSE156695",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://identifiers.org/geo:GSE156660",
+      "status": "conformant"
+    },
+    {
+      "class":  "file:///home/runner/work/sbd-data-riskgone/sbd-data-riskgone/10.3390/nano11071774",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://identifiers.org/geo:GSE156587",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://identifiers.org/geo:GSE156511",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://doi.org/10.5281/zenodo.7941567",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://doi.org/10.5281/zenodo.7965603",
+      "status": "conformant"
+    },
+    {
+      "class":  "file:///home/runner/work/sbd-data-riskgone/sbd-data-riskgone/10.1080/17435390.2021.1872113",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://doi.org/10.5281/zenodo.7966134",
+      "status": "conformant"
+    },
+    {
+      "class":  "file:///home/runner/work/sbd-data-riskgone/sbd-data-riskgone/10.1080/17435390.2016.1278481",
+      "status": "conformant"
+    },
+    {
+      "class":  "file:///home/runner/work/sbd-data-riskgone/sbd-data-riskgone/10.1021/acs.est.1c01603",
+      "status": "conformant"
+    },
+    {
+      "class":  "file:///home/runner/work/sbd-data-riskgone/sbd-data-riskgone/10.1080/17435390.2019.1595206",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://doi.org/10.5281/zenodo.7941002",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://doi.org/10.5281/zenodo.7941462",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://identifiers.org/geo:GSE156564",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://doi.org/10.5281/zenodo.7602354",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://doi.org/10.5281/zenodo.7990214",
+      "status": "conformant"
+    },
+    {
       "class":  "https://identifiers.org/geo:GSE99997",
       "status": "conformant"
     },
     {
-      "class":  "https://doi.org/10.5281/zenodo.7335039",
+      "class":  "https://doi.org/10.5281/zenodo.3467015",
+      "status": "conformant"
+    },
+    {
+      "class":  "file:///home/runner/work/sbd-data-riskgone/sbd-data-riskgone/10.1039/d0en01240h",
+      "status": "conformant"
+    },
+    {
+      "class":  "file:///home/runner/work/sbd-data-riskgone/sbd-data-riskgone/10.1021/acs.jpcc.0c01195",
+      "status": "conformant"
+    },
+    {
+      "class":  "file:///home/runner/work/sbd-data-riskgone/sbd-data-riskgone/10.3390/ijms21155280",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://doi.org/10.6084/m9.figshare.11897205.v1",
+      "status": "conformant"
+    },
+    {
+      "class":  "file:///home/runner/work/sbd-data-riskgone/sbd-data-riskgone/10.3762/bjnano.6.192",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://doi.org/10.5281/zenodo.7966245",
+      "status": "conformant"
+    },
+    {
+      "class":  "file:///home/runner/work/sbd-data-riskgone/sbd-data-riskgone/10.1016/j.envint.2014.08.009",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://identifiers.org/geo:GSE156509",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://doi.org/10.5281/zenodo.4146981",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://h2020-sbd4nano.github.io/sbd-data-aopwiki/ke/",
+      "status": "conformant"
+    },
+    {
+      "class":  "file:///home/runner/work/sbd-data-riskgone/sbd-data-riskgone/10.1039/c9nh00060g",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://identifiers.org/geo:GSE156691",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://identifiers.org/geo:GSE156457",
+      "status": "conformant"
+    },
+    {
+      "class":  "file:///home/runner/work/sbd-data-riskgone/sbd-data-riskgone/10.1016/j.impact.2021.100298",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://doi.org/10.5281/zenodo.7965537",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://doi.org/10.5281/zenodo.7966355",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://doi.org/10.5281/zenodo.7990086",
       "status": "conformant"
     },
     {
@@ -134,10 +346,6 @@
       "status": "conformant"
     },
     {
-      "class":  "https://doi.org/10.5281/zenodo.3467015",
-      "status": "conformant"
-    },
-    {
       "class":  "https://doi.org/10.5281/zenodo.5743788",
       "status": "conformant"
     },
@@ -146,36 +354,61 @@
       "status": "conformant"
     },
     {
-      "class":  "https://identifiers.org/geo:GSE117487",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://doi.org/10.5281/zenodo.5744082",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://doi.org/10.6084/m9.figshare.11897205.v1",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/geo:GSE156493",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://doi.org/10.5281/zenodo.35493",
+      "class":  "https://doi.org/10.5281/zenodo.7989699",
       "status": "conformant"
     },
     {
       "class":  "https://doi.org/10.6084/m9.figshare.2056095.v1",
       "status": "conformant"
     },
-    {
-      "class":  "https://identifiers.org/geo:GSE156695",
-      "status": "conformant"
-    },
     {}
   ],
   "nonconformant": [
+    {
+      "class":  "file:///home/runner/work/sbd-data-riskgone/sbd-data-riskgone/10.1080/15363830701779315",
+      "status": "nonconformant",
+      "reason": "Cardinality violation (min=1): 0"
+    },
+    {
+      "class":  "file:///home/runner/work/sbd-data-riskgone/sbd-data-riskgone/10.1021/es503861x",
+      "status": "nonconformant",
+      "reason": "Cardinality violation (min=1): 0"
+    },
+    {
+      "class":  "file:///home/runner/work/sbd-data-riskgone/sbd-data-riskgone/10.1021/acs.est.8b02757",
+      "status": "nonconformant",
+      "reason": "Cardinality violation (min=1): 0"
+    },
+    {
+      "class":  "file:///home/runner/work/sbd-data-riskgone/sbd-data-riskgone/10.1039/c4nr01285b",
+      "status": "nonconformant",
+      "reason": "Cardinality violation (min=1): 0"
+    },
+    {
+      "class":  "file:///home/runner/work/sbd-data-riskgone/sbd-data-riskgone/10.1080/17435390.2017.1379567",
+      "status": "nonconformant",
+      "reason": "Cardinality violation (min=1): 0"
+    },
+    {
+      "class":  "file:///home/runner/work/sbd-data-riskgone/sbd-data-riskgone/10.4018/ijqspr.20201001.oa2",
+      "status": "nonconformant",
+      "reason": "Cardinality violation (min=1): 0"
+    },
+    {
+      "class":  "file:///home/runner/work/sbd-data-riskgone/sbd-data-riskgone/10.1289/ehp6508",
+      "status": "nonconformant",
+      "reason": "Cardinality violation (min=1): 0"
+    },
+    {
+      "class":  "file:///home/runner/work/sbd-data-riskgone/sbd-data-riskgone/10.1021/acs.chemrestox.7b00303",
+      "status": "nonconformant",
+      "reason": "Cardinality violation (min=1): 0"
+    },
+    {
+      "class":  "file:///home/runner/work/sbd-data-riskgone/sbd-data-riskgone/10.1021/nn406018q",
+      "status": "nonconformant",
+      "reason": "Cardinality violation (min=1): 0"
+    },
     {}
   ]
 }

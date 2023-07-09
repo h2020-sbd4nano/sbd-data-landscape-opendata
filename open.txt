@@ -2,6 +2,7 @@ landscape/landscape.ttl
 landscape/qsar_models.ttl
 sbd4nano/qsar_models.ttl
 nanosolveit/tools.ttl
+nanoinformatix/tools.ttl
 smartnanotox/datasets.ttl
 ambit/open-licensed.ttl
 ambit/closed-licensed.ttl
@@ -14,4 +15,5 @@ aop/aopwiki-datasets.ttl
 aop/aops.ttl
 aop/kers.ttl
 nanocommons/datasets.ttl
+riskgone/datasets.ttl
 vhp4safety/cloud.ttl
