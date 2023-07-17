@@ -23,6 +23,11 @@
       "reason": "Cardinality violation (min=1): 0"
     },
     {
+      "class":  "https://diamonds.tno.nl/fairdatapoint/catalog/45182a02-be3c-40c5-9462-0ffa10a72ef1",
+      "status": "nonconformant",
+      "reason": "Cardinality violation (min=1): 0"
+    },
+    {
       "class":  "https://atena.urv.cat/model/",
       "status": "nonconformant",
       "reason": "Cardinality violation (min=1): 0"
@@ -33,12 +38,22 @@
       "reason": "Cardinality violation (min=1): 0"
     },
     {
+      "class":  "https://diamonds.tno.nl/fairdatapoint/catalog/287b2e5c-786b-4de4-b131-b6d0ce560b2e",
+      "status": "nonconformant",
+      "reason": "Cardinality violation (min=1): 0"
+    },
+    {
       "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape",
       "status": "nonconformant",
       "reason": "Cardinality violation (min=1): 0"
     },
     {
       "class":  "https://search.data.enanomapper.net/",
+      "status": "nonconformant",
+      "reason": "Cardinality violation (min=1): 0"
+    },
+    {
+      "class":  "https://diamonds.tno.nl/fairdatapoint/catalog/a4067322-bc35-4882-9294-8c68a88ccf3f",
       "status": "nonconformant",
       "reason": "Cardinality violation (min=1): 0"
     },
