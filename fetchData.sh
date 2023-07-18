@@ -76,3 +76,8 @@ echo "elixir/tools.ttl" >> open.txt
 mkdir -p fdp
 wget -O fdp/tno.ttl https://raw.githubusercontent.com/h2020-sbd4nano/sbd-data-fdp/main/datasets.ttl
 echo "fdp/tno.ttl" >> open.txt
+
+mkdir -p healthri
+wget -O healthri/services.ttl https://raw.githubusercontent.com/h2020-sbd4nano/sbd-data-healthri/main/services.ttl
+echo "healthri/services.ttl" >> open.txt
+
