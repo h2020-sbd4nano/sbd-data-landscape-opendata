@@ -20,3 +20,4 @@ vhp4safety/cloud.ttl
 elixir/toxicology.ttl
 elixir/tools.ttl
 fdp/tno.ttl
+healthri/services.ttl
