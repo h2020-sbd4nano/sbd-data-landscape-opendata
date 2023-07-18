@@ -70,6 +70,8 @@ echo "vhp4safety/cloud.ttl" >> open.txt
 mkdir -p elixir
 wget -O elixir/toxicology.ttl https://raw.githubusercontent.com/h2020-sbd4nano/sbd-data-elixir-fairsharing/main/toxicology.ttl
 echo "elixir/toxicology.ttl" >> open.txt
+wget -O elixir/tools.ttl https://raw.githubusercontent.com/h2020-sbd4nano/sbd-data-elixir-biotools/main/tools.ttl
+echo "elixir/tools.ttl" >> open.txt
 
 mkdir -p fdp
 wget -O fdp/tno.ttl https://raw.githubusercontent.com/h2020-sbd4nano/sbd-data-fdp/main/datasets.ttl
