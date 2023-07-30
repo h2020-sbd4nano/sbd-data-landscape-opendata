@@ -58,6 +58,8 @@ echo "aop/kers.ttl" >> open.txt
 mkdir -p nanocommons
 wget -O nanocommons/datasets.ttl https://raw.githubusercontent.com/h2020-sbd4nano/sbd-data-nanocommons/main/datasets.ttl
 echo "nanocommons/datasets.ttl" >> open.txt
+wget -O nanocommons/biomax.ttl https://raw.githubusercontent.com/h2020-sbd4nano/sbd-data-nanocommons/main/biomax.ttl
+echo "nanocommons/biomax.ttl" >> open.txt
 
 mkdir -p riskgone
 wget -O riskgone/datasets.ttl https://raw.githubusercontent.com/h2020-sbd4nano/sbd-data-riskgone/main/datasets.ttl
