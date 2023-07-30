@@ -98,6 +98,11 @@
       "reason": "Cardinality violation (min=1): 0"
     },
     {
+      "class":  "https://ssl.biomax.de/nanocommons/cgi/login_bioxm_portal.cgi",
+      "status": "nonconformant",
+      "reason": "Cardinality violation (min=1): 0"
+    },
+    {
       "class":  "https://vhp4safety.github.io/cloud/",
       "status": "nonconformant",
       "reason": "Cardinality violation (min=1): 0"
