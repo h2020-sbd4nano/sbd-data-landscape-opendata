@@ -6,6 +6,10 @@
       "status": "conformant"
     },
     {
+      "class":  "https://doi.org/10.5281/zenodo.8297848",
+      "status": "conformant"
+    },
+    {
       "class":  "file:///home/runner/work/sbd-data-riskgone/sbd-data-riskgone/10.1016/j.chemosphere.2019.125489",
       "status": "conformant"
     },
@@ -94,6 +98,10 @@
       "status": "conformant"
     },
     {
+      "class":  "https://doi.org/10.5281/zenodo.7980953",
+      "status": "conformant"
+    },
+    {
       "class":  "https://identifiers.org/geo:GSE156571",
       "status": "conformant"
     },
@@ -146,6 +154,10 @@
       "status": "conformant"
     },
     {
+      "class":  "https://doi.org/10.5281/zenodo.8297121",
+      "status": "conformant"
+    },
+    {
       "class":  "https://doi.org/10.5281/zenodo.5744082",
       "status": "conformant"
     },
@@ -159,6 +171,10 @@
     },
     {
       "class":  "file:///home/runner/work/sbd-data-riskgone/sbd-data-riskgone/10.3390/nano10102017",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://doi.org/10.5281/zenodo.8297048",
       "status": "conformant"
     },
     {
@@ -298,6 +314,10 @@
       "status": "conformant"
     },
     {
+      "class":  "https://doi.org/10.5281/zenodo.8297022",
+      "status": "conformant"
+    },
+    {
       "class":  "https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000012",
       "status": "conformant"
     },
@@ -386,6 +406,10 @@
       "status": "conformant"
     },
     {
+      "class":  "https://doi.org/10.5281/zenodo.8297079",
+      "status": "conformant"
+    },
+    {
       "class":  "https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000003",
       "status": "conformant"
     },
@@ -430,11 +454,19 @@
       "status": "conformant"
     },
     {
+      "class":  "https://doi.org/10.5281/zenodo.8297068",
+      "status": "conformant"
+    },
+    {
       "class":  "https://doi.org/10.5281/zenodo.3467015",
       "status": "conformant"
     },
     {
       "class":  "https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000014",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://doi.org/10.5281/zenodo.8321185",
       "status": "conformant"
     },
     {
@@ -506,6 +538,10 @@
       "status": "conformant"
     },
     {
+      "class":  "https://doi.org/10.5281/zenodo.8314626",
+      "status": "conformant"
+    },
+    {
       "class":  "https://ssl.biomax.de/nanocommons/bioxm_portal/bin/view/BioXM/ObjectReport?objectURL=Context%3ADataset%3ADS00000211",
       "status": "conformant"
     },
@@ -555,6 +591,10 @@
     },
     {
       "class":  "https://doi.org/10.5281/zenodo.7990086",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://doi.org/10.5281/zenodo.7674574",
       "status": "conformant"
     },
     {
