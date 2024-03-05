@@ -2,7 +2,19 @@
   "target": "https://www.sbd4nano.eu/rdf/#Database",
   "conformant": [
     {
+      "class":  "https://fairsharing.org/10.25504/FAIRsharing.9gqfpm",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://fairsharing.org/fairsharing_records/2973",
+      "status": "conformant"
+    },
+    {
       "class":  "https://enanomapper.adma.ai/about/gracious",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://fairsharing.org/10.25504/FAIRsharing.6b77ac",
       "status": "conformant"
     },
     {
@@ -18,7 +30,15 @@
       "status": "conformant"
     },
     {
+      "class":  "https://fairsharing.org/10.25504/FAIRsharing.bca16f",
+      "status": "conformant"
+    },
+    {
       "class":  "https://enanomapper.adma.ai/about/nanoinformatix",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://fairsharing.org/10.25504/FAIRsharing.25fbf6",
       "status": "conformant"
     },
     {
@@ -34,11 +54,27 @@
       "status": "conformant"
     },
     {
+      "class":  "https://fairsharing.org/fairsharing_records/5228",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://fairsharing.org/10.25504/FAIRsharing.r18yt0",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://fairsharing.org/10.25504/FAIRsharing.U9GXhB",
+      "status": "conformant"
+    },
+    {
       "class":  "https://enanomapper.adma.ai/about/sbd4nano",
       "status": "conformant"
     },
     {
       "class":  "https://enanomapper.adma.ai/about/plasticfate",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://fairsharing.org/10.25504/FAIRsharing.279381",
       "status": "conformant"
     },
     {
@@ -58,6 +94,10 @@
       "status": "conformant"
     },
     {
+      "class":  "https://fairsharing.org/10.25504/FAIRsharing.560f4e",
+      "status": "conformant"
+    },
+    {
       "class":  "https://enanomapper.adma.ai/about/polyrisk",
       "status": "conformant"
     },
@@ -67,6 +107,10 @@
     },
     {
       "class":  "https://enanomapper.adma.ai/about/aurora",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://fairsharing.org/10.25504/FAIRsharing.4b2234",
       "status": "conformant"
     },
     {
@@ -93,16 +137,6 @@
   ],
   "nonconformant": [
     {
-      "class":  "https://fairsharing.org/10.25504/FAIRsharing.9gqfpm",
-      "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
-    },
-    {
-      "class":  "https://fairsharing.org/fairsharing_records/2973",
-      "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
-    },
-    {
       "class":  "https://fairsharing.org/10.25504/FAIRsharing.wYScsE",
       "status": "nonconformant",
       "reason": "Cardinality violation (min=1): 0"
@@ -118,32 +152,7 @@
       "reason": "Cardinality violation (min=1): 0"
     },
     {
-      "class":  "https://fairsharing.org/10.25504/FAIRsharing.de533c",
-      "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
-    },
-    {
-      "class":  "https://fairsharing.org/10.25504/FAIRsharing.zrmjr7",
-      "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
-    },
-    {
-      "class":  "https://fairsharing.org/fairsharing_records/2604",
-      "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
-    },
-    {
       "class":  "https://fairsharing.org/fairsharing_records/2979",
-      "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
-    },
-    {
-      "class":  "https://fairsharing.org/10.25504/FAIRsharing.bca16f",
-      "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
-    },
-    {
-      "class":  "https://fairsharing.org/10.25504/FAIRsharing.25fbf6",
       "status": "nonconformant",
       "reason": "Cardinality violation (min=1): 0"
     },
@@ -163,32 +172,17 @@
       "reason": "Cardinality violation (min=1): 0"
     },
     {
-      "class":  "https://fairsharing.org/10.25504/FAIRsharing.r18yt0",
+      "class":  "https://fairsharing.org/fairsharing_records/5246",
       "status": "nonconformant",
       "reason": "Cardinality violation (min=1): 0"
     },
     {
-      "class":  "https://fairsharing.org/10.25504/FAIRsharing.U9GXhB",
-      "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
-    },
-    {
-      "class":  "https://fairsharing.org/10.25504/FAIRsharing.279381",
-      "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
-    },
-    {
-      "class":  "https://fairsharing.org/10.25504/FAIRsharing.560f4e",
+      "class":  "https://fairsharing.org/10.25504/FAIRsharing.68a369",
       "status": "nonconformant",
       "reason": "Cardinality violation (min=1): 0"
     },
     {
       "class":  "https://fairsharing.org/10.25504/FAIRsharing.fbbcf8",
-      "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
-    },
-    {
-      "class":  "https://fairsharing.org/fairsharing_records/4723",
       "status": "nonconformant",
       "reason": "Cardinality violation (min=1): 0"
     },
@@ -204,11 +198,6 @@
     },
     {
       "class":  "https://fairsharing.org/fairsharing_records/3496",
-      "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
-    },
-    {
-      "class":  "https://fairsharing.org/10.25504/FAIRsharing.4b2234",
       "status": "nonconformant",
       "reason": "Cardinality violation (min=1): 0"
     },
