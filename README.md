@@ -1,3 +1,5 @@
+[![Update the Open SbD4Nano Cache](https://github.com/h2020-sbd4nano/sbd-data-landscape-opendata/actions/workflows/validate.yml/badge.svg)](https://github.com/h2020-sbd4nano/sbd-data-landscape-opendata/actions/workflows/validate.yml)
+
 # sbd-data-landscape-opendata
 
 This repository is about SbD4Nano Landscape data from openly licensed resources.
