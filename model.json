@@ -26,11 +26,19 @@
       "status": "conformant"
     },
     {
+      "class":  "https://identifiers.org/aop/528",
+      "status": "conformant"
+    },
+    {
       "class":  "https://identifiers.org/aop/309",
       "status": "conformant"
     },
     {
       "class":  "https://identifiers.org/aop/61",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://identifiers.org/aop/527",
       "status": "conformant"
     },
     {
@@ -146,6 +154,10 @@
       "status": "conformant"
     },
     {
+      "class":  "https://identifiers.org/aop/520",
+      "status": "conformant"
+    },
+    {
       "class":  "https://identifiers.org/aop/423",
       "status": "conformant"
     },
@@ -174,10 +186,6 @@
       "status": "conformant"
     },
     {
-      "class":  "https://identifiers.org/aop/57",
-      "status": "conformant"
-    },
-    {
       "class":  "https://identifiers.org/aop/325",
       "status": "conformant"
     },
@@ -199,6 +207,10 @@
     },
     {
       "class":  "https://identifiers.org/aop/34",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://identifiers.org/aop/521",
       "status": "conformant"
     },
     {
@@ -262,7 +274,15 @@
       "status": "conformant"
     },
     {
+      "class":  "https://identifiers.org/aop/526",
+      "status": "conformant"
+    },
+    {
       "class":  "https://identifiers.org/aop/417",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://identifiers.org/aop/525",
       "status": "conformant"
     },
     {
@@ -311,6 +331,10 @@
     },
     {
       "class":  "https://identifiers.org/aop/377",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://identifiers.org/aop/232",
       "status": "conformant"
     },
     {
@@ -374,10 +398,6 @@
       "status": "conformant"
     },
     {
-      "class":  "https://identifiers.org/aop/479",
-      "status": "conformant"
-    },
-    {
       "class":  "https://identifiers.org/aop/358",
       "status": "conformant"
     },
@@ -390,11 +410,11 @@
       "status": "conformant"
     },
     {
-      "class":  "https://identifiers.org/aop/345",
+      "class":  "https://identifiers.org/aop/300",
       "status": "conformant"
     },
     {
-      "class":  "https://identifiers.org/aop/300",
+      "class":  "https://identifiers.org/aop/530",
       "status": "conformant"
     },
     {
@@ -466,10 +486,6 @@
       "status": "conformant"
     },
     {
-      "class":  "https://identifiers.org/aop/480",
-      "status": "conformant"
-    },
-    {
       "class":  "https://identifiers.org/aop/395",
       "status": "conformant"
     },
@@ -511,6 +527,10 @@
     },
     {
       "class":  "https://identifiers.org/aop/110",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://identifiers.org/aop/497",
       "status": "conformant"
     },
     {
@@ -604,6 +624,11 @@
       "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_38l",
       "status": "nonconformant",
       "reason": "Cardinality violation (min=1): 0"
+    },
+    {
+      "class":  "https://identifiers.org/aop/529",
+      "status": "nonconformant",
+      "reason": "Cardinality violation (max=1): 2"
     },
     {
       "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_68b",
@@ -969,6 +994,11 @@
       "class":  "https://identifiers.org/aop/216",
       "status": "nonconformant",
       "reason": "Cardinality violation (max=1): 3"
+    },
+    {
+      "class":  "https://identifiers.org/aop/57",
+      "status": "nonconformant",
+      "reason": "Cardinality violation (max=1): 2"
     },
     {
       "class":  "https://identifiers.org/aop/458",
@@ -1741,6 +1771,11 @@
       "reason": "Cardinality violation (min=1): 0"
     },
     {
+      "class":  "https://identifiers.org/aop/345",
+      "status": "nonconformant",
+      "reason": "Cardinality violation (max=1): 3"
+    },
+    {
       "class":  "https://identifiers.org/aop/139",
       "status": "nonconformant",
       "reason": "Cardinality violation (max=1): 2"
@@ -2193,7 +2228,7 @@
     {
       "class":  "https://identifiers.org/aop/494",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 2"
+      "reason": "Cardinality violation (max=1): 3"
     },
     {
       "class":  "https://identifiers.org/aop/482",
