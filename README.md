@@ -61,3 +61,14 @@ that are open-licensed and which ones are not. Next, run the following commands 
 ```shell
 make open.ttl
 ```
+
+## Status
+
+The following repositories use GitHub Actions to collect data. Here are their status badges:
+
+*  [h2020-sbd4nano/sbd-data-riskgone](https://github.com/h2020-sbd4nano/sbd-data-riskgone) [![Extract Bioschemas](https://github.com/h2020-sbd4nano/sbd-data-riskgone/actions/workflows/extractBioschemas.yml/badge.svg)](https://github.com/h2020-sbd4nano/sbd-data-riskgone/actions/workflows/extractBioschemas.yml)
+*  [h2020-sbd4nano/sbd-data-vhp4safety](https://github.com/h2020-sbd4nano/sbd-data-vhp4safety) [![Extract Bioschemas](https://github.com/h2020-sbd4nano/sbd-data-vhp4safety/actions/workflows/extractBioschemas.yml/badge.svg)](https://github.com/h2020-sbd4nano/sbd-data-vhp4safety/actions/workflows/extractBioschemas.yml)
+*  [h2020-sbd4nano/sbd-data-elixir-biotools](https://github.com/h2020-sbd4nano/sbd-data-elixir-biotools) [![Extract Toxicology Tools from bio.tools](https://github.com/h2020-sbd4nano/sbd-data-elixir-biotools/actions/workflows/extract.yml/badge.svg)](https://github.com/h2020-sbd4nano/sbd-data-elixir-biotools/actions/workflows/extract.yml)
+
+
+
