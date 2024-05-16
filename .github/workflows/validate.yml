@@ -20,7 +20,7 @@ jobs:
       - name: Install raptor2-utils and groovy
         run: |
           sudo apt update
-          sudo apt install raptor2-utils groovy
+          sudo apt install raptor2-utils openjdk-17-jdk groovy
 
       - name: Generate a new open.ttl
         run: |
