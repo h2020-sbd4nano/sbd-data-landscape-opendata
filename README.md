@@ -66,9 +66,12 @@ make open.ttl
 
 The following repositories use GitHub Actions to collect data. Here are their status badges:
 
-*  [h2020-sbd4nano/sbd-data-riskgone](https://github.com/h2020-sbd4nano/sbd-data-riskgone) [![Extract Bioschemas](https://github.com/h2020-sbd4nano/sbd-data-riskgone/actions/workflows/extractBioschemas.yml/badge.svg)](https://github.com/h2020-sbd4nano/sbd-data-riskgone/actions/workflows/extractBioschemas.yml)
-*  [h2020-sbd4nano/sbd-data-vhp4safety](https://github.com/h2020-sbd4nano/sbd-data-vhp4safety) [![Extract Bioschemas](https://github.com/h2020-sbd4nano/sbd-data-vhp4safety/actions/workflows/extractBioschemas.yml/badge.svg)](https://github.com/h2020-sbd4nano/sbd-data-vhp4safety/actions/workflows/extractBioschemas.yml)
-*  [h2020-sbd4nano/sbd-data-elixir-biotools](https://github.com/h2020-sbd4nano/sbd-data-elixir-biotools) [![Extract Toxicology Tools from bio.tools](https://github.com/h2020-sbd4nano/sbd-data-elixir-biotools/actions/workflows/extract.yml/badge.svg)](https://github.com/h2020-sbd4nano/sbd-data-elixir-biotools/actions/workflows/extract.yml)
-
-
+* [h2020-sbd4nano/sbd-data-ambit](https://github.com/h2020-sbd4nano/sbd-data-ambit) [![Extract Bioschemas](https://github.com/h2020-sbd4nano/sbd-data-ambit/actions/workflows/extractBioschemas.yml/badge.svg)](https://github.com/h2020-sbd4nano/sbd-data-ambit/actions/workflows/extractBioschemas.yml)
+* [h2020-sbd4nano/sbd-data-aopwiki](https://github.com/h2020-sbd4nano/sbd-data-aopwiki) [![Update AOP models](https://github.com/h2020-sbd4nano/sbd-data-aopwiki/actions/workflows/updateData.yml/badge.svg)](https://github.com/h2020-sbd4nano/sbd-data-aopwiki/actions/workflows/updateData.yml)
+* [h2020-sbd4nano/sbd-data-elixir-biotools](https://github.com/h2020-sbd4nano/sbd-data-elixir-biotools) [![Extract Toxicology Tools from bio.tools](https://github.com/h2020-sbd4nano/sbd-data-elixir-biotools/actions/workflows/extract.yml/badge.svg)](https://github.com/h2020-sbd4nano/sbd-data-elixir-biotools/actions/workflows/extract.yml)
+* [h2020-sbd4nano/sbd-data-fdp](https://github.com/h2020-sbd4nano/sbd-data-fdp) [![Extract from FAIR Data Point](https://github.com/h2020-sbd4nano/sbd-data-fdp/actions/workflows/extract.yml/badge.svg)](https://github.com/h2020-sbd4nano/sbd-data-fdp/actions/workflows/extract.yml)
+* [h2020-sbd4nano/sbd-data-nanocommons](https://github.com/h2020-sbd4nano/sbd-data-nanocommons) [![Extract Bioschemas](https://github.com/h2020-sbd4nano/sbd-data-nanocommons/actions/workflows/extractBioschemas.yml/badge.svg)](https://github.com/h2020-sbd4nano/sbd-data-nanocommons/actions/workflows/extractBioschemas.yml)
+* [h2020-sbd4nano/sbd-data-nanowiki](https://github.com/h2020-sbd4nano/sbd-data-nanowiki) [![Validation](https://github.com/h2020-sbd4nano/sbd-data-nanowiki/actions/workflows/validate.yml/badge.svg)](https://github.com/h2020-sbd4nano/sbd-data-nanowiki/actions/workflows/validate.yml)
+* [h2020-sbd4nano/sbd-data-riskgone](https://github.com/h2020-sbd4nano/sbd-data-riskgone) [![Extract Bioschemas](https://github.com/h2020-sbd4nano/sbd-data-riskgone/actions/workflows/extractBioschemas.yml/badge.svg)](https://github.com/h2020-sbd4nano/sbd-data-riskgone/actions/workflows/extractBioschemas.yml)
+* [h2020-sbd4nano/sbd-data-vhp4safety](https://github.com/h2020-sbd4nano/sbd-data-vhp4safety) [![Extract Bioschemas](https://github.com/h2020-sbd4nano/sbd-data-vhp4safety/actions/workflows/extractBioschemas.yml/badge.svg)](https://github.com/h2020-sbd4nano/sbd-data-vhp4safety/actions/workflows/extractBioschemas.yml)
 
