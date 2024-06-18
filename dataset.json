@@ -274,6 +274,10 @@
       "status": "conformant"
     },
     {
+      "class":  "https://doi.org/10.5281/zenodo.8076364",
+      "status": "conformant"
+    },
+    {
       "class":  "https://identifiers.org/geo:GSE156694",
       "status": "conformant"
     },

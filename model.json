@@ -214,6 +214,10 @@
       "status": "conformant"
     },
     {
+      "class":  "https://identifiers.org/aop/533",
+      "status": "conformant"
+    },
+    {
       "class":  "https://identifiers.org/aop/436",
       "status": "conformant"
     },
@@ -435,10 +439,6 @@
     },
     {
       "class":  "https://identifiers.org/aop/359",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/490",
       "status": "conformant"
     },
     {
@@ -1079,6 +1079,11 @@
       "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_48",
       "status": "nonconformant",
       "reason": "Cardinality violation (min=1): 0"
+    },
+    {
+      "class":  "https://identifiers.org/aop/534",
+      "status": "nonconformant",
+      "reason": "Cardinality violation (max=1): 2"
     },
     {
       "class":  "https://identifiers.org/aop/413",
@@ -1954,6 +1959,11 @@
       "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_1b",
       "status": "nonconformant",
       "reason": "Cardinality violation (min=1): 0"
+    },
+    {
+      "class":  "https://identifiers.org/aop/490",
+      "status": "nonconformant",
+      "reason": "Cardinality violation (max=1): 2"
     },
     {
       "class":  "https://identifiers.org/aop/152",
