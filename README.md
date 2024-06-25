@@ -1,3 +1,4 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.12536632.svg)](https://doi.org/10.5281/zenodo.12536632)
 [![Update the Open SbD4Nano Cache](https://github.com/h2020-sbd4nano/sbd-data-landscape-opendata/actions/workflows/validate.yml/badge.svg)](https://github.com/h2020-sbd4nano/sbd-data-landscape-opendata/actions/workflows/validate.yml)
 
 # sbd-data-landscape-opendata
