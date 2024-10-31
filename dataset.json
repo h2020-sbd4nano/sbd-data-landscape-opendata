@@ -2,6 +2,10 @@
   "target": "https://www.sbd4nano.eu/rdf/#Dataset",
   "conformant": [
     {
+      "class":  "https://doi.org/10.5281/zenodo.13862979",
+      "status": "conformant"
+    },
+    {
       "class":  "file:///home/runner/work/sbd-data-riskgone/sbd-data-riskgone/10.1038/s41598-018-24483-z",
       "status": "conformant"
     },

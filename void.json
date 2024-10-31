@@ -18,6 +18,11 @@
       "reason": "Cardinality violation (min=1): 0"
     },
     {
+      "class":  "https://riskgone.wp.nilu.no/tools/",
+      "status": "nonconformant",
+      "reason": "Cardinality violation (min=1): 0"
+    },
+    {
       "class":  "https://search.data.enanomapper.net/closed/",
       "status": "nonconformant",
       "reason": "Cardinality violation (min=1): 0"

@@ -1258,6 +1258,11 @@
       "reason": "Cardinality violation (min=1): 0"
     },
     {
+      "class":  "https://enaloscloud.novamechanics.com/riskgone/nanoconstruct/",
+      "status": "nonconformant",
+      "reason": "Cardinality violation (min=1): 0"
+    },
+    {
       "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_39",
       "status": "nonconformant",
       "reason": "Cardinality violation (min=1): 0"

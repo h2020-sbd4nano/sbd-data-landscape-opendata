@@ -17,6 +17,7 @@ aop/kers.ttl
 nanocommons/datasets.ttl
 nanocommons/biomax.ttl
 riskgone/datasets.ttl
+riskgone/tools.ttl
 vhp4safety/cloud.ttl
 elixir/toxicology.ttl
 elixir/tools.ttl
