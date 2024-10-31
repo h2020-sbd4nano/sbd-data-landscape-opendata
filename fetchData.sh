@@ -64,6 +64,8 @@ echo "nanocommons/biomax.ttl" >> open.txt
 mkdir -p riskgone
 wget -O riskgone/datasets.ttl https://raw.githubusercontent.com/h2020-sbd4nano/sbd-data-riskgone/main/datasets.ttl
 echo "riskgone/datasets.ttl" >> open.txt
+wget -O riskgone/tools.ttl https://raw.githubusercontent.com/h2020-sbd4nano/sbd-data-riskgone/main/tools.ttl
+echo "riskgone/tools.ttl" >> open.txt
 
 mkdir -p vhp4safety
 wget -O vhp4safety/cloud.ttl https://raw.githubusercontent.com/h2020-sbd4nano/sbd-data-vhp4safety/main/cloud.ttl
