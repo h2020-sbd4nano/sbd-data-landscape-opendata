@@ -234,6 +234,10 @@
       "status": "conformant"
     },
     {
+      "class":  "https://identifiers.org/aop/545",
+      "status": "conformant"
+    },
+    {
       "class":  "https://identifiers.org/aop/303",
       "status": "conformant"
     },
@@ -1109,6 +1113,11 @@
     },
     {
       "class":  "https://identifiers.org/aop/58",
+      "status": "nonconformant",
+      "reason": "Cardinality violation (max=1): 2"
+    },
+    {
+      "class":  "https://identifiers.org/aop/546",
       "status": "nonconformant",
       "reason": "Cardinality violation (max=1): 2"
     },
