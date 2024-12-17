@@ -102,6 +102,10 @@
       "status": "conformant"
     },
     {
+      "class":  "https://identifiers.org/aop/519",
+      "status": "conformant"
+    },
+    {
       "class":  "https://identifiers.org/aop/291",
       "status": "conformant"
     },
@@ -178,6 +182,10 @@
       "status": "conformant"
     },
     {
+      "class":  "https://identifiers.org/aop/556",
+      "status": "conformant"
+    },
+    {
       "class":  "https://identifiers.org/aop/435",
       "status": "conformant"
     },
@@ -187,6 +195,10 @@
     },
     {
       "class":  "https://identifiers.org/aop/543",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://identifiers.org/aop/555",
       "status": "conformant"
     },
     {
@@ -207,6 +219,10 @@
     },
     {
       "class":  "https://deepdaph.cloud.nanosolveit.eu/",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://identifiers.org/aop/558",
       "status": "conformant"
     },
     {
@@ -254,11 +270,19 @@
       "status": "conformant"
     },
     {
+      "class":  "https://identifiers.org/aop/524",
+      "status": "conformant"
+    },
+    {
       "class":  "https://identifiers.org/aop/427",
       "status": "conformant"
     },
     {
       "class":  "https://identifiers.org/aop/415",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://identifiers.org/aop/548",
       "status": "conformant"
     },
     {
@@ -318,6 +342,10 @@
       "status": "conformant"
     },
     {
+      "class":  "https://identifiers.org/aop/560",
+      "status": "conformant"
+    },
+    {
       "class":  "https://identifiers.org/aop/330",
       "status": "conformant"
     },
@@ -362,7 +390,15 @@
       "status": "conformant"
     },
     {
+      "class":  "https://identifiers.org/aop/550",
+      "status": "conformant"
+    },
+    {
       "class":  "https://identifiers.org/aop/223",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://identifiers.org/aop/562",
       "status": "conformant"
     },
     {
@@ -375,6 +411,10 @@
     },
     {
       "class":  "https://identifiers.org/aop/477",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://identifiers.org/aop/19",
       "status": "conformant"
     },
     {
@@ -406,6 +446,10 @@
       "status": "conformant"
     },
     {
+      "class":  "https://identifiers.org/aop/552",
+      "status": "conformant"
+    },
+    {
       "class":  "https://identifiers.org/aop/322",
       "status": "conformant"
     },
@@ -426,6 +470,10 @@
       "status": "conformant"
     },
     {
+      "class":  "https://identifiers.org/aop/551",
+      "status": "conformant"
+    },
+    {
       "class":  "https://identifiers.org/aop/333",
       "status": "conformant"
     },
@@ -435,6 +483,10 @@
     },
     {
       "class":  "https://identifiers.org/aop/530",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://identifiers.org/aop/554",
       "status": "conformant"
     },
     {
@@ -451,6 +503,10 @@
     },
     {
       "class":  "https://identifiers.org/aop/432",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://identifiers.org/aop/553",
       "status": "conformant"
     },
     {
@@ -1317,6 +1373,11 @@
       "reason": "Cardinality violation (max=1): 2"
     },
     {
+      "class":  "https://identifiers.org/aop/559",
+      "status": "nonconformant",
+      "reason": "Cardinality violation (max=1): 2"
+    },
+    {
       "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_23a",
       "status": "nonconformant",
       "reason": "Cardinality violation (min=1): 0"
@@ -1383,6 +1444,11 @@
     },
     {
       "class":  "https://identifiers.org/aop/513",
+      "status": "nonconformant",
+      "reason": "Cardinality violation (max=1): 2"
+    },
+    {
+      "class":  "https://identifiers.org/aop/549",
       "status": "nonconformant",
       "reason": "Cardinality violation (max=1): 2"
     },
