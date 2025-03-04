@@ -83,6 +83,11 @@
       "reason": "Cardinality violation (min=1): 0"
     },
     {
+      "class":  "https://diamonds.tno.nl/fairdatapoint/catalog/4e81163b-22af-4757-91c5-3b4593100504",
+      "status": "nonconformant",
+      "reason": "Cardinality violation (min=1): 0"
+    },
+    {
       "class":  "https://h2020-sbd4nano.github.io/sbd-data-aopwiki/",
       "status": "nonconformant",
       "reason": "Cardinality violation (min=1): 0"
