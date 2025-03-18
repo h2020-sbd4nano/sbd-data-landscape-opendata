@@ -38,14 +38,6 @@
       "status": "conformant"
     },
     {
-      "class":  "https://identifiers.org/aop/503",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/527",
-      "status": "conformant"
-    },
-    {
       "class":  "https://identifiers.org/aop/97",
       "status": "conformant"
     },
@@ -374,6 +366,10 @@
       "status": "conformant"
     },
     {
+      "class":  "https://identifiers.org/aop/571",
+      "status": "conformant"
+    },
+    {
       "class":  "https://identifiers.org/aop/341",
       "status": "conformant"
     },
@@ -411,10 +407,6 @@
     },
     {
       "class":  "https://identifiers.org/aop/368",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/477",
       "status": "conformant"
     },
     {
@@ -610,6 +602,10 @@
       "status": "conformant"
     },
     {
+      "class":  "https://identifiers.org/aop/570",
+      "status": "conformant"
+    },
+    {
       "class":  "https://identifiers.org/aop/110",
       "status": "conformant"
     },
@@ -676,6 +672,16 @@
     },
     {
       "class":  "https://identifiers.org/aop/190",
+      "status": "nonconformant",
+      "reason": "Cardinality violation (max=1): 2"
+    },
+    {
+      "class":  "https://identifiers.org/aop/503",
+      "status": "nonconformant",
+      "reason": "Cardinality violation (max=1): 2"
+    },
+    {
+      "class":  "https://identifiers.org/aop/527",
       "status": "nonconformant",
       "reason": "Cardinality violation (max=1): 2"
     },
@@ -1691,6 +1697,11 @@
     },
     {
       "class":  "https://identifiers.org/aop/489",
+      "status": "nonconformant",
+      "reason": "Cardinality violation (max=1): 2"
+    },
+    {
+      "class":  "https://identifiers.org/aop/477",
       "status": "nonconformant",
       "reason": "Cardinality violation (max=1): 2"
     },
