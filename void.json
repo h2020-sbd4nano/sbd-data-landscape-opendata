@@ -13,11 +13,6 @@
   ],
   "nonconformant": [
     {
-      "class":  "https://www.health-ri.nl/services/health-ri-service-catalogue",
-      "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
-    },
-    {
       "class":  "https://riskgone.wp.nilu.no/tools/",
       "status": "nonconformant",
       "reason": "Cardinality violation (min=1): 0"
@@ -34,16 +29,6 @@
     },
     {
       "class":  "https://diamonds.tno.nl/fairdatapoint/catalog/45182a02-be3c-40c5-9462-0ffa10a72ef1",
-      "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
-    },
-    {
-      "class":  "https://atena.urv.cat/model/",
-      "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
-    },
-    {
-      "class":  "https://nanocommons.github.io/datasets/",
       "status": "nonconformant",
       "reason": "Cardinality violation (min=1): 0"
     },
@@ -69,11 +54,6 @@
     },
     {
       "class":  "https://h2020-sbd4nano.github.io/sbd-data-smartnanotox/",
-      "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
-    },
-    {
-      "class":  "https://nanosolveit.eu/resources/tools-services/",
       "status": "nonconformant",
       "reason": "Cardinality violation (min=1): 0"
     },

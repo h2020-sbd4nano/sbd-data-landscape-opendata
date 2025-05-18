@@ -42,6 +42,10 @@
       "status": "conformant"
     },
     {
+      "class":  "https://fairsharing.org/10.25504/FAIRsharing.h3tjtr",
+      "status": "conformant"
+    },
+    {
       "class":  "https://enanomapper.adma.ai/about/imptox",
       "status": "conformant"
     },
@@ -59,10 +63,6 @@
     },
     {
       "class":  "https://fairsharing.org/10.25504/FAIRsharing.r18yt0",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://fairsharing.org/10.25504/FAIRsharing.U9GXhB",
       "status": "conformant"
     },
     {
@@ -129,11 +129,6 @@
   ],
   "nonconformant": [
     {
-      "class":  "https://fairsharing.org/10.25504/FAIRsharing.c8f1cd",
-      "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
-    },
-    {
       "class":  "https://fairsharing.org/fairsharing_records/2973",
       "status": "nonconformant",
       "reason": "Cardinality violation (min=1): 0"
@@ -164,11 +159,6 @@
       "reason": "Cardinality violation (min=1): 0"
     },
     {
-      "class":  "https://fairsharing.org/10.25504/FAIRsharing.5fee61",
-      "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
-    },
-    {
       "class":  "https://fairsharing.org/10.25504/FAIRsharing.9e23f2",
       "status": "nonconformant",
       "reason": "Cardinality violation (min=1): 0"
@@ -179,12 +169,22 @@
       "reason": "Cardinality violation (min=1): 0"
     },
     {
+      "class":  "https://fairsharing.org/10.25504/FAIRsharing.b71e74",
+      "status": "nonconformant",
+      "reason": "Cardinality violation (min=1): 0"
+    },
+    {
       "class":  "https://fairsharing.org/10.25504/FAIRsharing.fbbcf8",
       "status": "nonconformant",
       "reason": "Cardinality violation (min=1): 0"
     },
     {
       "class":  "https://fairsharing.org/10.25504/FAIRsharing.801285",
+      "status": "nonconformant",
+      "reason": "Cardinality violation (min=1): 0"
+    },
+    {
+      "class":  "https://fairsharing.org/fairsharing_records/6245",
       "status": "nonconformant",
       "reason": "Cardinality violation (min=1): 0"
     },

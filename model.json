@@ -1,2630 +1,2708 @@
 {
   "target": "https://www.sbd4nano.eu/rdf/#Model",
   "conformant": [
-    {
-      "class":  "https://identifiers.org/aop/419",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/191",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/96",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/60",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/72",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/407",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/528",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/309",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/61",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/97",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/539",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/409",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/290",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/193",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/62",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/194",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/506",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/192",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/87",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/508",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/196",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/88",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/64",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/507",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/519",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/291",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/41",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/195",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/77",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/89",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/30",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/186",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/78",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/509",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/160",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/161",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/79",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://cellviability.cloud.nanosolveit.eu/",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://aerosol.cloud.nanosolveit.eu/",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/520",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/423",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/205",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/544",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/326",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/556",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/568",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/435",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/338",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/543",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/555",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/301",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/337",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/325",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/119",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://deepdaph.cloud.nanosolveit.eu/",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/558",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/328",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/8",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/34",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/521",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/533",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/436",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/545",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/303",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/339",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/569",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/327",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/36",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/427",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/415",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/548",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/318",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/511",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/402",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/426",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/329",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/4",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/502",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/526",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/417",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/525",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/416",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/537",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/319",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/28",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/560",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/330",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/245",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/487",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/136",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/29",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://funmappone.cloud.nanosolveit.eu/",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/571",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/341",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/377",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/232",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/389",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/441",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/550",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/223",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/562",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/574",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/332",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/368",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/19",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/331",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/343",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/464",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/149",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/488",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/367",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/258",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/552",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/322",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/576",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/104",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/358",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://nanofase.cloud.nanosolveit.eu/",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/200",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/551",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/333",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/575",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/300",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/530",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/554",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/324",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/336",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/203",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/432",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/553",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/117",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/359",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/261",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/273",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/188",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/381",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/284",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/151",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/372",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/178",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/287",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/275",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/90",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/395",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/274",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/383",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/286",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/80",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/495",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/361",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/397",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/276",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/288",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/340",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/570",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/110",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/497",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://identifiers.org/aop/496",
-      "status": "conformant"
-    },
     {}
   ],
   "nonconformant": [
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_68a",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_34b",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_18",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_38j",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_34a",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_38i",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_25f",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_24d",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_23b",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_4a",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/190",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 2"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/503",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 2"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/527",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 2"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/406",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 2"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/518",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 2"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_33b",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_44a",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_4b",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_38l",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/529",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 2"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_68b",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_33a",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_3a",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/51",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 2"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/63",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 2"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_38k",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/505",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 2"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/517",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 2"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_33d",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_78b",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_32b",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_5",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_55b",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/292",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 2"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_3b",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/40",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 2"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/293",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 3"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://atena.urv.cat/model/#Puzyn2011",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_38n",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_78a",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_33c",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_32a",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_55a",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_6",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_44b",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_2a",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_38m",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/65",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 2"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://atena.urv.cat/model/#Serratosa2022",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_54b",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_77b",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_31b",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_7",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_55d",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_2b",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/392",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 3"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/271",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 3"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/150",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 3"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_38p",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/42",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 3"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/54",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 2"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_55c",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_8",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_77a",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_31a",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_54a",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_1a",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/281",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 3"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/294",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 4"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/282",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 2"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/173",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 2"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_33e",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_38o",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/43",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 3"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_9",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_38b",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_53s",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_49a",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_53r",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/302",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 2"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_46",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/411",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 2"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/314",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 3"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_58",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/459",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 3"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_22",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_10",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_38a",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_53q",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/410",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 3"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/313",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 2"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_35",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/216",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 3"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/57",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 2"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/458",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 3"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_47",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_80b",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/349",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 2"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_11",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/107",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 2"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_38d",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_25a",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_49c",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://atena.urv.cat/model/#Serratosa2022-ZnO",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/401",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 2"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/510",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 2"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_12",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/425",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 2"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/46",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 3"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_48",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/534",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 2"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/413",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 2"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_36",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/58",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 2"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/546",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 2"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/219",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 3"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/316",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 2"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/10",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 3"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_38c",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_49b",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://atena.urv.cat/model/#Papa2015-TiO2",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_13",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/315",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 2"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_37",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/424",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 2"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/23",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 3"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/218",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 3"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_25c",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_49e",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_24a",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_59b",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_38f",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/48",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 2"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/500",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 2"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_26",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/6",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 2"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_14",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/524",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 2"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/306",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 3"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/12",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 3"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/439",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 3"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_38e",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_49d",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_25b",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_59a",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://enaloscloud.novamechanics.com/riskgone/nanoconstruct/",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_39",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_27",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/37",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 2"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://www.enaloscloud.novamechanics.com/riskgone/EIA/",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_15",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/13",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 2"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/7",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 2"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/25",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 2"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/535",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 2"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/305",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 2"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/559",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 2"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_23a",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_38h",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_25e",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_24c",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://atena.urv.cat/model/#Serratosa2022-TiO2",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_16",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/38",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 2"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/405",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 2"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_24b",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_38g",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/39",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 3"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_25d",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/15",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 3"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/513",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 2"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/549",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 2"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/307",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 2"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_19b",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/342",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 2"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/451",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 2"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/366",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 2"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/100",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 2"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/475",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 3"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_61c",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/16",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 3"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/499",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 2"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://atena.urv.cat/model/#Papa2015-TiO2ZnO",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/148",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 3"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_86",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_87i",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_53j",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_74",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_62e",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_50d",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/17",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 3"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_19a",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/450",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 2"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/123",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 2"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/474",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 2"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/3",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 2"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/220",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 3"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/486",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 2"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/365",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 3"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_61b",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_62d",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_50c",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/268",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 3"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/159",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 4"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_53i",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_87h",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/18",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 3"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_19d",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_29a",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://example.org/nanoinformatix-platform.greendecision.eu/SimpleBMD",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_53l",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/320",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 3"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/102",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 2"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/344",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 2"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/138",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 2"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/489",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 2"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/477",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 2"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_50f",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_62g",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_87k",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_76",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_19c",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_53k",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/101",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 2"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/573",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 2"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/440",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 3"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/113",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 2"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/476",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 2"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/379",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 2"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_41",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_62f",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_50e",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_87j",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_65",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_19f",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_17b",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_28a",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_53n",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_62i",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/540",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 2"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/443",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 2"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://www.enaloscloud.novamechanics.com/riskgone/InVitroDosimetry//",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/310",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 3"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/564",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 3"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/237",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 3"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/346",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 3"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/334",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 2"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/455",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 3"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/213",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 2"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_42",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_30",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_70b",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_66",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_19e",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_17a",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_29b",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_53m",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_87l",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://atena.urv.cat/model/#Anantha2021",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/430",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 3"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/212",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 2"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/563",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 3"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/442",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 2"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/478",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 2"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_79",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_67",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/345",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 3"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/139",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 2"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_70a",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/103",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 2"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_62h",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_43",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_19h",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "http://enaloscloud.novamechanics.com/EnalosWebApps/ZetaPotential/",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_53p",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/312",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 3"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_56",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/106",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 3"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/348",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 2"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/457",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 2"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_20",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_80a",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://atena.urv.cat/model/#Papa2015-ZnO",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_19g",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_28b",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_62j",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_53o",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/311",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 3"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_57",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/456",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 3"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/323",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 3"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/238",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 3"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_45",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/444",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 4"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/202",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 3"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_69",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/468",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 2"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_21",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_87a",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_64a",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_53b",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_77d",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_1b",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/490",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 2"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/152",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 3"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/491",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 2"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/394",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 2"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/297",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 2"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/176",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 2"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_53a",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_77c",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/272",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 3"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/175",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 2"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/296",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 2"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_63a",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_75b",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_87c",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/360",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 3"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/263",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 3"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/154",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 3"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/299",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 3"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_52b",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_53d",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_40a",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_81",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_52a",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_64b",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_87b",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_75a",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://atena.urv.cat/model/#Gajewicz2015",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://atena.urv.cat/model/#Serratosa2022-TiO2ZnO",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/141",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 2"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/492",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 2"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/189",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 2"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/298",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 2"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/177",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 2"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_53c",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_82",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/483",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 3"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/471",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 2"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/265",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 3"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/156",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 4"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/386",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 2"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/374",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 2"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/289",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 2"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/398",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 2"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/277",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 3"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/144",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 3"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_75d",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_87e",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_53f",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_62a",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_51b",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_63c",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_71",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_83",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/470",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 2"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/131",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 3"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/494",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 3"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/482",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 2"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/264",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 3"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/155",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 4"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_53e",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_87d",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_75c",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_63b",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_51a",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_40b",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_52c",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_60",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_84",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_72",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/364",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 3"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/134",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 2"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/485",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 2"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/473",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 2"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/388",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 2"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/267",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 3"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/122",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 2"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/376",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 3"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_62c",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_50b",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_87g",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/158",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 4"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_61a",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_53h",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_73",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/460",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 2"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/157",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 4"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/363",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 4"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/399",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 4"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/387",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 2"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://identifiers.org/aop/266",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (max=1): 3"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_62b",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_50a",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_87f",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_85",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_53g",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {}
   ]
