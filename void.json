@@ -1,101 +1,123 @@
 {
   "target": "http://rdfs.org/ns/void#DatasetDescription",
   "conformant": [
-    {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-aopwiki/models/",
-      "status": "conformant"
-    },
-    {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-aopwiki/relationships/",
-      "status": "conformant"
-    },
     {}
   ],
   "nonconformant": [
     {
-      "class":  "https://riskgone.wp.nilu.no/tools/",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://search.data.enanomapper.net/closed/",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://github.com/h2020-sbd4nano/relationship_network",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://diamonds.tno.nl/fairdatapoint/catalog/45182a02-be3c-40c5-9462-0ffa10a72ef1",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://diamonds.tno.nl/fairdatapoint/catalog/287b2e5c-786b-4de4-b131-b6d0ce560b2e",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://search.data.enanomapper.net/",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://diamonds.tno.nl/fairdatapoint/catalog/a4067322-bc35-4882-9294-8c68a88ccf3f",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-smartnanotox/",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://fairsharing.org/",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://diamonds.tno.nl/fairdatapoint/catalog/4e81163b-22af-4757-91c5-3b4593100504",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-aopwiki/",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://ammar257ammar.github.io/Nanosafety-data-reusability-34-datasets/",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://h2020-sbd4nano.github.io/sbd-data-nanowiki/",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://nanoinformatix-platform.greendecision.eu/",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://ssl.biomax.de/nanocommons/cgi/login_bioxm_portal.cgi",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {
-      "class":  "https://bio.tools/t?domain=toxicology",
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
       "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
+    },
+    {
+      "class":  "https://www.sbd4nano.eu/shapes/#Resource",
+      "status": "nonconformant",
+      "reason": "No such shape: <https://www.sbd4nano.eu/shapes/#Resource>"
     },
     {}
   ]
