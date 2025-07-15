@@ -502,6 +502,10 @@
       "status": "conformant"
     },
     {
+      "class":  "https://identifiers.org/aop/578",
+      "status": "conformant"
+    },
+    {
       "class":  "https://identifiers.org/aop/336",
       "status": "conformant"
     },
@@ -623,6 +627,10 @@
     },
     {
       "class":  "https://identifiers.org/aop/497",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://identifiers.org/aop/581",
       "status": "conformant"
     },
     {
