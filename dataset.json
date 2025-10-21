@@ -482,6 +482,10 @@
       "status": "conformant"
     },
     {
+      "class":  "https://doi.org/10.5281/zenodo.7777590",
+      "status": "conformant"
+    },
+    {
       "class":  "https://identifiers.org/geo:GSE99997",
       "status": "conformant"
     },
@@ -531,6 +535,10 @@
     },
     {
       "class":  "https://doi.org/10.6084/m9.figshare.11897205.v1",
+      "status": "conformant"
+    },
+    {
+      "class":  "https://doi.org/10.5281/zenodo.7193516",
       "status": "conformant"
     },
     {
