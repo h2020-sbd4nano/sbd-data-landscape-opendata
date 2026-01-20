@@ -270,6 +270,10 @@
       "status": "conformant"
     },
     {
+      "class":  "https://identifiers.org/aop/400",
+      "status": "conformant"
+    },
+    {
       "class":  "https://identifiers.org/aop/436",
       "status": "conformant"
     },
@@ -944,6 +948,11 @@
       "class":  "https://atena.urv.cat/model/#Serratosa2022",
       "status": "nonconformant",
       "reason": "Cardinality violation (min=1): 0"
+    },
+    {
+      "class":  "https://identifiers.org/aop/619",
+      "status": "nonconformant",
+      "reason": "Cardinality violation (max=1): 2"
     },
     {
       "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_54b",
