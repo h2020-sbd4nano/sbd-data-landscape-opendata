@@ -113,11 +113,6 @@
       "reason": "Cardinality violation (min=1): 0"
     },
     {
-      "class":  "https://vhp4safety.github.io/cloud/",
-      "status": "nonconformant",
-      "reason": "Cardinality violation (min=1): 0"
-    },
-    {
       "class":  "https://bio.tools/t?domain=toxicology",
       "status": "nonconformant",
       "reason": "Cardinality violation (min=1): 0"
