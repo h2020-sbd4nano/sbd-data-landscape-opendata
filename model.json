@@ -1178,6 +1178,11 @@
       "reason": "Cardinality violation (min=1): 0"
     },
     {
+      "class":  "https://identifiers.org/aop/641",
+      "status": "nonconformant",
+      "reason": "Cardinality violation (max=1): 2"
+    },
+    {
       "class":  "https://identifiers.org/aop/302",
       "status": "nonconformant",
       "reason": "Cardinality violation (max=1): 2"
@@ -1396,6 +1401,11 @@
       "class":  "https://h2020-sbd4nano.github.io/sbd-data-landscape/Model_13",
       "status": "nonconformant",
       "reason": "Cardinality violation (min=1): 0"
+    },
+    {
+      "class":  "https://identifiers.org/aop/642",
+      "status": "nonconformant",
+      "reason": "Cardinality violation (max=1): 2"
     },
     {
       "class":  "https://identifiers.org/aop/315",
